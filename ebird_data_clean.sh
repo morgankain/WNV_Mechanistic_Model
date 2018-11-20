@@ -23,10 +23,10 @@ do
 
     echo "Processing file $c"
 
-## rename the data file (there should only ever be one file in this folder at a time, so this should be ok)
+## rename the data file (there will only ever be one file in this folder at a time)
     mv ebird_unzip/*.txt ebird_unzip/ebird_data.tsv
 
-## not the best way to integrate perl splitting script, but ok...
+## Run pear script to remove desired columns from the ebird .zip to cut down on size
     cd ebird_unzip
     make
 
@@ -37,6 +37,7 @@ do
     cd ..
 
 ## Split the intermediate file. Store the desired columns as select.csv
+## Done to allow users with low RAM to run the code by creating smaller .csv to bring into R
     split -l 500000 ebird_unzip/ebird_stripped.tsv ebird_pieces/ebird_file_
 
 ## clean up, so naming of the sole file in the folder isn't screwed up the next time through the loop
@@ -66,16 +67,7 @@ done
 
 #### Step 4: Run the R scripts to calculate community competence on these data
 
-## Run R, loading the csv files contained within ebird_data_for_R/"ebird_data_$cc.txt"
-#    Rscript top_level_script.R
-
-## remove the csv pieces when done
-#    rm ebird_data_for_R/*
-
-## Rename the output from R to correspond to the counter
-#    mv model_out/model_out.rds model_out/"model_out_$c.rds"
-
-## Add to outer loop coutner
+## Not in this version
     c=$((c+1))
 
 done

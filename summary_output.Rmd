@@ -1,0 +1,155 @@
+---
+title: "Summary of results for WNV mechanistic model"
+author: "Morgan Kain and Ben Bolker"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+## This document provides a pdf summary of the results for each run of "top_level_script.R" 
+### Primary results and aspects of the dataset are presented here. All other results have been saved to disk in "saved_output"
+
+##### For *non-dynamic* (designed for our specific results) plots see: manuscript_figures.R. This script will produce some summaries, but not clean plots.
+
+Note: This should be run using the rmarkdown::render( ) line in "top_level_script.R". "Knitting" it while the script is open in R studio for example will lead to errors (objects are not searched for in the global environment)
+
+
+#### Dataset info
+
+
+Number of communities in the "reduced data set" for the chosen number of complete lists: 
+
+```{r number of communities, echo = FALSE}
+nrow(effort_metadata_com %>% filter(num_lists >= 80))
+```
+
+
+Number of distinct bird species in the "reduced data set" for the chosen number of complete lists: 
+
+```{r number of birds, echo = FALSE}
+n_distinct(samp_data_com[["phylo_name"]])
+```
+
+
+#### R0 estimates
+
+
+Median estimates among communities 
+
+```{r R0 among communities, echo = FALSE}
+ggplot(comm_comp_summary_p2, aes(med_comp)) + 
+  geom_histogram(aes(y=..count..), bins = 100) + 
+  geom_vline(xintercept = median(comm_comp_summary_p2[["med_comp"]])
+    , linetype = "dotted", col = "grey", lwd = 1) +
+    geom_vline(xintercept = median(comm_comp_summary_p2_well_observed[["med_comp"]])
+    , linetype = "dotted", col = "blue", lwd = 1) +
+  geom_histogram(data = comm_comp_summary_p2_well_observed, aes(y=..count..)
+    , colour = "blue", bins = 100, fill = "blue") +
+  geom_vline(xintercept = 1, linetype = "dashed", col = "black", lwd = 1) +
+  geom_hline(yintercept = 0, colour = "white", size = 1) +
+  xlab("Community R0") +
+  ylab("Number of Communities")
+```
+
+
+Median width of the CI for R0 among communities 
+
+```{r R0 CI width, echo = FALSE}
+comm_comp_summary_p2_well_observed %>%
+  summarize(median(max_comp - min_comp))
+```
+
+
+#### Spatio-temporal variation in R0
+
+```{r spatio temporal, echo = FALSE}
+summary(comm_comp_spatio_temporal_r[[2]])
+```
+
+
+#### Diluter and Amplifier species
+
+
+Less of a refined plot than is presented in our text; just for a quick visual/summary.
+
+```{r dilut amd amp species, echo = FALSE}
+if (test_species_importance == TRUE) {
+
+needed_packages <- c("extrafont", "scales", "tikzDevice")
+if (length(setdiff(needed_packages, rownames(installed.packages()))) > 0) {
+  install.packages(setdiff(needed_packages, rownames(installed.packages())))  
+}
+
+lapply(needed_packages, require, character.only = TRUE)
+  
+true_diluters_r_fp   <- true_diluters_r[true_diluters_r[["med_dilut_effect"]] > 1.01, ]
+true_amplifiers_r_fp <- true_amplifiers_r[true_amplifiers_r[["med_dilut_effect"]] < 0.99, ]
+  
+species_importance_dat_for_plot <- rbind(true_diluters_r_fp, true_amplifiers_r_fp)
+  
+ggplot(species_importance_dat_for_plot
+  , aes(med_dilut_effect, phylo_name, colour = n_com / max(n_com))) + 
+  geom_errorbarh(aes(xmin = min_dilut_effect, xmax = max_dilut_effect), height = 0.2, lwd = 1) +
+  geom_point(lwd = 3) + 
+  geom_vline(xintercept = 1, linetype = "dashed", col = "black", lwd = 0.5) +
+  xlab(expression(paste("Proportional Change in", italic(" R")[0], sep = " "))) +
+  ylab("") +
+  scale_colour_gradient2(low = muted("red"), mid = "grey", high = muted("blue"), midpoint = 0.50) +
+  guides(color = guide_legend("Proportion of Communities")) + 
+  theme(legend.key.size = unit(.55, "cm")
+    , legend.position = c(0.2, 0.8)
+    , axis.text.x = element_text(size = 12)
+    , axis.text.y = element_text(size = 14)
+    , axis.title.x = element_text(size = 12)
+    , axis.title.y = element_text(size = 14))
+
+} else {
+  print("Species importance wasn't run")
+}
+```
+
+
+Most common (widespread --- appears in the most lists) species
+
+```{r common spec, echo = FALSE}
+if (test_species_importance == TRUE) {
+head(as.data.frame(species_importance_most_observed_r))
+}  else {
+  print("Species importance wasn't run")
+}
+```
+
+
+Most abundant (raw counts) species
+
+```{r abundant spec, echo = FALSE}
+if (test_species_importance == TRUE) {
+  head(as.data.frame(species_importance_most_abundant_r))
+} else {
+  print("Species importance wasn't run")
+}
+```
+
+
+#### Dilution effect
+
+
+Dilution effect assumption and prediction
+
+```{r dilution effect spec, echo = FALSE}
+
+if (no_uncer == TRUE) {
+
+summary(dilut_eff_lm_red)
+
+summary(dilut_eff_pred_lm_red)
+
+} else {
+  
+summary(dilut_eff_lm_red)
+
+summary(dilut_eff_pred_lm_red)
+
+}
+
+```
+

@@ -22,8 +22,9 @@ which_state <- "Texas"
 
 ##############
 ### Some controls
-############## 
-skip_manual_input      <- FALSE             ## for automated shell executing of code avoid manual entry options
+##############
+skip_manual_input       <- FALSE            ## For automated shell executing of code avoid manual entry options (all scientific bird names won't get matched)
+test_species_importance <- FALSE            ## Run model for species importance? (takes considerable time, so may want to turn off)
 
 ##############
 ### Packages and functions
@@ -46,7 +47,7 @@ no_uncer <- ifelse(sum((uncertainty_list == FALSE)) == 0, FALSE, TRUE)
 ##############
 source("phylo_clean.R")                     ## Phylogeny, set up to load previously saved consensus phylogeny
                                             ## User calculated phylogeny can be substituted with naming convention "consensus"
-source("data_clean_titer.R")                ## Bird titer profiles 
+source("data_clean_titer.R")                ## Bird titer profiles
 source("data_clean_survival.R")             ## Bird survival
 source("data_clean_biting.R")               ## Mosquito biting preferences
 source("data_clean_detect.R")               ## Bird detection scaling
@@ -59,24 +60,24 @@ fit_spatio_temporal     <- TRUE             ## Is data available to fit a spatio
                                             ## If TRUE, and paths supplied are wrong, an error will occur
                                             ## Path to county boundaries
 county_boundaries_path  <- "data/county_data/txdot_counties/txdot_2015_county_detailed_tx.shp"
-                                            ## Path to county regions  
+                                            ## Path to county regions
 county_region_type_path <- "data/county_data/naturalregions_tx/Natural_Regions_Maj.shp"
                                             ## Path to county pop density
 county_pop_density_path <- "data/county_data/Texas_pop_density.csv"
 source("data_clean_county.R")               ## Gather and organize county data
 
 ##############
-### Calculate biting preferences for the species from Hamer et al. 2009 Using a Bayesian approach. 
+### Calculate biting preferences for the species from Hamer et al. 2009 Using a Bayesian approach.
 ### Predict biting preferences for both current and new species
 ### Needed prior to setting up and running phylo methods for biting preference
 ##############
 load_stan_bite_pref_res <- TRUE             ## load previously run model or run?
-source("biting_pref_stan_model.R")          ## Stan biting model 
+source("biting_pref_stan_model.R")          ## Stan biting model
 
 ##############
 ### Read in and clean ebird and phylogeny.
 ### Match scientific names from ebird data and body size data to phylogeny
-############## 
+##############
 source("data_clean_ebird_options.R")        ## options for loading and sorting ebird data
 load_ebird_dat                <- TRUE       ## Load previously run model if available (TRUE) or run from scratch (FALSE)?
 source("data_clean_ebird.R")                ## clean and gather csv files downloaded from ebird
@@ -97,7 +98,7 @@ source("body_size_lookup.R")
 ##############
 ### Predict responses for species outside of the data set
 ##############
-used_saved_responses_titer    <- TRUE       ## load previous responses for titer if possible? 
+used_saved_responses_titer    <- TRUE       ## load previous responses for titer if possible?
                                             ## (given a previous saved result for the given uncertainty)
 used_saved_responses_survival <- TRUE       ## load previous responses for survival if possible?
 used_saved_responses_bite     <- TRUE       ## load previous responses for biting preferences if possible?
@@ -114,7 +115,7 @@ gc()
 ##############
 source("species_competence.R")              ## Physiological competence of each species
 source("community_competence.R")            ## Using physiological competence, biting preference etc. to calculate community R0
-       
+
 ##############
 ### Free up some ram
 ##############
@@ -129,10 +130,10 @@ gc()
 ##############
 ### Check correlations/dilution effect assumptions and save results
 ##############
- 
-test_species_importance <- FALSE            ## Run model for species importance? (takes considerable time, so may want to turn off)
+
 source("summary_stats_cleaned.R")           ## Statistics on the results
 source("saving_script.R")                   ## Save results to disk
+rmarkdown::render('summary_output.Rmd')     ## Produce a pdf summary of results
 
 ###########################################################
 ### Exploration of results outside of the main analyses ###

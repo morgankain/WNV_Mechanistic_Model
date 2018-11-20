@@ -23,10 +23,10 @@ do
 
     echo "Processing file $c"
 
-## rename the data file (there should only ever be one file in this folder at a time, so this should be ok)
+## rename the data file (there will only ever be one file in this folder at a time)
     mv ebird_unzip/*.txt ebird_unzip/ebird_data.tsv
 
-## not the best way to integrate perl splitting script, but ok...
+## Run pear script to remove desired columns from the ebird .zip to cut down on size
     cd ebird_unzip
     make
     cd ..
@@ -35,6 +35,7 @@ do
     rm ebird_unzip/ebird_data.tsv
 
 ## Split the intermediate file. Store the desired columns as select.csv
+## Done to allow users with low RAM to run the code by creating smaller .csv to bring into R
     split -l 500000 ebird_unzip/ebird_stripped.tsv ebird_pieces/ebird_file_
 
 ## clean up, so naming of the sole file in the folder isn't screwed up the next time through the loop
@@ -62,6 +63,13 @@ do
 done
 
 #### Step 4: Run the R scripts to calculate community competence on these data
+
+####
+## Some extra user setup will be needed here. For example, additional R scripts with 
+## paramters and options that correspond to each .csv (e.g. for two different states). This
+## will also require a small bit of reworking of "top_level_script.R" to Source() the appropriate
+## "options" script according to the current loop iteration 
+####
 
 ## Run R, loading the csv files contained within ebird_data_for_R/"ebird_data_$cc.txt"
     Rscript top_level_script.R
