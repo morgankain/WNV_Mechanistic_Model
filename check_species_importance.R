@@ -145,7 +145,7 @@ species_importance_p_r <-
   , move_from_below_1       = sum(below_1_over_1) / length(which(full_comm_R0 < 1)))
 
 #######
-## Orgainize and summarize species importance
+## Organize and summarize species importance
 #######
 
 ######

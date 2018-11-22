@@ -8,7 +8,7 @@
  ## For all of the communities for which there are at least 1300 complete lists
 
 ## Step 2: 
- ## Subsample over each of these well sampled communities (i) 100 times (j) for X compelte lists (k)
+ ## Subsample over each of these well sampled communities (i) 100 times (j) for X complete lists (k)
 
 ## Step 3: 
  ## Determine what is the error between proportions of each species in the communities
@@ -44,7 +44,7 @@ com_resampling_results <- transform(com_resampling_results
   , prop_missing_spec = 0
   , num_com           = 0)
 
- ## Subsample over each of these well sampled communities (i) 100 times (j) for X compelte lists (k)
+ ## Subsample over each of these well sampled communities (i) 100 times (j) for X complete lists (k)
 for (i in 1:nrow(best_sampled_com)) {
   
   temp_county <- best_sampled_com[i, ][["county"]]

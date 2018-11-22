@@ -20,7 +20,7 @@ mos_bird_trans  <- read.csv("data/mos_bird_trans.csv", header = TRUE)
 ## Data associated with bird to mosquito transmission
 vectcomp <- mos_bird_trans %>% filter(Host_to_Mosquito == "Y" & Time_Series == "N")
 
-## Needed to reset factors so that they are a continuous seq of numbers when coverted to numeric for Stan model
+## Needed to reset factors so that they are a continuous seq of numbers when converted to numeric for Stan model
 vectcomp <- droplevels(vectcomp)
 
 ## Stan model data

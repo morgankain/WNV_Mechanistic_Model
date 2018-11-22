@@ -66,7 +66,7 @@ done
 
 ####
 ## Some extra user setup will be needed here. For example, additional R scripts with 
-## paramters and options that correspond to each .csv (e.g. for two different states). This
+## parameters and options that correspond to each .csv (e.g. for two different states). This
 ## will also require a small bit of reworking of "top_level_script.R" to Source() the appropriate
 ## "options" script according to the current loop iteration 
 ####

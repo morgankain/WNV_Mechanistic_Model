@@ -197,7 +197,7 @@ for (z in unknown_names2) {
  
  while (length(temp_tip) < 1) {
    
-  new_nam <- readline(prompt = "Incorrect Name, Try Again. Type 'skip' to skip over this speceies: ")
+  new_nam <- readline(prompt = "Incorrect Name, Try Again. Type 'skip' to skip over this species: ")
   if (new_nam == "skip") break
   
   new_nam <- strsplit(new_nam, split = " ")[[1]]
@@ -251,7 +251,7 @@ if (length(which_rows_missing) != 0) {
 }
 
 ## Store which species were not found (for body size lookup), then remove the NA birds from 
-  ## needed_tips because needed_tips will be used later to obtain phylogenetically informed estiamtes
+  ## needed_tips because needed_tips will be used later to obtain phylogenetically informed estimates
 which_rows_no_phylo    <- which(is.na(needed_tips[["phylo_name"]]))
 
 ## Record these species names, because they will still be searched later for body size

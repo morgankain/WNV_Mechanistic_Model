@@ -196,7 +196,7 @@ for (z in 1:length(unknown_names)) {
  
  while (length(temp_tip) < 1) {
    
-  new_nam <- readline(prompt = "Incorrect Name, Try Again. Type 'skip' to skip over this speceies: ")
+  new_nam <- readline(prompt = "Incorrect Name, Try Again. Type 'skip' to skip over this species: ")
   if (new_nam == "skip") break
   
   new_nam <- strsplit(new_nam, split = " ")[[1]]
@@ -281,12 +281,12 @@ manually_entered_bs <- readline(prompt = "No species found. Enter body size (a r
 
 ## Manually fill in body sizes for species without a matched name
 rows_missing_names <- which(community_spec_bs[["phylo_name_found"]] == 0)
-which_mising_name  <- community_spec_bs[rows_missing_names, ][["species"]]
-if (length(which_mising_name) > 0) {
+which_missing_name  <- community_spec_bs[rows_missing_names, ][["species"]]
+if (length(which_missing_name) > 0) {
   
-for (z in seq_along(which_mising_name)) {
+for (z in seq_along(which_missing_name)) {
   
-    print(which_mising_name[z])
+    print(which_missing_name[z])
   
 manually_entered_bs <- readline(prompt = "No species found. Enter body size (a reasonable option may be the mean of all species in this species' genus): ")
 
@@ -336,6 +336,6 @@ have_species_detect_full <- have_species_detect_full %>%
 ## Note---At this point species:
   ## (1) With a matched phylo name have a matched body size if it could be found, or a manually entered body size
   ## (2) Without a phylogeny entry but with a body size will be missing from "needed tips" but will have a scientific name
-    ## recored in community_spec_bs with a manually entered body size, which will be used in estimation
+    ## recorded in community_spec_bs with a manually entered body size, which will be used in estimation
   ## (3) Without a phylogeny entry and no body size will be listed as Missing and estimated at the grand mean (this
     ## shouldn't occur using the above scripts but could happen if manual entry is ignored)

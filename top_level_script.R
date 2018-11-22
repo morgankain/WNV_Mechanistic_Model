@@ -12,8 +12,8 @@
 
 ###############################################################################################
 ### This code covers: Steps to estimating WNV community transmission using phylogenetic     ###
-### mixed effects models,  eBird data and data from the literature on bird  and mosquito    ###
-### physiological responses to WNV infection, mosquito biting preferenes, bird              ###
+### mixed effects models, eBird data and data from the literature on bird  and mosquito     ###
+### physiological responses to WNV infection, mosquito biting preferences, bird             ###
 ### detectability and other data                                                            ###
 ###############################################################################################
 
@@ -35,7 +35,7 @@ source("phylo_setup.R")                     ## phylo_lmm, phylo_glmm and helper 
 source("phylo_prediction_tools.R")          ## functions for fitting models and estimating species' responses
 
 ##############
-### Set up what uncertainty is propogated
+### Set up what uncertainty is propagated
 ##############
 source("uncertainty_setup.R")
 

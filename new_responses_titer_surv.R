@@ -11,7 +11,7 @@
 ## Also, double check if all species are present. If not, default back to running the function
 if (used_saved_responses_titer == TRUE) {
   
-  ## detemine the file name for the current uncertainty run
+  ## determine the file name for the current uncertainty run
   comm_titer_est    <- response_load_logcial(which_model = "titer", uncertainty_list)
   comm_survival_est <- response_load_logcial(which_model = "survival", uncertainty_list)
   

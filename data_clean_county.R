@@ -1,6 +1,6 @@
 #######################################################################
 ### Add county level covariates: habitat type, population size      ###
-### Pipeline for a given county requres .shp data files             ### 
+### Pipeline for a given county requires .shp data files            ### 
 ### Before running, the path needs to be set in top_level_script.R  ###
 ### to the folders with the shape files. This step can be skipped   ###
 ### to estimate R0 for a given community without fitting a spatio   ###

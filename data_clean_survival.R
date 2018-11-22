@@ -17,7 +17,7 @@ survival <- transform(survival
 
 survival <- droplevels(survival)
 
-## remove other lineages and rows for which there were no survivng birds
+## remove other lineages and rows for which there were no surviving birds
 survival_reduced <- survival %>% 
   filter(Virus_Lineage == "B" | Virus_Lineage == "C")
 

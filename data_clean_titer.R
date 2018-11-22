@@ -17,7 +17,7 @@ titercurves <- transform(titercurves
   , Log_Dose          = log10(titercurves$Virus_Dose)
   , Normalized_Weight = 1 / (Titer_SD / Sample_Size_Death) / max(1 / (Titer_SD / Sample_Size_Death)))
 
-## remove other lineages and rows for which there were no survivng birds
+## remove other lineages and rows for which there were no surviving birds
 titercurves_reduced <- titercurves %>% 
   filter(Virus_Lineage == "B" | Virus_Lineage == "C")
 titercurves_reduced <- titercurves_reduced %>% 

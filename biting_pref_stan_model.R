@@ -48,7 +48,7 @@ tidy_mosq_bite           <- tidy(mosq_bite_model_out)
 mosq_bite_model_out_summ <- summary(mosq_bite_model_out)
 mosq_bite                <- mosq_bite_model_out_summ$summary
 
-## summarize data and estiamtes
+## summarize data and estimates
 mosq_bite.summary <- data.frame(
   data             = c(mosq_bite.data[["prop"]], mosq_bite.data$bites)
 , estimate         = c(
@@ -69,7 +69,7 @@ bite_pref_res        <- bite_pref_res[grep("bite_pref", dimnames(mosq_bite)[[1]]
 ### Adjust pref for Poisson lme4 model: multiplying by 1000 and rounding will have minimal effect
 bite_pref_res  <- transform(bite_pref_res, Scaled_Preference = round(estimate * 1000))
 
-## Add columns for uncertainty (# draws = uncertainty_list$samps)
+## Add columns for uncertainty (# draws = uncertainty_list[["samps"]])
  ## take 1/4 of samples from each chain
   ## Need biting pref samples
 samps_mosq_bite <- samps_mosq_bite[,, grep("bite_pref", dimnames(mosq_bite)[[1]])]

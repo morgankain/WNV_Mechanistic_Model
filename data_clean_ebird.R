@@ -1,6 +1,6 @@
 ##########################################################################################
 ### Generic script to take ebird data, downloaded in the form of csv files, and subset ###
-### them into appropraite dates/species etc.                                           ###
+### them into appropriate dates/species etc.                                           ###
 ### Requires a folder in the main directory called ebird_data with each file in this   ###
 ### folder named ebird_data_X, where X is a sequence by 1 starting at 1.               ###
 ### This will be set up automatically if the ebird_data_clean.sh file is used          ###
@@ -120,7 +120,7 @@ samp_data <- transform(samp_data
   , date_min = year_range[1]
   , date_max = year_range[2])
 
-## remove all non-compelte lists (putting this at the end of cleaning instead of the beginning in 
+## remove all non-complete lists (putting this at the end of cleaning instead of the beginning in 
  ## case a user would want to use non-complete lists as well, given that a number was given
   ## for each species count (not an X))
 samp_data <- samp_data %>% filter(ALL.SPECIES.REPORTED == 1)

@@ -8,7 +8,7 @@
 ## Also, double check if all species are present. If not, default back to running the function
 if (used_saved_responses_bite == TRUE) {
   
-  ## detemine the file name for the current uncertainty run
+  ## determine the file name for the current uncertainty run
   comm_bite_est <- response_load_logcial(which_model = "bite", uncertainty_list)
   
   ## If there are no saved responses for the current combination of uncertainty, run the function

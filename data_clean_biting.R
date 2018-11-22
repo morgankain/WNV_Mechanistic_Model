@@ -2,7 +2,7 @@
 ### Clean Biting Data from Hamer et al. 2009 ###
 ################################################
 
-## Data from Hamer et al. 2009 + ebird prior
+## Data from Hamer et al. 2009 + eBird prior
 mosq_bite_with_prior <- read.delim("data/mosq_bite_with_prior.csv", header = TRUE) 
 
 ## sort by proportion

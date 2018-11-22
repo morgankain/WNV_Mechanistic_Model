@@ -64,14 +64,14 @@ for (i in 1:nrow(incrate)) {
   }
 }
 
-## Data associated with mosquito to bird transmission with no NAs and no data from Moudy et al. 2007 that innoculated differently
+## Data associated with mosquito to bird transmission with no NAs and no data from Moudy et al. 2007 that inoculated differently
 incrate <- incrate %>% 
   filter(!is.na(Adjusted_Percent_Transmitted_Mean)
     , !is.na(incrate[["Sample_Size"]])
     , Time_Series == "Y"
     , Citation != "Moudy et al 2007")
 
-## Needed to reset factors so that they are a continuous seq of numbers when coverted to numeric for Stan model
+## Needed to reset factors so that they are a continuous seq of numbers when converted to numeric for Stan model
 incrate  <- droplevels(incrate) 
 
 ## Separate data into with and without Japanese Encephalitis data
@@ -140,8 +140,8 @@ mosqsurv <- read.csv("data/mosqsurv.csv", header = TRUE)
 
 mosqsurv      <- mosqsurv %>% filter(Citation == "Andreadis et al 2014")
 
-mosq_surv     <- glm(cbind(Suriving_Count
-  , Sample_Size - Suriving_Count) ~ Temperature * Longevity_Days
+mosq_surv     <- glm(cbind(Surviving_Count
+  , Sample_Size - Surviving_Count) ~ Temperature * Longevity_Days
   , family = "binomial"
   , data = mosqsurv)
 

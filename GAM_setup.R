@@ -58,7 +58,7 @@ county_match <- match(comm_comp_summary_p2_m_dh[["REGIONS"]], hab_layer@data[["R
 which_count  <- hab_layer@data[["NATRGN"]][unique(county_match)]
 
 ## Extract the main coordinate matrices for each hab layer. To counteract the fact that there
- ## may be discontinuous sections of the same habitat, gather all patitions of the habitat together. 
+ ## may be discontinuous sections of the same habitat, gather all partitions of the habitat together. 
 count_dim    <- vector("list", length = length(which_count))
 for (i in 1:length(which_count)) {
   rows_needed <- which(hab_layer@data[["NATRGN"]] == i)
@@ -87,5 +87,5 @@ for (i in 1:length(which_count)) {
 comm_comp_summary_p2_m_dh <- transform(comm_comp_summary_p2_m_dh
   , NATRGN = as.factor(hab_layer@data[["NATRGN"]][county_match]))
 
-## Name the list apporpriately
+## Name the list appropriately
 xt <- list(polys = count_dim)

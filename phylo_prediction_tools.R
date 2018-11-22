@@ -97,7 +97,7 @@ lme4_titer_rand_ef_vec    <- function (model_coefs, rand_eff_est, rand_ef_id, ra
                                          , names_vec, lme4_fit, is_sd, phylo_data) {
   
 ## Conditional modes of the random effect variable for each species are clustered so that each random
- ## effect of "Scientific_Name" occrus in order for each branch. 
+ ## effect of "Scientific_Name" occurs in order for each branch. 
   ## Slightly confusing/inefficient/prone to error way to do this, but fine enough...
 
 if (is_sd == FALSE) {
@@ -196,7 +196,7 @@ lme4_survival_rand_ef_vec <- function (model_coefs, rand_eff_est, rand_ef_id, ra
                                          , names_vec, lme4_fit, is_sd, phylo_data) {
 
 ## Conditional modes of the random effect variable for each species are clustered so that each random
- ## effect of "Scientific_Name" occrus in order for each branch. 
+ ## effect of "Scientific_Name" occurs in order for each branch. 
   ## Slightly confusing/inefficient/prone to error way to do this, but fine enough...
 if (is_sd == FALSE) {
   
@@ -1624,7 +1624,7 @@ prev_responses <- response_load_logcial(
 
 if (!is.null(prev_responses)) print("Responses Loaded")
 } else {
-  ## store prvious responses as NULL
+  ## store previous responses as NULL
   prev_responses <- NULL
 }
 
@@ -1645,7 +1645,7 @@ spec_name <- phylo[["tip.label"]][need_tips[missing_spec[i]]]
      prev_responses = prev_responses
   ,  species        = spec_name
    )
-   ## If a species respons wasn't found, remove this saved variable
+   ## If a species response wasn't found, remove this saved variable
    if (nrow(saved_spec_res) == 0) {
      rm(saved_spec_res)
    }
@@ -1765,7 +1765,7 @@ for (j in 1:nrow(spec_with_dat)) {
      prev_responses = prev_responses
   ,  species        = spec_with_dat[j, 1]
    )
-   ## If a species respons wasn't found, remove this saved variable
+   ## If a species response wasn't found, remove this saved variable
    if (nrow(saved_spec_res) == 0) {
      rm(saved_spec_res)
    }
@@ -1831,7 +1831,7 @@ for (j in 1:length(which_species_no_phylo)) {
      prev_responses = prev_responses
   ,  species        = which_species_no_phylo[j]
    )
-   ## If a species respons wasn't found, remove this saved variable
+   ## If a species response wasn't found, remove this saved variable
    if (nrow(saved_spec_res) == 0) {
      rm(saved_spec_res)
    }
@@ -1897,7 +1897,7 @@ print("out of third loop: missing responses")
      prev_responses = prev_responses
   ,  species        = "Missing"
    )
-   ## If a species respons wasn't found, remove this saved variable
+   ## If a species response wasn't found, remove this saved variable
    if (nrow(saved_spec_res) == 0) {
      rm(saved_spec_res)
    }
@@ -1994,7 +1994,7 @@ temp_Z   <- phyZ[-which(phyZ@Dimnames[[1]] == species), ]
   ## (4) reduce Z matrix
   #####
 
-## Determine which columns of the matrix have a single vlaue 
+## Determine which columns of the matrix have a single value 
 ## these are the branches that lead to nodes
 unique_row_vec <- numeric(ncol(temp_Z))
 for (i in 1:ncol(temp_Z)) {
@@ -2350,7 +2350,7 @@ host_comp_summary_t <- host_comp_summary[, c(1:5, (ncol(host_comp_summary) - nsa
 host_comp_summary_t <- spread(host_comp_summary_t, c("outcome")
   , names(host_comp_summary_t)[ncol(host_comp_summary_t)])
 
-## Order of opperations here is to spread the data back out, then calculate the result
+## Order of operations here is to spread the data back out, then calculate the result
 ## save the results, then loop over
 ## probably will need to save results into a melted matrix and then once again spread after the function is run
 

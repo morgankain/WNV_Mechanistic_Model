@@ -83,7 +83,7 @@ species_to_est_data_p2 <- species_to_est_data_p2 %>%
 names(species_to_est_data_p)[1]  <- "species"
 names(species_to_est_data_p2)[1] <- "species"
 
-## combine adjusted communities with estimated species physioligcal competence
+## combine adjusted communities with estimated species physiological competence
 dilut_assump_full <- left_join(host_comp_summary_p2[, c(1, 2, 4)]
   , species_to_est_data_p)
 
