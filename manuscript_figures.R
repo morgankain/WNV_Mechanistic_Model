@@ -92,9 +92,9 @@ which_at_mean <- which(comm_comp_summary_p2_well_observed[["cv_comp"]] >
 comm_comp_summary_p2_well_observed[["cv_comp"]] < 
     (quantile(comm_comp_summary_p2_well_observed[["cv_comp"]], c(0.50)) + 0.00005))
 
-comm_comp_summary_p2_well_observed[which_at_mean[1], ]
+comm_comp_summary_p2_well_observed[which_at_mean[2], ]
 
-check_CI <- comm_comp_summary %>% filter(county == "Fort Bend", month == 1, year == 2013)
+check_CI <- comm_comp_summary %>% filter(county == "Collin", month == 1, year == 2017)
 
 quantile(check_CI[1, -c(1, 3)], c(0.05, 0.50, 0.95))
 
@@ -274,7 +274,7 @@ summary(comm_comp_spatio_temporal_f[[2]])
 summary(comm_comp_spatio_temporal_r[[2]])
 concurvity(comm_comp_spatio_temporal_f[[2]])
 concurvity(comm_comp_spatio_temporal_r[[2]])
-layout(1); plot(comm_comp_spatio_temporal_r[[2]], scheme = 2, scale = 0)
+layout(1); plot(comm_comp_spatio_temporal_f[[2]], scheme = 2, scale = 0)
 gam.check(comm_comp_spatio_temporal_r[[2]])
 gamres <- resid(comm_comp_spatio_temporal_r[["lme"]], type = "normalized")
 better_check(comm_comp_spatio_temporal_r)
@@ -328,8 +328,7 @@ comm_comp_summary_p2_m_dh %>%
 #  filter(county == "Jefferson") %>%
   group_by(month) %>%
 #  group_by(REGIONS) %>%
-  summarise(median(pred_vals))
-  )
+  summarise(median(pred_vals)))
 
 as.data.frame(
 comm_comp_summary_p2_well_observed_m_dh %>%
@@ -338,8 +337,7 @@ comm_comp_summary_p2_well_observed_m_dh %>%
 #  filter(county == "Randall") %>%
 #  filter(county == "Cameron") %>%
 #  filter(county == "Jefferson") %>%
-  group_by(REGIONS) %>%
-#  group_by(month) %>%
+#  group_by(REGIONS) %>%
+  group_by(month) %>%
 #  group_by(year) %>%
-  summarise(median(pred_vals))
-  )
+  summarise(median(pred_vals)))

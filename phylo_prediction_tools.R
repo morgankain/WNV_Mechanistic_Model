@@ -13,16 +13,16 @@ lme4_titer_model_fit    <- function (data, phylo, phyloZ, nsp) {
    ## With mode data, these grouping variables could also vary by log_dose
   
 phylo_lmm(
-	  log(Titer) ~ (Day + exp_day) * log(body_size_s) + Log_Dose
+	  log(Titer) ~ (log(Day) + Day) * log(body_size_s) + Log_Dose
 	  + (1 | Citation)
 	  + (1 | unique_line)
-	  + (1 + (Day + exp_day) | Scientific_Name) 
+	  + (1 + (log(Day) + Day) | Scientific_Name) 
 		, data    = data
 		, phylonm = c("Scientific_Name")
 		, phyloZ  = phyloZ
 		, control = lmerControl(check.nobs.vs.nlev = "ignore", check.nobs.vs.nRE = "ignore")
     , REML = TRUE)
-
+  
 }
 lme4_survival_model_fit <- function (data, phylo, phyloZ, nsp) {
 
@@ -93,297 +93,151 @@ lme4_detect_model_fit   <- function (data, phylo, phyloZ, nsp) {
 #######
 ### Set up random effect vectors (needed within the functions for extracting random effects from models) (low level functions)
 #######
-lme4_titer_rand_ef_vec    <- function (model_coefs, rand_eff_est, rand_ef_id, rand_ef_lengths
-                                         , names_vec, lme4_fit, is_sd, phylo_data) {
+lme4_rand_ef_vec <- function (model_coefs, rand_eff_est, rand_ef_id, rand_ef_lengths, names_vec, lme4_fit, is_sd, phylo_data) {
+
+## All of this is pulling out the "b" (the conditional modes of the random effects of
+ ## the fitted lme4 model.)
   
-## Conditional modes of the random effect variable for each species are clustered so that each random
- ## effect of "Scientific_Name" occurs in order for each branch. 
-  ## Slightly confusing/inefficient/prone to error way to do this, but fine enough...
+## Estimates and names of the random effects
+ran_ef_levels      <- getME(lme4_fit, "flist")
+which_rand_names   <- apply(rand_ef_id, 2, function(x) paste(x, collapse = "_"))
+ran_ef_terms       <- unlist(lapply(lme4_fit@cnms, function (x) length(x))) 
+total_ran_efs      <- length(which_rand_names)
+temp_ran_names     <- lapply(ran_ef_levels, function(x) rep(unique(x)))
 
-if (is_sd == FALSE) {
+  if (is_sd == FALSE) {
   
-## Slightly annoying because of the order of the "b"s in the lme4 object
-ranef1 <- data.frame(
-  which_mod = as.character(unique(getME(lme4_fit, "flist")[[1]]))
-, cond_mod  = rand_eff_est[1:rand_ef_lengths[1]])
+## Extract the levels of the random effect
+temp_nam_f        <- vector("character")
+temp_ran_eff_f    <- vector("character")
+ranef_num_f       <- vector("character")
 
-ranef1 <- transform(ranef1
-  , which_rand     = paste(rand_ef_id[, 1], collapse = "_")
-  , which_mod_coef = rep(1, nrow(ranef1)))
-
-ranef2 <- data.frame(
-  which_mod = as.character(rep(seq(1, length(phylo_data@Dimnames[[2]]), by = 1), each = 3))
-, cond_mod  = rand_eff_est[(rand_ef_lengths[1] + 1):sum(rand_ef_lengths[1:4])])
-
-ranef2 <- transform(ranef2
-  , which_rand = 
-    rep(c(
-  paste(rand_ef_id[, 2], collapse = "_")
-, paste(rand_ef_id[, 3], collapse = "_")
-, paste(rand_ef_id[, 4], collapse = "_"))
-      , nrow(ranef2)/3)
-  , which_mod_coef = rep(c(2, 3, 4), nrow(ranef2)/3))
-
-ranef3 <- data.frame(
-  which_mod = as.character(unique(getME(lme4_fit, "flist")[[3]]))
-, cond_mod  = rand_eff_est[(sum(rand_ef_lengths[1:4]) + 1):sum(rand_ef_lengths[1:5])])
-
-ranef3 <- transform(ranef3
-  , which_rand     = paste(rand_ef_id[, 5], collapse = "_")
-  , which_mod_coef = rep(5, nrow(ranef3)))
-
-all_ranef <- rbind(ranef1, ranef2, ranef3)
-
-for (i in 1:length(rand_ef_lengths)) {
-  model_coefs[[i]] <- filter(all_ranef, which_mod_coef == i) %>% dplyr::select(cond_mod)
-  names(model_coefs)[i]  <- paste(rand_ef_id[, i], collapse = "_")
+## Build a data frame with the names, levels and estimates. Set up so that all random 
+ ## effect structures are _hypothetically_ supported so that 
+for (j in seq_along(temp_ran_names)) {
+  ranef_num       <- grep(names(ran_ef_levels)[j], which_rand_names)
+  if (names(ran_ef_levels)[j] == "Scientific_Name") {
+  temp_nam        <- rep(seq(1, length(phylo_data@Dimnames[[2]]), by = 1), each = ran_ef_terms[j])
+  temp_ran_eff    <- rep(which_rand_names[ranef_num], length(phylo_data@Dimnames[[2]]))
+  ranef_num       <- rep(ranef_num, length(phylo_data@Dimnames[[2]]))
+  } else {
+  temp_nam        <- as.character(rep(temp_ran_names[[j]], each = ran_ef_terms[j]))  
+  temp_ran_eff    <- rep(which_rand_names[ranef_num], length(temp_nam))
+  ranef_num       <- rep(ranef_num, length(temp_ran_names[[j]]))
+  }
+  temp_nam_f      <- c(temp_nam_f, temp_nam)
+  temp_ran_eff_f  <- c(temp_ran_eff_f, temp_ran_eff)
+  ranef_num_f     <- c(ranef_num_f, ranef_num)
 }
-  
-  ## organize random effect coefficients
-full_vcov       <- suppressWarnings(tidy(summary(lme4_fit)[["varcor"]]))
-resid_vcov      <- full_vcov[grep("Residual", full_vcov[["grp"]]), ]
-infect_exp_vcov <- full_vcov[grep("unique_line", full_vcov[["grp"]]), ]
-phylo_vcov      <- VarCorr(lme4_fit)[[2]][1:3, 1:3]
-citation_vcov   <- full_vcov[grep("Citation", full_vcov[["grp"]]), ]
 
-model_coefs[[i + 1]] <- phylo_vcov
-model_coefs[[i + 2]] <- resid_vcov
-model_coefs[[i + 3]] <- infect_exp_vcov
-model_coefs[[i + 4]] <- citation_vcov
+all_ranef <- data.frame(
+  which_mod      = temp_nam_f
+, cond_mod       = getME(lme4_fit, "b")[, 1]
+, which_rand     = temp_ran_eff_f
+, which_mod_coef = ranef_num_f)
+  
+for (i in 1:length(rand_ef_lengths)) {
+  model_coefs[[i]]       <- filter(all_ranef, which_mod_coef == i) %>% dplyr::select(cond_mod)
+  names(model_coefs)[i]  <- which_rand_names[i]
+}
+
+full_vcov       <- suppressWarnings(as.data.frame(summary(lme4_fit)[["varcor"]]))
+resid_vcov      <- full_vcov[grep("Residual", full_vcov[["grp"]]), ]
+
+model_coefs[[i + 1]]        <- resid_vcov
+names(model_coefs)[[i + 1]] <- "Residual_uncertainty"
+
+for (j in seq_along(temp_ran_names)) {
+  if (names(ran_ef_levels)[j] == "Scientific_Name") {
+  temp_nam <- "phylo_vcov"
+  assign(temp_nam, VarCorr(lme4_fit)[[grep("Scientific_Name", names(VarCorr(lme4_fit)))]])
+  } else {
+  temp_nam    <- paste(names(ran_ef_levels)[j], "vcov", sep = "_")
+  assign(temp_nam, full_vcov[grep(names(ran_ef_levels)[j], full_vcov[["grp"]]), ])
+  }
+model_coefs[[i + 1 + j]]        <- get(temp_nam)  
+names(model_coefs)[[i + 1 + j]] <- temp_nam
+}
 
 return(model_coefs)
-  
+
 } else {
   
-## Slightly annoying because of the order of the "b"s in the lme4 object
- ## Just use "Scientific_Name" for the current project
-## Note: the off diagonals beyond the 3x3 diagonals are meaningless and should be interpreted as 0s
-ranef2 <- matrix(
-  nrow = sum(rand_ef_lengths[1:4]) - rand_ef_lengths[1]
-, ncol = sum(rand_ef_lengths[1:4]) - rand_ef_lengths[1]
-, data = rand_eff_est[(rand_ef_lengths[1] + 1):sum(rand_ef_lengths[1:4]), 
-  (rand_ef_lengths[1] + 1):sum(rand_ef_lengths[1:4])])
+cond_cov_mat   <- lme4:::condVar(lme4_fit)
+phylo_coefs_sd <- vector("list", length = total_ran_efs)
+
+## Just need the phylogenetic random effect here
+ran_ef_terms <- apply(matrix(unique(rand_ef_lengths)), 1, function(x) length(which(rand_ef_lengths == x)))
+names_vec    <- rep(names(lme4_fit@cnms), ran_ef_terms)
+
+## row and col of the first val for each random effect
+start_loc <- cumsum(rand_ef_lengths) - rand_ef_lengths + 1
+
+## row and col of the last val for each random effect
+if (length(start_loc) > 1) {
+  end_loc <- start_loc[-1] - 1
+} else {
+  end_loc <- rand_ef_lengths
+}
+
+which_sci_rand <- grep("Scientific_Name", which_rand_names)
+
+ranef2 <- rand_eff_est[
+  min(start_loc[which_sci_rand]):max(end_loc[which_sci_rand])
+, min(start_loc[which_sci_rand]):max(end_loc[which_sci_rand])]
 
 ranef2_info <- data.frame(
-  ranef_level = rep(seq(1, length(phylo_data@Dimnames[[2]]), by = 1), each = 3)
-, ranef       = rep(c(
-  paste(rand_ef_id[, 2], collapse = "_")
-, paste(rand_ef_id[, 3], collapse = "_")
-, paste(rand_ef_id[, 4], collapse = "_"))
-    , nrow(ranef2)/3)
-   , which_mod_coef = rep(c(2, 3, 4), nrow(ranef2)/3))
+  ranef_level    = rep(seq(1, length(phylo_data@Dimnames[[2]]), by = 1), each = ran_ef_terms[grep("Scientific_Name", names(temp_ran_names))])
+, ranef          = rep(which_rand_names[which_sci_rand], length(phylo_data@Dimnames[[2]]))
+, which_mod_coef = rep(which_sci_rand, length(phylo_data@Dimnames[[2]])))
 
-ranef2 <- cbind(ranef2_info, ranef2)
+ranef2 <- cbind(ranef2_info, as.matrix(ranef2))
 
-for (i in c(2, 3, 4)) {
-  which_subset <- which(ranef2[, 3] == i)
-  model_coefs[[i]] <- ranef2[, -c(1, 2, 3)][which_subset, which_subset]
+## Sort out phylo random effect
+for (i in which_sci_rand) {
+  which_subset          <- which(ranef2[, 3] == i)
+  model_coefs[[i]]      <- ranef2[, -c(1, 2, 3)][which_subset, which_subset]
   names(model_coefs)[i] <- paste(paste(rand_ef_id[, i], collapse = "_"), "sd", sep = "_")
 }
 
-condvar_branch_array <- array(data = 0, dim = c(3, 3, rand_ef_lengths[2]))
-for (i in 1:dim(condvar_branch_array)[3]) {
-  ## Annoying way of just grabbing the diagonal 3x3 matrices
-  condvar_branch_array[,,i] <-  as.matrix(ranef2[, -c(1, 2, 3)][((i*3) - 2):(i*3), ((i*3) - 2):(i*3)])
+condvar_branch_array <- array(
+  data = 0
+  , dim = c(length(which_sci_rand)
+  , length(which_sci_rand)
+  , rand_ef_lengths[which_sci_rand[1]]))
+
+submat_size_start <- seq(1, nrow(ranef2), by = dim(condvar_branch_array)[1])
+submat_size_end   <- seq(dim(condvar_branch_array)[1], nrow(ranef2), by = dim(condvar_branch_array)[1])
+
+## phylo vcov by branch
+for (i in seq_along(submat_size_start)) {
+  condvar_branch_array[,,i] <- 
+    as.matrix(
+    ranef2[, -c(1, 2, 3)][
+    submat_size_start[i]:submat_size_end[i]
+  , submat_size_start[i]:submat_size_end[i]]
+    )
 }
 
 return(condvar_branch_array)
-
+   
 }
 
-}
-lme4_survival_rand_ef_vec <- function (model_coefs, rand_eff_est, rand_ef_id, rand_ef_lengths
-                                         , names_vec, lme4_fit, is_sd, phylo_data) {
-
-## Conditional modes of the random effect variable for each species are clustered so that each random
- ## effect of "Scientific_Name" occurs in order for each branch. 
-  ## Slightly confusing/inefficient/prone to error way to do this, but fine enough...
-if (is_sd == FALSE) {
-  
-## Slightly annoying because of the order of the "b"s in the lme4 object
-ranef1 <- data.frame(
-  which_mod = as.character(unique(getME(lme4_fit, "flist")[[1]]))
-, cond_mod  = rand_eff_est[1:rand_ef_lengths[1]])
-
-ranef1 <- transform(ranef1
-  , which_rand     = paste(rand_ef_id[, 1], collapse = "_")
-  , which_mod_coef = rep(1, nrow(ranef1)))
-
-ranef2 <- data.frame(
-  which_mod = as.character(seq(1, length(phylo_data@Dimnames[[2]]), by = 1))
-, cond_mod  = rand_eff_est[(rand_ef_lengths[1] + 1):sum(rand_ef_lengths[1:2])])
-
-ranef2 <- transform(ranef2
-  , which_rand     = paste(rand_ef_id[, 2], collapse = "_")
-  , which_mod_coef = rep(2, nrow(ranef2)))
-
-ranef3 <- data.frame(
-  which_mod = as.character(unique(getME(lme4_fit, "flist")[[3]]))
-, cond_mod  = rand_eff_est[(sum(rand_ef_lengths[1:2]) + 1):sum(rand_ef_lengths[1:3])])
-
-ranef3 <- transform(ranef3
-  , which_rand     = paste(rand_ef_id[, 3], collapse = "_")
-  , which_mod_coef = rep(3, nrow(ranef3)))
-
-all_ranef <- rbind(ranef1, ranef2, ranef3)
-
-for (i in 1:length(rand_ef_lengths)) {
-  model_coefs[[i]] <- filter(all_ranef, which_mod_coef == i) %>% dplyr::select(cond_mod)
-  names(model_coefs)[i]  <- paste(rand_ef_id[, i], collapse = "_")
-}
-  
-  ## organize random effect coefficients
-full_vcov       <- suppressWarnings(tidy(summary(lme4_fit)[["varcor"]]))
-resid_vcov      <- full_vcov[grep("Residual", full_vcov[["grp"]]), ]
-infect_exp_vcov <- full_vcov[grep("unique_line", full_vcov[["grp"]]), ]
-phylo_vcov      <- full_vcov[grep("Scientific_Name", full_vcov[["grp"]]), ]
-citation_vcov   <- full_vcov[grep("Citation", full_vcov[["grp"]]), ]
-
-model_coefs[[i + 1]] <- phylo_vcov
-model_coefs[[i + 2]] <- resid_vcov
-model_coefs[[i + 3]] <- infect_exp_vcov
-model_coefs[[i + 4]] <- citation_vcov
-
-return(model_coefs)
-  
-} else {
-  
-## Slightly annoying because of the order of the "b"s in the lme4 object
- ## Just use "Scientific_Name" for the current project
-## Note: the off diagonals beyond the 3x3 diagonals are meaningless and should be interpreted as 0s
-ranef2 <- matrix(
-  nrow = sum(rand_ef_lengths[1:2]) - rand_ef_lengths[1]
-, ncol = sum(rand_ef_lengths[1:2]) - rand_ef_lengths[1]
-, data = rand_eff_est[(rand_ef_lengths[1] + 1):sum(rand_ef_lengths[1:2]), 
-  (rand_ef_lengths[1] + 1):sum(rand_ef_lengths[1:2])])
-
-#ranef2_info <- data.frame(
-#  ranef_level    = seq(1, length(phylo_data@Dimnames[[2]]), by = 1)
-#, ranef          = paste(rand_ef_id[, 2], collapse = "_")
-#, which_mod_coef = rep(2, nrow(ranef2)))
-
-#ranef2 <- cbind(ranef2_info, ranef2)
-
-condvar_branch_array <- array(data = 0, dim = c(1, 1, rand_ef_lengths[2]))
-for (i in 1:rand_ef_lengths[2]) {
-  condvar_branch_array[,,i] <- as.matrix(ranef2[i, i])
-}
-
-return(condvar_branch_array)
-
-}
-  
-}
-lme4_biting_rand_ef_vec   <- function (model_coefs, rand_eff_est, rand_ef_id, rand_ef_lengths
-                                         , names_vec, lme4_fit, phylo_data, is_sd) {
-  
-    if (is_sd == FALSE) {
-  for (i in seq_along(names_vec)) {
-      if (i == 1) {
-        model_coefs[[i]] <- rand_eff_est[1:rand_ef_lengths[i]]
-      } 
-  names(model_coefs)[i] <- paste(rand_ef_id[, i], collapse = "_")
-  }
-    
-  ## organize random effect coefficients
-full_vcov       <- suppressWarnings(tidy(summary(lme4_fit)[["varcor"]]))
-resid_vcov      <- NA
-infect_exp_vcov <- NA
-citation_vcov   <- NA
-phylo_vcov      <- VarCorr(lme4_fit)[[1]][1:1, 1:1]
-
-ran_ef_var_est <- c( 
-   infect_exp  = infect_exp_vcov
-,  citation    = citation_vcov
-,  residual    = resid_vcov)
-
-model_coefs[[i + 1]] <- phylo_vcov
-model_coefs[[i + 2]] <- ran_ef_var_est
-
-  return(model_coefs)
-      
-  } else {
-    
-  for (i in seq_along(names_vec)) {
-      if (i == 1) {
-        model_coefs[[i]] <- rand_eff_est[(1:rand_ef_lengths[i]), (1:rand_ef_lengths[i])]
-      } 
-        names(model_coefs)[i] <- paste(paste(rand_ef_id[, i], collapse = "_"), "sd", sep = "_") 
-  }
-
-  ## keep only the "Scientific Name" random effects  
-model_coefs          <- model_coefs[grep("Scientific_Name", names(model_coefs))]
-condvar_phylo        <- rand_eff_est[(1:rand_ef_lengths[1]), (1:rand_ef_lengths[1])]
-condvar_branch_array <- array(data = 0, dim = c(1, 1, rand_ef_lengths[1]))
-  
-for (i in 1:rand_ef_lengths[1]) {
-  condvar_branch_array[,,i] <- as.matrix(condvar_phylo[i, i])
-}
-
-return(condvar_branch_array)
-    
-  }
-  
-}
-lme4_detect_rand_ef_vec   <- function (model_coefs, rand_eff_est, rand_ef_id, rand_ef_lengths
-                                         , names_vec, lme4_fit, phylo_data, is_sd) {
-
-    if (is_sd == FALSE) {
-  for (i in seq_along(names_vec)) {
-      if (i == 1) {
-        model_coefs[[i]] <- rand_eff_est[1:rand_ef_lengths[i]]
-      } 
-  names(model_coefs)[i] <- paste(rand_ef_id[, i], collapse = "_")
-  }
-    
-  ## organize random effect coefficients
-full_vcov       <- suppressWarnings(tidy(summary(lme4_fit)[["varcor"]]))
-resid_vcov      <- full_vcov[grep("Residual", full_vcov[["grp"]]), ]
-infect_exp_vcov <- NA
-citation_vcov   <- NA
-phylo_vcov      <- VarCorr(lme4_fit)[[1]][1:1, 1:1]
-
-ran_ef_var_est <- c( 
-   infect_exp  = infect_exp_vcov
-,  citation    = citation_vcov
-,  residual    = resid_vcov[1, 5])
-
-model_coefs[[i + 1]] <- phylo_vcov
-model_coefs[[i + 2]] <- ran_ef_var_est
-
-  return(model_coefs)
-      
-  } else {
-    
-  for (i in seq_along(names_vec)) {
-      if (i == 1) {
-        model_coefs[[i]] <- rand_eff_est[(1:rand_ef_lengths[i]), (1:rand_ef_lengths[i])]
-      } 
-        names(model_coefs)[i] <- paste(paste(rand_ef_id[, i], collapse = "_"), "sd", sep = "_") 
-  }
-
-  ## keep only the "Scientific Name" random effects  
-model_coefs          <- model_coefs[grep("Scientific_Name", names(model_coefs))]
-condvar_phylo        <- rand_eff_est[(1:rand_ef_lengths[1]), (1:rand_ef_lengths[1])]
-condvar_branch_array <- array(data = 0, dim = c(1, 1, rand_ef_lengths[1]))
-  
-for (i in 1:rand_ef_lengths[1]) {
-  condvar_branch_array[,,i] <- as.matrix(condvar_phylo[i, i])
-}
-
-return(condvar_branch_array)
-    
-  }
 }
 
 #######
 ### Predict new respones (low level functions)
 #######
-lme4_titer_pred    <- function (random_effects, fixed_effects, rand_eff_sd, cit_rand_eff_sd, inf_rand_eff_sd
-                                  , fixed_eff_vcov, cond_mode_sd, day, LD, body_size, brl
+lme4_titer_pred    <- function (lme4_fits, random_effects, cond_mode_sd, day, LD, body_size, brl
                                   , last_brl, species, uncertainty_list, spec_type) {
  
-  nsamps <- uncertainty_list[["samps"]]
+  fixed_effects     <- lme4_fits[["red_model_coefs"]][["Fixed_effects"]]
+  rand_eff_sd       <- lme4_fits[["red_model_coefs"]][["phylo_vcov"]]
+  cit_rand_eff_sd   <- lme4_fits[["red_model_coefs"]][["Citation_vcov"]]
+  inf_rand_eff_sd   <- lme4_fits[["red_model_coefs"]][["unique_line_vcov"]]  
+  fixed_eff_vcov    <- lme4_fits[["red_model_coefs"]][["Fixed_vcov"]]
+  
+  nsamps    <- uncertainty_list[["samps"]]
   pred_vals <- matrix(data = 0, nrow = 1, ncol = nsamps)
   
   ## fixed effects
@@ -401,26 +255,26 @@ lme4_titer_pred    <- function (random_effects, fixed_effects, rand_eff_sd, cit_
   
   fix_eff1 <- matrix(rep(fix_eff_matrix[, 1], length(day)), nrow = length(day), ncol = nsamps, byrow = TRUE)
   fix_eff2 <- matrix(rep(fix_eff_matrix[, 2], length(day)), nrow = length(day), ncol = nsamps, byrow = TRUE) *
-    matrix(data = day, ncol = nsamps, nrow = length(day))
+    matrix(data = log(day), ncol = nsamps, nrow = length(day))
   fix_eff3 <- matrix(rep(fix_eff_matrix[, 3], length(day)), nrow = length(day), ncol = nsamps, byrow = TRUE) * 
-    matrix(data = exp(-day), ncol = nsamps, nrow = length(day))
+    matrix(data = day, ncol = nsamps, nrow = length(day))
   fix_eff4 <- matrix(rep(fix_eff_matrix[, 4], length(day)), nrow = length(day), ncol = nsamps, byrow = TRUE) * 
     matrix(data = log(body_size), ncol = nsamps, nrow = length(day)) 
   fix_eff5 <- matrix(rep(fix_eff_matrix[, 5], length(day)), nrow = length(day), ncol = nsamps, byrow = TRUE) *
     matrix(data = LD, ncol = nsamps, nrow = length(day)) 
   fix_eff6 <- matrix(rep(fix_eff_matrix[, 6], length(day)), nrow = length(day), ncol = nsamps, byrow = TRUE) *
-    matrix(data = day * log(body_size), ncol = nsamps, nrow = length(day))
+    matrix(data = log(day) * log(body_size), ncol = nsamps, nrow = length(day))
   fix_eff7 <- matrix(rep(fix_eff_matrix[, 7], length(day)), nrow = length(day), ncol = nsamps, byrow = TRUE) * 
-    matrix(data = exp(-day) * log(body_size), ncol = nsamps, nrow = length(day))
+    matrix(data = day * log(body_size), ncol = nsamps, nrow = length(day))
   
   ## phylogenetic random effects
     if (uncertainty_list[["titer_model.phylo_rand"]] == FALSE) {
     ## Intercept
   ran_ef1 <- replicate(nsamps, sum(random_effects[, grep("Intercept", colnames(random_effects))[1]] * brl))
+    ## log(Day)
+  ran_ef2 <- replicate(nsamps, sum(random_effects[, grep("log", colnames(random_effects))[1]] * brl))
     ## Day
-  ran_ef2 <- replicate(nsamps, sum(random_effects[, grep("Day", colnames(random_effects))[1]] * brl))
-    ## exp(Day)
-  ran_ef3 <- replicate(nsamps, sum(random_effects[, grep("exp", colnames(random_effects))[1]] * brl))
+  ran_ef3 <- replicate(nsamps, sum(random_effects[, grep("Day", colnames(random_effects))[2]] * brl))
 
     ## Uncertainty due to branch variation
     } else {
@@ -461,8 +315,8 @@ lme4_titer_pred    <- function (random_effects, fixed_effects, rand_eff_sd, cit_
   ran_ef3 <- ran_ef3 + matrix(rep(t(ran_ef_matrix[, 3]), length(day)), ncol = nsamps, nrow = length(day), byrow = TRUE)
   }
   
-  ran_ef2 <- ran_ef2 * matrix(data = day, ncol = nsamps, nrow = length(day))
-  ran_ef3 <- ran_ef3 * matrix(data = exp(-day), ncol = nsamps, nrow = length(day))
+  ran_ef2 <- ran_ef2 * matrix(data = log(day), ncol = nsamps, nrow = length(day))
+  ran_ef3 <- ran_ef3 * matrix(data = day, ncol = nsamps, nrow = length(day))
   
   ## Estiamte
     if (uncertainty_list[["titer_model.other_rand"]] == FALSE) {
@@ -490,10 +344,8 @@ lme4_titer_pred    <- function (random_effects, fixed_effects, rand_eff_sd, cit_
   cbind(info_mat, pred_vals)
   
 }
-lme4_survival_pred <- function (random_effects, fixed_effects, rand_eff_sd, cit_rand_eff_sd, inf_rand_eff_sd
-                                  , fixed_eff_vcov, cond_mode_sd, day, LD, body_size, brl
-                                  , last_brl, species, uncertainty_list, spec_type
-                                  , other_responses) {
+lme4_survival_pred <- function (lme4_fits, random_effects, cond_mode_sd, day, LD, body_size, brl
+                                  , last_brl, species, uncertainty_list, spec_type, other_responses) {
   
 ## Recover the predicted titer for use in predicting survival
  ## for consistency use predicted titer for both 
@@ -501,6 +353,12 @@ names(other_responses)[1] <- "Scientific_Name"
 spec_titer <- other_responses %>% 
   filter(Scientific_Name == species) %>%
   dplyr::select(-Scientific_Name, -day, -log_dose, -model)
+
+  fixed_effects     <- lme4_fits[["red_model_coefs"]][["Fixed_effects"]]
+  rand_eff_sd       <- lme4_fits[["red_model_coefs"]][["phylo_vcov"]]
+  cit_rand_eff_sd   <- lme4_fits[["red_model_coefs"]][["Citation_vcov"]]
+  inf_rand_eff_sd   <- lme4_fits[["red_model_coefs"]][["unique_line_vcov"]]  
+  fixed_eff_vcov    <- lme4_fits[["red_model_coefs"]][["Fixed_vcov"]]
       
   nsamps    <- uncertainty_list[["samps"]]
   pred_vals <- matrix(data = 0, nrow = length(day), ncol = nsamps)
@@ -562,7 +420,7 @@ spec_titer <- other_responses %>%
     if (uncertainty_list[["survival_model.phylo_tip"]] == TRUE & spec_type == "unknown_spec") {
     ## This whole function is already very model specific, so while numbers here are not optimal they will do for now
       ## sqrt(rand_eff_sd) --> extracted as vcov, but only 1 random effect so just var returned
-  ran_ef_matrix <- rnorm(nsamps, 0, rand_eff_sd[["sdcor"]] * last_brl)
+  ran_ef_matrix <- rnorm(nsamps, 0, sqrt(rand_eff_sd) * last_brl)
   ran_ef1 <- ran_ef1 + matrix(rep(ran_ef_matrix, length(day)), ncol = nsamps, nrow = length(day), byrow = TRUE)
     }
 
@@ -595,13 +453,18 @@ spec_titer <- other_responses %>%
   
   cbind(info_mat, pred_vals)
 }
-lme4_biting_pred   <- function (random_effects, fixed_effects, rand_eff_sd, cit_rand_eff_sd, inf_rand_eff_sd
-                                  , fixed_eff_vcov, cond_mode_sd, body_size, brl, last_brl
+lme4_biting_pred   <- function (lme4_fits, random_effects, cond_mode_sd, body_size, brl, last_brl
                                   , species, uncertainty_list, spec_type) {
   
   ## Keeping code consistent with the other functions of (nrow = length(day) with "1")
-  nsamps <- uncertainty_list[["samps"]]
+  nsamps    <- uncertainty_list[["samps"]]
   pred_vals <- matrix(data = 0, nrow = 1, ncol = nsamps)
+  
+  fixed_effects     <- lme4_fits[["red_model_coefs"]][["Fixed_effects"]]
+  rand_eff_sd       <- lme4_fits[["red_model_coefs"]][["phylo_vcov"]]
+  cit_rand_eff_sd   <- lme4_fits[["red_model_coefs"]][["Citation_vcov"]]
+  inf_rand_eff_sd   <- lme4_fits[["red_model_coefs"]][["unique_line_vcov"]]  
+  fixed_eff_vcov    <- lme4_fits[["red_model_coefs"]][["Fixed_vcov"]] 
   
   ## fixed effects
     if (uncertainty_list[["bite_model.fixed_uncer"]] == FALSE) {
@@ -655,13 +518,18 @@ lme4_biting_pred   <- function (random_effects, fixed_effects, rand_eff_sd, cit_
   
   cbind(info_mat, pred_vals)
 }
-lme4_detect_pred   <- function (random_effects, fixed_effects, rand_eff_sd, cit_rand_eff_sd, inf_rand_eff_sd
-                                  , fixed_eff_vcov, cond_mode_sd, body_size, brl, last_brl
+lme4_detect_pred   <- function (lme4_fits, random_effects, cond_mode_sd, body_size, brl, last_brl
                                   , species, uncertainty_list, spec_type) {
  
   ## Keeping code consistent with the other functions of (nrow = length(day) with "1")
   nsamps <- uncertainty_list[["samps"]]
   pred_vals <- matrix(data = 0, nrow = 1, ncol = nsamps)
+  
+  fixed_effects     <- lme4_fits[["red_model_coefs"]][["Fixed_effects"]]
+  rand_eff_sd       <- lme4_fits[["red_model_coefs"]][["phylo_vcov"]]
+  cit_rand_eff_sd   <- lme4_fits[["red_model_coefs"]][["Citation_vcov"]]
+  inf_rand_eff_sd   <- lme4_fits[["red_model_coefs"]][["unique_line_vcov"]]  
+  fixed_eff_vcov    <- lme4_fits[["red_model_coefs"]][["Fixed_vcov"]]
   
   ## fixed effects
       if (uncertainty_list[["detect_model.fixed_uncer"]] == FALSE) {
@@ -725,20 +593,15 @@ lme4_detect_pred   <- function (random_effects, fixed_effects, rand_eff_sd, cit_
 #######
 ### Wrappers at various levels (mid level functions)
 #######
-lme4_estimator_logcial      <- function (random_effects, fixed_effects, rand_eff_sd, cit_rand_eff_sd, inf_rand_eff_sd
-                                           , fixed_eff_vcov, cond_mode_sd, day, LD, body_size, brl, last_brl
+lme4_estimator_logcial         <- function (lme4_fits, random_effects, cond_mode_sd, day, LD, body_size, brl, last_brl
                                            , species, which_model, uncertainty_list, spec_type
                                            , other_responses) {
     ## call estimator function
 if (which_model == "titer") {
-  
+
   lme4_titer_pred(
-    random_effects    = random_effects
-  , fixed_effects     = fixed_effects
-  , rand_eff_sd       = rand_eff_sd
-  , cit_rand_eff_sd   = cit_rand_eff_sd
-  , inf_rand_eff_sd   = inf_rand_eff_sd
-  , fixed_eff_vcov    = fixed_eff_vcov
+    lme4_fits         = lme4_fits
+  , random_effects    = random_effects
   , cond_mode_sd      = cond_mode_sd
   , day               = day
   , LD                = LD
@@ -752,12 +615,8 @@ if (which_model == "titer") {
 } else if (which_model == "survival") {
   
   lme4_survival_pred(
-    random_effects    = random_effects
-  , fixed_effects     = fixed_effects
-  , rand_eff_sd       = rand_eff_sd
-  , cit_rand_eff_sd   = cit_rand_eff_sd
-  , inf_rand_eff_sd   = inf_rand_eff_sd
-  , fixed_eff_vcov    = fixed_eff_vcov
+    lme4_fits         = lme4_fits
+  , random_effects    = random_effects
   , cond_mode_sd      = cond_mode_sd
   , day               = day
   , LD                = LD
@@ -772,12 +631,8 @@ if (which_model == "titer") {
 } else if (which_model == "bite") {
   
   lme4_biting_pred(
-    random_effects    = random_effects
-  , fixed_effects     = fixed_effects
-  , rand_eff_sd       = rand_eff_sd
-  , cit_rand_eff_sd   = cit_rand_eff_sd
-  , inf_rand_eff_sd   = inf_rand_eff_sd
-  , fixed_eff_vcov    = fixed_eff_vcov
+    lme4_fits         = lme4_fits
+  , random_effects    = random_effects
   , cond_mode_sd      = cond_mode_sd
   , body_size         = body_size
   , brl               = brl
@@ -789,12 +644,8 @@ if (which_model == "titer") {
 } else if (which_model == "detect") {
   
   lme4_detect_pred(
-    random_effects    = random_effects
-  , fixed_effects     = fixed_effects
-  , rand_eff_sd       = rand_eff_sd
-  , cit_rand_eff_sd   = cit_rand_eff_sd
-  , inf_rand_eff_sd   = inf_rand_eff_sd
-  , fixed_eff_vcov    = fixed_eff_vcov
+    lme4_fits         = lme4_fits
+  , random_effects    = random_effects
   , cond_mode_sd      = cond_mode_sd
   , body_size         = body_size
   , brl               = brl
@@ -832,7 +683,7 @@ lme4_biting_model_fit(
   ,  phyloZ           = phyloZ
   ,  nsp              = nsp
   ,  uncertainty_list = uncertainty_list)
-  
+
 } else if (which_model == "detect") {
   
 lme4_detect_model_fit(
@@ -1223,8 +1074,7 @@ full_model_coefs <- lme4_extract_est(
 , lme4_fit         = lme4_fit_full
 , phylo            = phylo_data[["full_phylo"]]
 , phyloZ           = phylo_data[["full_Z_mat"]]
-, which_model      = which_model
-, uncertainty_list = uncertainty_list)
+, which_model      = which_model)
 }
 
 if (fit_red == TRUE) {
@@ -1235,7 +1085,7 @@ if (outside == FALSE) {
 } else {
   data.use <- data.full
 }
-  
+
 lme4_fit_red <- lme4_model_logcial(
   data             = data.use
 , phylo            = phylo_data[["reduced_phylo"]]
@@ -1267,7 +1117,7 @@ return(list(
 ))
 
 }
-lme4_extract_est               <- function (data, lme4_fit, phylo, phyloZ, which_model) {
+lme4_extract_est <- function (data, lme4_fit, phylo, phyloZ, which_model) {
   
 ## random effect estimates
 rand_eff_est    <- getME(lme4_fit, c("b"))@x
@@ -1276,18 +1126,12 @@ rand_eff_est    <- getME(lme4_fit, c("b"))@x
 rand_ef_lengths <- numeric(length = length(unlist(lme4_fit@cnms)))
 
 ## expand lme4fit@cnms to repeat sci-name (special case of correlated random effects for titer model)
-if (which_model == "titer") {
- names_vec <- c(
-     names(lme4_fit@cnms)[1]
-   , rep(names(lme4_fit@cnms)[2], 3)
-   , names(lme4_fit@cnms)[3]
-   )
-} else {
- names_vec <- names(lme4_fit@cnms)
-}
+#ran_ef_terms <- apply(matrix(unique(rand_ef_lengths)), 1, function(x) length(which(rand_ef_lengths == x)))
+ran_ef_terms <- unlist(lapply(lme4_fit@cnms, function (x) length(x)))
+names_vec    <- rep(names(lme4_fit@cnms), ran_ef_terms)
 
 ## Store number of phylogenetic random effects (estimates + sd)
-num_phylo_ran_efs    <- length(names_vec)
+total_ran_efs    <- length(names_vec)
 
 ## determine the lengths of each random effect
 for (i in seq_along(names_vec)) {
@@ -1300,18 +1144,17 @@ for (i in seq_along(names_vec)) {
 
 ## Separate out the random effects
    ## +4 for fixed effects, summary matrix of model coefs, random ef sds and fixed ef vocv
-model_coefs <- vector("list", length = num_phylo_ran_efs + 8)
+model_coefs <- vector("list", length = total_ran_efs + 4 + length(ran_ef_terms) + 1)
 rand_ef_id  <- rbind(names_vec, unlist(lme4_fit@cnms))
 
 ## organize the random effect conditional modes appropriately. Call a logical sorting function
   ## depending on the model being run
-model_coefs <- lme4_rand_ef_vec_logical(
+model_coefs <- lme4_rand_ef_vec(
     model_coefs     = model_coefs
   , rand_eff_est    = rand_eff_est
   , rand_ef_id      = rand_ef_id
   , rand_ef_lengths = rand_ef_lengths
   , names_vec       = names_vec
-  , which_model     = which_model
   , lme4_fit        = lme4_fit
   , phylo_data      = phyloZ
   , is_sd           = FALSE) 
@@ -1322,15 +1165,14 @@ model_coefs <- lme4_rand_ef_vec_logical(
 #cond_cov_mat <- ranef(lme4_fit, condVar = TRUE)
 #cond_cov_mat <- attr(cond_cov_mat[["phylo"]],"postVar")
 cond_cov_mat   <- lme4:::condVar(lme4_fit)
-phylo_coefs_sd <- vector("list", length = num_phylo_ran_efs)
+phylo_coefs_sd <- vector("list", length = total_ran_efs)
   
-phylo_coefs_sd <- lme4_rand_ef_vec_logical(
+phylo_coefs_sd <- lme4_rand_ef_vec(
     model_coefs     = phylo_coefs_sd
   , rand_eff_est    = cond_cov_mat
   , rand_ef_id      = rand_ef_id
   , rand_ef_lengths = rand_ef_lengths
   , names_vec       = names_vec
-  , which_model     = which_model
   , lme4_fit        = lme4_fit
   , phylo_data      = phyloZ
   , is_sd           = TRUE) 
@@ -1338,31 +1180,30 @@ phylo_coefs_sd <- lme4_rand_ef_vec_logical(
 ## For the second to last entry combine the phylo random effect into a matrix
 phylo_ran_ef <- grep("Scientific_Name", names(model_coefs))
 
-model_coefs[[num_phylo_ran_efs + 5]] <- matrix(
+model_coefs[[total_ran_efs + length(ran_ef_terms) + 2]] <- matrix(
   ncol     = length(phylo_ran_ef)
 , nrow     = ncol(phyloZ)
 , data     = unlist(model_coefs[phylo_ran_ef])
 , dimnames = list(NULL, names(model_coefs[phylo_ran_ef])))
 
 ## For the last entry include the vector of fixed effects
-model_coefs[[num_phylo_ran_efs + 6]] <- getME(lme4_fit, c("beta"))
+model_coefs[[total_ran_efs + length(ran_ef_terms) + 3]] <- getME(lme4_fit, c("beta"))
 
 ## fixed effects vcov 
-model_coefs[[num_phylo_ran_efs + 7]] <- summary(lme4_fit)[["vcov"]]
+model_coefs[[total_ran_efs + length(ran_ef_terms) + 4]] <- summary(lme4_fit)[["vcov"]]
 
 ## vcov of the conditional random effects
-model_coefs[[num_phylo_ran_efs + 8]] <- phylo_coefs_sd
+model_coefs[[total_ran_efs + length(ran_ef_terms) + 5]] <- phylo_coefs_sd
 
 ## Fill in names 
-names(model_coefs)[(num_phylo_ran_efs + 1):(num_phylo_ran_efs + 8)] <- 
-  c("Random_effect_phylo_uncer"
-  , "Residual_uncertainty"
-  , "Random_effect_infection_uncertainty"
-  , "Random_effect_citation_uncertainty"    
-  , "Phylogenetic_random_effects"
+names(model_coefs)[
+  (total_ran_efs + length(ran_ef_terms) + 2):
+  (total_ran_efs + length(ran_ef_terms) + 5)] <- c(
+    "Phylogenetic_random_effects"
   , "Fixed_effects"
   , "Fixed_vcov"
-  , "Conditional_covariance")
+  , "Conditional_covariance"
+    )
 
 return(model_coefs)
 
@@ -1379,13 +1220,17 @@ model_coefs_needed <- lme4_fits[["red_model_coefs"]][["Phylogenetic_random_effec
 ## Conditional vcov
 cond_mode_sd  <- lme4_fits[["red_model_coefs"]][["Conditional_covariance"]][,,which(phylo_data[["species_vector"]] > 0)]
 
+ran_ef_terms  <- unlist(lapply(lme4_fits$lme4_fit_red@cnms, function (x) length(x)))
+num_phylo_ran <- ran_ef_terms[grep("Scientific_Name", names(ran_ef_terms))]
+
 ## Needed for species that are an out group
-if (which_model != "titer") {
-  cond_mode_sd <- array(data = cond_mode_sd, dim = c(1, 1, length(cond_mode_sd)))
-} else if (which_model == "titer" & (length(dim(cond_mode_sd)) != 3)) {
-  cond_mode_sd <- array(data = cond_mode_sd, dim = c(3, 3, 1))
-} else {
-  ## do nothing
+## check if not in vcov structure (no correlated random effects or an outgroup (one branch))
+if (length(dim(cond_mode_sd)) != 3) {
+  if (length(dim(cond_mode_sd)) != 2) {
+   cond_mode_sd <- array(data = cond_mode_sd, dim = c(1, 1, length(cond_mode_sd)))  
+  } else {
+   cond_mode_sd <- array(data = cond_mode_sd, dim = c(num_phylo_ran, num_phylo_ran, 1))
+  }
 }
 
 ## These are the branchlengths that need to be multiplied by the estimates. Note, for a normal random effect these are 
@@ -1416,12 +1261,8 @@ if (length(body_size) == 0) {
 }
 
 pred_vals <- lme4_estimator_logcial(
-  random_effects    = model_coefs_needed
-, fixed_effects     = lme4_fits[["red_model_coefs"]][["Fixed_effects"]]
-, rand_eff_sd       = lme4_fits[["red_model_coefs"]][["Random_effect_phylo_uncer"]]
-, cit_rand_eff_sd   = lme4_fits[["red_model_coefs"]][["Random_effect_citation_uncertainty"]]
-, inf_rand_eff_sd   = lme4_fits[["red_model_coefs"]][["Random_effect_infection_uncertainty"]]  
-, fixed_eff_vcov    = lme4_fits[["red_model_coefs"]][["Fixed_vcov"]]
+  lme4_fits         = lme4_fits
+, random_effects    = model_coefs_needed
 , cond_mode_sd      = cond_mode_sd
 , day               = pred_day
 , LD                = pred_LD
@@ -1465,8 +1306,17 @@ if (outside == TRUE) {
 cond_mode_sd   <- lme4_fits[["red_model_coefs"]][["Conditional_covariance"]][,,
   which(phylo_data[["reduced_Z_mat"]][which(phylo_data[["reduced_Z_mat"]]@Dimnames[[1]] == species), ] != 0)]
 
-if (which_model != "titer") {
-  cond_mode_sd <- array(data = cond_mode_sd, dim = c(1, 1, length(cond_mode_sd)))
+ran_ef_terms  <- unlist(lapply(lme4_fits$lme4_fit_red@cnms, function (x) length(x)))
+num_phylo_ran <- ran_ef_terms[grep("Scientific_Name", names(ran_ef_terms))]
+
+## Needed for species that are an out group
+## check if not in vcov structure (no correlated random effects or an outgroup (one branch))
+if (length(dim(cond_mode_sd)) != 3) {
+  if (length(dim(cond_mode_sd)) != 2) {
+   cond_mode_sd <- array(data = cond_mode_sd, dim = c(1, 1, length(cond_mode_sd)))  
+  } else {
+   cond_mode_sd <- array(data = cond_mode_sd, dim = c(num_phylo_ran, num_phylo_ran, 1))
+  }
 }
   
   ## These are the branchlengths that need to be multiplied by the estimates. Note, for a normal
@@ -1507,12 +1357,8 @@ if (length(body_size) == 0) {
   
   ## call estimator function
 pred_vals <- lme4_estimator_logcial(
-  random_effects    = model_coefs_needed
-, fixed_effects     = lme4_fits[["red_model_coefs"]][["Fixed_effects"]]
-, rand_eff_sd       = lme4_fits[["red_model_coefs"]][["Random_effect_phylo_uncer"]]
-, cit_rand_eff_sd   = lme4_fits[["red_model_coefs"]][["Random_effect_citation_uncertainty"]]
-, inf_rand_eff_sd   = lme4_fits[["red_model_coefs"]][["Random_effect_infection_uncertainty"]]  
-, fixed_eff_vcov    = lme4_fits[["red_model_coefs"]][["Fixed_vcov"]]
+  lme4_fits         = lme4_fits
+, random_effects    = model_coefs_needed
 , cond_mode_sd      = cond_mode_sd
 , day               = pred_day
 , LD                = pred_LD
@@ -1558,23 +1404,16 @@ pred_LD  <- NULL
 pred_bs  <- species_body_size
 }
 
+ran_ef_terms       <- unlist(lapply(lme4_fits$lme4_fit_red@cnms, function (x) length(x)))
+use.random_effects <- matrix(data = 0 , nrow = 1, ncol = ncol(lme4_fits$red_model_coefs$Phylogenetic_random_effects))
+num_phylo_ran      <- ran_ef_terms[grep("Scientific_Name", names(ran_ef_terms))]
 
 ## single logical needed here for missing spec because of how many random effects are in each model
-if (which_model == "titer") {
-  use.random_effects <- t(as.matrix(c(Intercept = 0, Day = 0, exp_Day = 0)))
-  cond_mode_sd       <- array(data = 0, dim = c(3, 3, 1))
-} else {
-  use.random_effects <- matrix(nrow = 1, ncol = 1, data = 0)
-  cond_mode_sd       <- array(data = 0, dim = c(1, 1, 1))
-}
+cond_mode_sd       <- array(data = 0, dim = c(num_phylo_ran, num_phylo_ran, 1))
 
 pred_vals <- lme4_estimator_logcial(
-  random_effects    = use.random_effects
-, fixed_effects     = lme4_fits[["red_model_coefs"]][["Fixed_effects"]]
-, rand_eff_sd       = lme4_fits[["red_model_coefs"]][["Random_effect_phylo_uncer"]]
-, cit_rand_eff_sd   = lme4_fits[["red_model_coefs"]][["Random_effect_citation_uncertainty"]]
-, inf_rand_eff_sd   = lme4_fits[["red_model_coefs"]][["Random_effect_infection_uncertainty"]]  
-, fixed_eff_vcov    = lme4_fits[["red_model_coefs"]][["Fixed_vcov"]]
+  lme4_fits         = lme4_fits  
+, random_effects    = use.random_effects
 , cond_mode_sd      = cond_mode_sd 
 , day               = pred_day
 , LD                = pred_LD
@@ -1600,7 +1439,7 @@ names(pred_vals_r)[1] <- "species"
 
 return(pred_vals_r)
 
-}  
+} 
 
 #######
 ### Top level wrapper (top level function)
@@ -1629,8 +1468,8 @@ if (!is.null(prev_responses)) print("Responses Loaded")
 }
 
 ## loop over all species that I need estimates for 
-for (i in 1:length(missing_spec)) {
-#for (i in 1:3) {  
+#for (i in 1:length(missing_spec)) {
+for (i in 1:3) {  
   
 time_check[i] <- system.time({
  

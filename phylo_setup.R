@@ -109,8 +109,7 @@ mkReTrms <- function(bars, fr, phylonm,phyloZ,drop.unused.levels = TRUE) {
   if (!length(bars)) 
     stop("No random effects terms specified in formula", 
          call. = FALSE)
-  stopifnot(is.list(bars), vapply(bars, is.language, NA), inherits(fr, 
-                                                                   "data.frame"))
+  stopifnot(is.list(bars), vapply(bars, is.language, NA), inherits(fr, "data.frame"))
   names(bars) <- lme4:::barnames(bars)
   term.names <- vapply(bars, lme4:::safeDeparse, "")
   blist <- lapply(bars, mkBlist, fr, phylonm, phyloZ, drop.unused.levels)

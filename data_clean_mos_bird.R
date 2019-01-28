@@ -136,7 +136,7 @@ samps_mos_bird <- rbind(samps_mos_bird[,1,], samps_mos_bird[,2,], samps_mos_bird
 ########
 ## Mosquito survival
 ########
-mosqsurv <- read.csv("data/mosqsurv.csv", header = TRUE)
+mosqsurv      <- read.csv("data/mosqsurv.csv", header = TRUE)
 
 mosqsurv      <- mosqsurv %>% filter(Citation == "Andreadis et al 2014")
 
@@ -145,7 +145,7 @@ mosq_surv     <- glm(cbind(Surviving_Count
   , family = "binomial"
   , data = mosqsurv)
 
-mosqsurv      <- transform(mosqsurv, surv_fitted = plogis(augment(mosq_surv)[[".fitted"]]))
+mosqsurv      <- transform(mosqsurv, surv_fitted = fitted(mosq_surv))
 
 ### predict mosquito survival data
 new_temp_data <- expand.grid(Longevity_Days = seq(1, 120), Temperature = c(16, 21, 26, 31))
