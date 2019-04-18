@@ -1,18 +1,8 @@
-#############################################################################
-## calculate community level competence (species weighted by proportions) ###
-#############################################################################
-
-## If previously run and saved (not part of the pipeline, but useful for debugging or checking this or that)
-## comm_comp_summary <- readRDS("saved_output/comm_comp_summary_temp.Rds")
-
-comm_comp_summary  <- comp_prop_sum_R0(
-  host_comp_summary  = host_comp_summary
-, bird_prop_dat      = samp_data_com
-, comm_detect_est    = comm_detect_est
-, uncertainty_list   = uncertainty_list
-, mosquito_survival  = new_temp_data
-, m_to_b_trans_samps = samps_mos_bird
-, county_temp_data   = county_temp_data)
+#########################################################################
+## all of the cleaning steps of community_competence.R without running ##
+## comp_prop_sum_R0, For use in summary stats cleaned if               ##
+## run_spat_temp_aggregated == TRUE                                    ##
+#########################################################################
 
   if (no_uncer == TRUE) {
 ## Remove excess columns if no uncertainty

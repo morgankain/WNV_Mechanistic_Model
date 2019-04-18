@@ -1117,7 +1117,7 @@ return(list(
 ))
 
 }
-lme4_extract_est <- function (data, lme4_fit, phylo, phyloZ, which_model) {
+lme4_extract_est               <- function (data, lme4_fit, phylo, phyloZ, which_model) {
   
 ## random effect estimates
 rand_eff_est    <- getME(lme4_fit, c("b"))@x
@@ -1468,8 +1468,8 @@ if (!is.null(prev_responses)) print("Responses Loaded")
 }
 
 ## loop over all species that I need estimates for 
-#for (i in 1:length(missing_spec)) {
-for (i in 1:3) {  
+for (i in 1:length(missing_spec)) {
+#for (i in 1:3) {  
   
 time_check[i] <- system.time({
  
@@ -2022,7 +2022,8 @@ for (i in 1:ncol(titer_resp)) {
   ## Check if uncertainty in bird to mosquito transmission is to be included
   if (uncertainty_list[["stan_BtoM_model"]] == FALSE) {
     
-  ## predict at 26c
+  ## predict at 26c (note: this is bird to mosquito transmission which only covers a small range of degrees c. 
+    ## This is a temp within the range of the data used to fit the model
 host_comp_data.frame <- transform(host_comp_data.frame
  , titer        = titer_resp[, i]
  , transmission = plogis(bird_mos_pred[1, 6] * titer_resp[, i] + bird_mos_pred[2, 6] * 26)
@@ -2083,8 +2084,9 @@ return(cbind(host_comp_data.frame_info, host_comp_results))
 
 }
   ## Community-level competence estimates using community R0: mosquito to mosquito
+ ## Updated to incorporate temperature variation at the scale of the bird communities
 comp_prop_sum_R0  <- function (host_comp_summary, bird_prop_dat, comm_detect_est, uncertainty_list
-                                 , mosquito_survival, m_to_b_trans_samps) {
+                                 , mosquito_survival, m_to_b_trans_samps, county_temp_data, print_prog = TRUE) {
   
   ## R0 calculation instead of community competence calculation
   
@@ -2104,68 +2106,172 @@ comp_prop_sum_R0  <- function (host_comp_summary, bird_prop_dat, comm_detect_est
     ## * ( bite rate on birds = bite rate of each mosquito * ratio of mosquitos to birds )
       ## 0.14 * 10 (from Hamer et al. 2009 and Simpson et al. 2011)
   
-  
   ## First determine if there will be one sample or many (with uncertainty present)
-    nsamps <- ifelse(no_uncer == TRUE, 1, uncertainty_list[["samps"]])
-#   nsamps <- 3
-  
-  ## first match detection estimates with each bird species, adding detection est to data frame of ebird counts
-temp_match <- match(bird_prop_dat[["phylo_name"]], comm_detect_est[["species"]])
+nsamps         <- ifelse(no_uncer == TRUE, 1, uncertainty_list[["samps"]])
+
+  ## Remove the few data rows without a county ID
+bird_prop_dat <- bird_prop_dat %>% filter(county != "")
+   
+  ## match detection estimates with each bird species, adding detection est to data frame of ebird counts
+match_vec_de   <- match(bird_prop_dat[["phylo_name"]], comm_detect_est[["species"]])
+
+## Also merge the temperature data into the community dataframe
+bird_prop_dat  <- transform(bird_prop_dat, month = as.character(month))
+bird_prop_dat  <- left_join(bird_prop_dat, county_temp_data, by = c("county", "year", "month"))
   
 detect_pred <- comm_detect_est[, -c(1:3)]
   if (class(detect_pred) == "numeric") {
 detect_pred <- matrix(data = detect_pred, ncol = 1, nrow = length(detect_pred))  
   }
 
-  ## Calculate mosquito to bird transmission with uncertainty
-temp_day  <- seq(1, 50, by = 1)
-temp_temp <- c(26)
-temp_LD   <- c(5.5)
-
-newdat    <- data.frame(
-  Longevity_Days = temp_day
-, Temperature    = rep(temp_temp, 50))
+## Calculate mosquito to bird transmission with uncertainty
+temp_day <- seq(1, 50, by = 1)
+temp_LD  <- c(5.5)
 
 ## No uncertainty in survival currently...
-newdat    <- transform(newdat, survival = plogis(predict(mosquito_survival, newdata = newdat)))
+newdat       <- mosquito_survival %>% filter(Longevity_Days <= max(temp_day))
+temp_range   <- seq(min(county_temp_data$temp), max(county_temp_data$temp))
 
-for (i in 1:nsamps) {
-  
-check_time   <- system.time({
-  
 ## Mosquito to bird transmission for sample i with uncertainty, use median without uncertainty   
+for (j in 1:length(temp_range)) {
+  
   if (uncertainty_list[["stan_MtoB_model"]] == TRUE) {
     
-temp_samps   <- sample(seq(1, nrow(m_to_b_trans_samps), by = 1), 1) 
-m_to_b_trans <- cbind(
-   newdat
- , data.frame(
-   trans_prob = plogis(
-  m_to_b_trans_samps[temp_samps, 1]                                    + 
-  m_to_b_trans_samps[temp_samps, 2] * temp_day                         + 
-  m_to_b_trans_samps[temp_samps, 3] * rep(temp_LD, length(temp_day))   +
-  m_to_b_trans_samps[temp_samps, 4] * rep(temp_temp, length(temp_day)) +
-  m_to_b_trans_samps[temp_samps, 5] * temp_day * rep(temp_temp, length(temp_day)))))
+temp_samps   <- sample(seq(1, nrow(m_to_b_trans_samps), by = 1), nsamps) 
+
+## Sample the posterior of mosquito to bird transmission, then predict mosquito to bird transmission for 
+ ## each day, discounted by mosquito survival on that day
+
+m_to_b_trans_temp <- plogis(
+matrix(
+    rep(m_to_b_trans_samps[temp_samps, 1], each = length(temp_day))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(m_to_b_trans_samps[temp_samps, 2], each = length(temp_day)) * rep(temp_day, length(temp_samps)) 
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(m_to_b_trans_samps[temp_samps, 3], each = length(temp_day)) * rep(temp_LD, length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(m_to_b_trans_samps[temp_samps, 4], each = length(temp_day)) * rep(temp_range[j], length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(m_to_b_trans_samps[temp_samps, 5], each = length(temp_day)) * 
+  rep(temp_day, length(temp_samps)) *
+  rep(temp_range[j], length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+))
+
+m_to_b_trans_temp <- cbind(
+  data.frame(temp = rep(temp_range[j], length(temp_day)))
+, sweep(m_to_b_trans_temp, 1, 
+  matrix(newdat[newdat$Temperature == temp_range[j], ][["Survival"]])
+  , FUN = "*")
+)
+
+## Transmission weighted by mosquito survival
+if (j == 1) {
+m_to_b_trans <- m_to_b_trans_temp  
+} else {
+m_to_b_trans <- rbind(m_to_b_trans, m_to_b_trans_temp)
+}
 
   } else {
-    
-m_to_b_trans <- cbind(
-   newdat
- , data.frame(
-   trans_prob = plogis(
-  median(m_to_b_trans_samps[, 1])                                    + 
-  median(m_to_b_trans_samps[, 2]) * temp_day                         + 
-  median(m_to_b_trans_samps[, 3]) * rep(temp_LD, length(temp_day))   +
-  median(m_to_b_trans_samps[, 4]) * rep(temp_temp, length(temp_day)) +
-  median(m_to_b_trans_samps[, 5]) * temp_day * rep(temp_temp, length(temp_day)))))
+
+## just a placeholder for length    
+temp_samps   <- sample(seq(1, nrow(m_to_b_trans_samps), by = 1), nsamps) 
+
+## Instead of sampling the posterior, just use the median estimate. The rest of the columns (which are now
+ ## just duplicates, are thrown away later)
+m_to_b_trans_temp <- plogis(
+matrix(
+    rep(median(m_to_b_trans_samps[, 1]), each = length(temp_day))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(median(m_to_b_trans_samps[, 2]), each = length(temp_day)) * rep(temp_day, length(temp_samps)) 
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(median(m_to_b_trans_samps[, 3]), each = length(temp_day)) * rep(temp_LD, length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(median(m_to_b_trans_samps[, 4]), each = length(temp_day)) * rep(temp_range[j], length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(median(m_to_b_trans_samps[, 5]), each = length(temp_day)) * 
+  rep(temp_day, length(temp_samps)) *
+  rep(temp_range[j], length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+)
+     )
+
+m_to_b_trans_temp <- cbind(
+  data.frame(temp = rep(temp_range[j], length(temp_day)))
+, sweep(m_to_b_trans_temp, 1, 
+  matrix(newdat[newdat$Temperature == temp_range[j], ][["Survival"]])
+  , FUN = "*")
+)
+
+## Transmission weighted by mosquito survival
+if (j == 1) {
+m_to_b_trans <- m_to_b_trans_temp  
+} else {
+m_to_b_trans <- rbind(m_to_b_trans, m_to_b_trans_temp)
+}
   
   }
+}
 
-## Just a vector of transmission weighted by mosquito survival
-m_to_b_trans        <- m_to_b_trans[["trans_prob"]] * m_to_b_trans[["survival"]] 
+  ## Filter out the parameters that are needed from host_comp_summary
+host_comp_summary_rt <- host_comp_summary %>% filter(outcome == "realized_transmission")
+host_comp_summary_rt <- melt(host_comp_summary_rt, c("day", "log_dose", "species", "model", "outcome"))
+host_comp_summary_bp <- host_comp_summary %>% filter(outcome == "biting_pref")
+host_comp_summary_bp <- melt(host_comp_summary_bp, c("day", "log_dose", "species", "model", "outcome"))
+  ## sum transmission over days, already weighted by bite preference
+host_comp_summary_rt <- host_comp_summary_rt %>%
+  group_by(species, variable) %>%
+  summarize(total_transmission = sum(value))
+host_comp_summary_bp <- host_comp_summary_bp %>%
+  group_by(species, variable) %>%
+  summarize(biting_pref = mean(value)) ## all values are the same so this just collapses
+## Spread these summarized data back out to match the structure of m_to_b trans, where
+ ## samples from the posterior are arranged as separate columns
+host_comp_summary_rt <- spread(host_comp_summary_rt, key = "variable", value = "total_transmission")
+host_comp_summary_bp <- spread(host_comp_summary_bp, key = "variable", value = "biting_pref")
 
+## set up these data frames to be able to merge with the community composition data
+match_vec_rt <- match(bird_prop_dat[["phylo_name"]], host_comp_summary_rt[["species"]])
+match_vec_bp <- match(bird_prop_dat[["phylo_name"]], host_comp_summary_bp[["species"]])
+
+######
+## The problem here is that combining all of the samps at a single time produces too large
+## of an object for my RAM. Instead, will have to loop over samples, but set up to do as little
+## as possible in the loop to maximize efficiency
+######
+
+for (i in 1:nsamps) {
+
+check_time   <- system.time({
+  
  ## Select a new column of detectabilities
-bird_prop_dat       <- transform(bird_prop_dat, detectability = detect_pred[temp_match, i])
+bird_prop_dat       <- transform(bird_prop_dat, detectability = detect_pred[match_vec_de, i])
  
  ## Save new bird_prop_dat to edit for this run
 bird_prop_dat_e     <- bird_prop_dat
@@ -2182,26 +2288,22 @@ bird_prop_dat_agg   <- bird_prop_dat_e %>%
    group_by(county, month, year) %>%
    mutate(prop = ebird_prior / sum(ebird_prior))
 
-  ## A single entry from host_comp_summary
-host_comp_summary_t <- host_comp_summary[, c(1:5, (ncol(host_comp_summary) - nsamps + i))]
+bird_prop_dat_agg <- as.data.frame(bird_prop_dat_agg)
 
-  ## Spread the single entry
-host_comp_summary_t <- spread(host_comp_summary_t, c("outcome")
-  , names(host_comp_summary_t)[ncol(host_comp_summary_t)])
+## Add the bird species competence data
+temp_comm <- cbind(bird_prop_dat_agg
+  , data.frame(total_transmission = unlist(host_comp_summary_rt[match_vec_rt, 1 + i]))
+  , data.frame(biting_pref        = unlist(host_comp_summary_bp[match_vec_bp, 1 + i]))
+  )
 
-## Order of operations here is to spread the data back out, then calculate the result
-## save the results, then loop over
-## probably will need to save results into a melted matrix and then once again spread after the function is run
+## Add the mosquito_to_bird transmission probability matched with the temp in the time and place
+m_to_b_trans_sing <- m_to_b_trans[, c(1, i + 1)]
+names(m_to_b_trans_sing)[2] <- "trans_prob"
+m_to_b_trans_sing <- m_to_b_trans_sing %>% 
+  group_by(temp) %>% 
+  summarize(tot_m_b_trans = sum(trans_prob))
 
-  ## sum transmission over days, already weighted by bite preference
-host_comp_summary_agg <- host_comp_summary_t %>%
-  group_by(species) %>%
-  summarize(total_transmission = sum(realized_transmission)
-         ,  biting_pref        = mean(biting_pref))         ## all values are the same so this just collapses
-
-  ## match the two data frames
-match_vec <- match(bird_prop_dat_agg[["phylo_name"]], host_comp_summary_agg[["species"]])
-temp_comm <- data.frame(bird_prop_dat_agg, host_comp_summary_agg[match_vec, c(2, 3)])
+temp_comm <- left_join(temp_comm, m_to_b_trans_sing, by = c("temp"))
 
 ## calculate the community competence using relative biting preference
  sub_comm_comp <- temp_comm %>% 
@@ -2215,10 +2317,9 @@ temp_comm <- data.frame(bird_prop_dat_agg, host_comp_summary_agg[match_vec, c(2,
     ## Median estimate for NY99 mosquito to bird transmission, incorporating bird survival, infectious period, and 
      ## mosquito to bird infection probability. No error here, because it is not the focus of the paper, just a reasonable
       ## estimate for this arm of the transmission cycle
-    sum(m_to_b_trans *                                            
+    tot_m_b_trans *                                            
     ## mosquito biting rate
       0.14                                                   ## bite / infected mosquito * day
-    )
     ## alternative extremely crude estimate for average probability of mosquito to bird infection
       # 0.5 * 30   ## (infected host / bite) * day
     ## First part is: (bird / bird) * (infected host / bite) * (bite / infected mosquito * day) * (day) = (infected bird / infected mosquito)
@@ -2234,7 +2335,7 @@ temp_comm <- data.frame(bird_prop_dat_agg, host_comp_summary_agg[match_vec, c(2,
       0.14 *                                                  ## bite / susceptible mosquito * day
     ## number of infective days
       8 *                                                     ## day       
-    ## number of mosquitos per infected bird. Ratio of mosquitos to birds is assumed to be 10 for any community
+    ## number of mosquitos per infected bird. Ratio of mosquitos to birds is assumed to be 3 for any community
       3                                                      ## susceptible mosquitos / infected bird
     ## Second part produces a vector of infected mosquito / infected mosquito, attributable to each bird (the sum gives R0): 
      ## (bird / bird) * (infected mosquito / bite) * (bite / susceptible mosquito * day) * (day) * (susceptible mosquitos / infected bird) 
@@ -2247,7 +2348,7 @@ temp_comm <- data.frame(bird_prop_dat_agg, host_comp_summary_agg[match_vec, c(2,
   sub_comm_comp <- sub_comm_comp %>% 
    group_by(county, month, year) %>% 
     summarize(
-   R0       = sum(bird_to_mosquito)    ## first t makes matrix, second t transposes
+   R0       = sum(bird_to_mosquito) 
  , num_spec = length(unique(phylo_name))
  , num_ind  = sum(ebird_prior))  
  
@@ -2267,8 +2368,8 @@ comm_comp_res_temp <- melt(sub_comm_comp, c("county", "month", "year"))
 
 ## store results from run i
 comm_comp_res[, i] <- comm_comp_res_temp[, 5]
- 
-})[3]
+
+})
  
 if (i == 1) {
 check_time_t <- check_time 
@@ -2279,76 +2380,131 @@ check_time_t <- check_time_t + check_time
 len_na  <- length(which(is.na(comm_comp_res_temp[, 3])))
 len_nan <- length(which(comm_comp_res_temp[, 3] == "NaN"))
 
-print(paste("Run #", i, "number_na =", len_na, "number_nan =", len_nan, sep = " "
-  , "round time =", run_time = round(check_time, 2)
-  , "total_time =", total_time = round(check_time_t, 2)))
-
+if (print_prog == TRUE) {
+print(
+  paste("Run #", i, "number_na =", len_na, "number_nan =", len_nan, sep = " "
+  , "round time =", run_time = round(check_time, 2)[3]
+  , "total_time =", total_time = round(check_time_t, 2)[3])
+  )
 }
 
+}
+  
 return(cbind(comm_comp_info, comm_comp_res))
 
 }
   ## Calculate species competence as defined by the effect on community R0 when substituted
    ## Calculates median species effect in each community in which it is found
+ ## Updated to incorporate temperature variation at the scale of the bird communities
 check_species_importance_no_uncer_R0 <- function (host_comp_summary, bird_prop_dat, comm_detect_est
-                                                    , nsamps, mosquito_survival, m_to_b_trans_samps) {
+                                                    , nsamps, mosquito_survival, m_to_b_trans_samps, county_temp_data) {
   
   
-  ## Just use median mosquito to bird transmission here, uncertainty wont effect answers here
-    ## Calculate mosquito to bird transmission with uncertainty
-temp_day  <- seq(1, 50, by = 1)
-temp_temp <- c(26)
-temp_LD   <- c(5.5)
+ ## Remove the few data rows without a county ID
+bird_prop_dat <- bird_prop_dat %>% filter(county != "")
+   
+ ## match detection estimates with each bird species, adding detection est to data frame of ebird counts
+match_vec_de   <- match(bird_prop_dat[["phylo_name"]], comm_detect_est[["species"]])
 
-newdat    <- data.frame(
-  Longevity_Days = temp_day
-, Temperature    = rep(temp_temp, 50))
+## Median estimates
+bird_prop_dat <- transform(bird_prop_dat, detectability = comm_detect_est[match_vec_de, 2])
 
-## No uncertainty in survival currently...
-newdat    <- transform(newdat, survival = plogis(predict(mosquito_survival, newdata = newdat)))
-
-m_to_b_trans <- cbind(
-   newdat
- , data.frame(
-   trans_prob = plogis(
-  median(m_to_b_trans_samps[, 1])                                    + 
-  median(m_to_b_trans_samps[, 2]) * temp_day                         + 
-  median(m_to_b_trans_samps[, 3]) * rep(temp_LD, length(temp_day))   +
-  median(m_to_b_trans_samps[, 4]) * rep(temp_temp, length(temp_day)) +
-  median(m_to_b_trans_samps[, 5]) * temp_day * rep(temp_temp, length(temp_day)))))
-  
-## Just a vector of transmission weighted by mosquito survival
-m_to_b_trans        <- m_to_b_trans[["trans_prob"]] * m_to_b_trans[["survival"]] 
-  
-  ## first match detection estimates with each bird species, adding detection est to data frame of ebird counts
-temp_match <- match(bird_prop_dat[["phylo_name"]], comm_detect_est[["species"]])
-
- ## Select a new column of detectabilities
- bird_prop_dat <- transform(bird_prop_dat, detectability = comm_detect_est[temp_match, 2])
- 
- ## scale the ebird counts using the detection distances
+## scale the ebird counts using the detection distances
  bird_prop_dat <- bird_prop_dat %>%
    group_by(county, month, year) %>%
    mutate(detectability = 1 / (detectability / max(detectability)))
- 
  bird_prop_dat <- transform(bird_prop_dat, ebird_prior = ebird_prior * detectability)
  
-  ## aggregate ebird data
+## aggregate ebird data
 bird_prop_dat_agg <- bird_prop_dat %>% 
    group_by(county, month, year) %>%
    mutate(prop = ebird_prior / sum(ebird_prior))
 
-  ## match the two data frames
+## match the two data frames
 match_vec <- match(bird_prop_dat_agg[["phylo_name"]], host_comp_summary[["species"]])
 temp_comm <- data.frame(bird_prop_dat_agg, host_comp_summary[match_vec, c(2, 3)])
 
-  ## Aggregate to the species level
+## Aggregate to the species level
 temp_comm2 <- temp_comm %>% 
    group_by(county, month, year, phylo_name) %>%
   summarize(
     bite_pref          = mean(bite_pref)
   , weighted_sum       = sum(prop)
   , total_transmission = mean(med_comp))
+
+## Just use median mosquito to bird transmission here, uncertainty wont effect answers here
+ ## Calculate mosquito to bird transmission with uncertainty
+temp_day  <- seq(1, 50, by = 1)
+## No uncertainty in survival currently...
+newdat       <- mosquito_survival %>% filter(Longevity_Days <= max(temp_day))
+temp_range   <- seq(min(county_temp_data$temp), max(county_temp_data$temp))
+temp_LD   <- c(5.5)
+
+for (j in 1:length(temp_range)) {
+
+## Instead of sampling the posterior, just use the median estimate. The rest of the columns (which are now
+ ## just duplicates, are thrown away later)
+  ## not used here, just set up to match when uncertainty is used
+temp_samps   <- sample(seq(1, nrow(m_to_b_trans_samps), by = 1), nsamps)  
+  
+m_to_b_trans_temp <- plogis(
+matrix(
+    rep(median(m_to_b_trans_samps[, 1]), each = length(temp_day))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(median(m_to_b_trans_samps[, 2]), each = length(temp_day)) * rep(temp_day, length(temp_samps)) 
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(median(m_to_b_trans_samps[, 3]), each = length(temp_day)) * rep(temp_LD, length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(median(m_to_b_trans_samps[, 4]), each = length(temp_day)) * rep(temp_range[j], length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+) +
+matrix(
+  rep(median(m_to_b_trans_samps[, 5]), each = length(temp_day)) * 
+  rep(temp_day, length(temp_samps)) *
+  rep(temp_range[j], length(temp_day) * length(temp_samps))
+  , ncol = length(temp_samps)
+  , nrow = length(temp_day)
+)
+     )
+
+m_to_b_trans_temp <- cbind(
+  data.frame(temp = rep(temp_range[j], length(temp_day)))
+, sweep(m_to_b_trans_temp, 1, 
+  matrix(newdat[newdat$Temperature == temp_range[j], ][["Survival"]])
+  , FUN = "*")
+)
+
+## Transmission weighted by mosquito survival
+if (j == 1) {
+m_to_b_trans <- m_to_b_trans_temp  
+} else {
+m_to_b_trans <- rbind(m_to_b_trans, m_to_b_trans_temp)
+}
+
+}
+  
+## Add the mosquito_to_bird transmission probability matched with the temp in the time and place
+m_to_b_trans_sing <- m_to_b_trans[, c(1, 2)] ## Doesn't matter which column is used because they are all the medians
+names(m_to_b_trans_sing)[2] <- "trans_prob"
+m_to_b_trans_sing <- m_to_b_trans_sing %>% 
+  group_by(temp) %>% 
+  summarize(tot_m_b_trans = sum(trans_prob))
+
+## Also merge the temperature data into the community dataframe and then add the mosquito to bird transmission
+ ## estimates, matched with temperature
+temp_comm2 <- transform(temp_comm2, month = as.character(month))
+temp_comm2 <- left_join(temp_comm2, county_temp_data, by = c("county", "year", "month"))
+temp_comm2 <- left_join(temp_comm2, m_to_b_trans_sing, by = c("temp"))
 
 ## Calculate weighted competence for each species
 temp_comm2 <- temp_comm2 %>% 
@@ -2362,10 +2518,9 @@ temp_comm2 <- temp_comm2 %>%
     ## Median estimate for NY99 mosquito to bird transmission, incorporating bird survival, infectious period, and 
      ## mosquito to bird infection probability. No error here, because it is not the focus of the paper, just a reasonable
       ## estimate for this arm of the transmission cycle
-    sum(m_to_b_trans *                                            
+    tot_m_b_trans *                                            
     ## mosquito biting rate
       0.14                                                   ## bite / infected mosquito * day
-    )
     ## alternative extremely crude estimate for average probability of mosquito to bird infection
       # 0.5 * 30   ## (infected host / bite) * day
     ## First part is: (bird / bird) * (infected host / bite) * (bite / infected mosquito * day) * (day) = (infected bird / infected mosquito)
@@ -2393,7 +2548,7 @@ temp_comm3 <- temp_comm2 %>%
   group_by(county, month, year) %>%
   arrange(desc(bird_to_mosquito))
 
-## Add max # species
+## Add max number of species
 temp_comm4 <- temp_comm3 %>% 
    group_by(county, month, year) %>%
    summarize(rank = n()) %>%
@@ -2411,14 +2566,13 @@ temp_comm5[["unique_communities"]] <- temp_comm5 %>%
 
 ## black numeric to be filled in later
 temp_comm5 <- temp_comm5 %>%
-   mutate(
-    spec_dilut_amp_substitutive = numeric(n()))
+   mutate(spec_dilut_amp_substitutive = numeric(n()))
 
 unique_community   <- unique(temp_comm5[["unique_communities"]])
 time_check         <- numeric(length(unique_community))
 running_spec_count <- numeric(length(unique_community))
 
-## black columns for summary stats
+## blank columns for summary stats
 temp_comm5 <- transform(temp_comm5
   , full_comm_R0   = numeric(nrow(temp_comm5))
   , minus_spec_R0  = numeric(nrow(temp_comm5))
@@ -2428,8 +2582,7 @@ temp_comm5 <- transform(temp_comm5
 for (i in 1:length(unique_community)) {
 
 ## subset to the community of interest
-mini_com <- droplevels(subset(temp_comm5
-  , unique_communities == unique_community[i]))
+mini_com <- droplevels(subset(temp_comm5, unique_communities == unique_community[i]))
     
 ## cumulative sum of species analyzed for time tracker
 running_spec_count[i] <- mini_com[["rank"]][1]
@@ -2461,10 +2614,9 @@ running_spec_count[i] <- mini_com[["rank"]][1]
     ## Median estimate for NY99 mosquito to bird transmission, incorporating bird survival, infectious period, and 
      ## mosquito to bird infection probability. No error here, because it is not the focus of the paper, just a reasonable
       ## estimate for this arm of the transmission cycle
-    sum(m_to_b_trans *                                            
+    tot_m_b_trans *                                            
     ## mosquito biting rate
       0.14                                                   ## bite / infected mosquito * day
-    )
     ## alternative extremely crude estimate for average probability of mosquito to bird infection
       # 0.5 * 30   ## (infected host / bite) * day
     ## First part is: (bird / bird) * (infected host / bite) * (bite / infected mosquito * day) * (day) = (infected bird / infected mosquito)
@@ -2508,7 +2660,8 @@ running_spec_count[i] <- mini_com[["rank"]][1]
      
   }
       }
-              ## Fill in the answers back into the main data frame
+ 
+  ## Fill in the answers back into the main data frame
   temp_comm5[temp_comm5[["unique_communities"]] == unique_community[i], c(13:17)] <- mini_com[, c(13:17)]
       
       }

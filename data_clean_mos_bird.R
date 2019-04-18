@@ -148,5 +148,7 @@ mosq_surv     <- glm(cbind(Surviving_Count
 mosqsurv      <- transform(mosqsurv, surv_fitted = fitted(mosq_surv))
 
 ### predict mosquito survival data
-new_temp_data <- expand.grid(Longevity_Days = seq(1, 120), Temperature = c(16, 21, 26, 31))
+new_temp_data <- expand.grid(
+    Longevity_Days = seq(1, 120, by = 1)
+  , Temperature    = seq(max(county_temp_data$temp), min(county_temp_data$temp)))
 new_temp_data <- transform(new_temp_data, Survival = plogis(predict(mosq_surv, newdata = new_temp_data)))

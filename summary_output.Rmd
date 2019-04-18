@@ -5,8 +5,8 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
 
-## This document provides a pdf summary of the results for each run of "top_level_script.R" 
-### Primary results and aspects of the dataset are presented here. All other results have been saved to disk in "saved_output"
+## This document provides a broad pdf summary of the results for the analysis run through "top_level_script.R" 
+### Just some primary results and aspects of the dataset are presented here. All other results have been saved to disk in "saved_output"
 
 ##### For *non-dynamic* (designed for our specific results) plots see: manuscript_figures.R. This script will produce some summaries, but not clean plots.
 
@@ -36,26 +36,31 @@ n_distinct(samp_data_com[["phylo_name"]])
 Median estimates among communities 
 
 ```{r R0 among communities, echo = FALSE}
+## Can be beautified a bit more (order of months and such...)
 ggplot(comm_comp_summary_p2, aes(med_comp)) + 
   geom_histogram(aes(y=..count..), bins = 100) + 
-  geom_vline(xintercept = median(comm_comp_summary_p2[["med_comp"]])
-    , linetype = "dotted", col = "grey", lwd = 1) +
-    geom_vline(xintercept = median(comm_comp_summary_p2_well_observed[["med_comp"]])
-    , linetype = "dotted", col = "blue", lwd = 1) +
+#  geom_vline(xintercept = median(comm_comp_summary_p2[["med_comp"]])
+#    , linetype = "dotted", col = "grey", lwd = 1) +
+#    geom_vline(xintercept = median(comm_comp_summary_p2_well_observed[["med_comp"]])
+#    , linetype = "dotted", col = "blue", lwd = 1) +
   geom_histogram(data = comm_comp_summary_p2_well_observed, aes(y=..count..)
     , colour = "blue", bins = 100, fill = "blue") +
   geom_vline(xintercept = 1, linetype = "dashed", col = "black", lwd = 1) +
+#  stat_density(geom = "line") +
   geom_hline(yintercept = 0, colour = "white", size = 1) +
   xlab("Community R0") +
-  ylab("Number of Communities")
+  ylab("Number of Communities") +
+  facet_wrap(~month)
 ```
 
 
-Median width of the CI for R0 among communities 
+Median R0, 95% quantiles in R0 among communities by month 
 
 ```{r R0 CI width, echo = FALSE}
-comm_comp_summary_p2_well_observed %>%
-  summarize(median(max_comp - min_comp))
+comm_comp_summary_p2_well_observed %>% group_by(month) %>% summarize(
+    Monthly_Medians = median(med_comp)
+  , Monthly_Lower_Quantile = quantile(med_comp, 0.05)
+  , Monthly_Upper_Quantile = quantile(med_comp, 0.95))
 ```
 
 
@@ -112,7 +117,7 @@ Most common (widespread --- appears in the most lists) species
 
 ```{r common spec, echo = FALSE}
 if (test_species_importance == TRUE) {
-head(as.data.frame(species_importance_most_observed_r))
+head(as.data.frame(species_importance_most_observed_r[order(species_importance_most_observed_r$med_dilut_effect, decreasing = TRUE), ]))
 }  else {
   print("Species importance wasn't run")
 }
@@ -123,7 +128,7 @@ Most abundant (raw counts) species
 
 ```{r abundant spec, echo = FALSE}
 if (test_species_importance == TRUE) {
-  head(as.data.frame(species_importance_most_abundant_r))
+head(as.data.frame(species_importance_most_abundant_r[order(species_importance_most_abundant_r$med_dilut_effect, decreasing = TRUE), ]))
 } else {
   print("Species importance wasn't run")
 }

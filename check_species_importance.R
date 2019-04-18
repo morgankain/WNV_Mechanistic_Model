@@ -2,6 +2,9 @@
 ### Check species importance ###
 ################################
 
+## not part of the pipeline, but convenient for debugging or checking this and that
+## species_importance <- readRDS("saved_output/species_importance_temp.Rds")
+
 if (test_species_importance == TRUE) {
 
 host_comp_summary_m <- melt(host_comp_summary, c("day", "log_dose", "species", "model", "outcome"))
@@ -54,11 +57,15 @@ red_all_spec <- unique(species_to_est_data_with_meta_red[["phylo_name"]])
  ## For reduced data set use:  species_to_est_data_with_meta_red
 species_importance <- check_species_importance_no_uncer_R0(
    host_comp_summary  = host_comp_summary_p1
- , bird_prop_dat      = species_to_est_data_with_meta_red
+ , bird_prop_dat      = species_to_est_data_with_meta
  , comm_detect_est    = host_comp_summary_p1[, c(1, 4)]
  , nsamps             = ifelse(no_uncer == TRUE, 1, uncertainty_list[["samps"]])
- , mosquito_survival  = mosq_surv
- , m_to_b_trans_samps = samps_mos_bird)
+ , mosquito_survival  = new_temp_data
+ , m_to_b_trans_samps = samps_mos_bird
+ , county_temp_data   = county_temp_data)
+
+## not part of the pipeline, but convenient for debugging or checking this and that
+## saveRDS(species_importance, "species_importance_full_dataset.Rds")
 
 rm(host_comp_summary_m); gc()
 

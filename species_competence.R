@@ -40,9 +40,3 @@ host_comp_summary_p2 <- host_comp_summary_p %>%
 ## sort
 host_comp_summary_p2 <- host_comp_summary_p2[order(host_comp_summary_p2[["med_comp"]]), ]
 host_comp_summary_p2 <- transform( host_comp_summary_p2, species = factor(species, levels = species))
-
-## plot top 30 species
-gg_spec_comp <- ggplot(tail(host_comp_summary_p2, 30), aes(species, med_comp)) + 
-  geom_point(lwd = 3) +
-  geom_errorbar(aes(ymin = min_comp, ymax = max_comp)) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))

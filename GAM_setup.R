@@ -25,7 +25,7 @@ comm_comp_summary_p2_r <- comm_comp_summary_p2 %>%
 
 comm_comp_summary_p2_m <- melt(comm_comp_summary_p2_r
   , c("Density", "X", "Y", "CNTY_NM", "month", "year", "med_comp"
-    , "var_comp", "num_lists"))
+    , "var_comp", "num_lists", "temp"))
 
 ## retain just the dominant habitat type
 comm_comp_summary_p2_m_dh <- 

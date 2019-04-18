@@ -11,7 +11,8 @@ comm_comp_spatio_temporal_f <- gamm(
     s(NATRGN, bs = "mrf", xt = xt) + 
     s(log(Density)) +
     ## Temporal fixed
-    s(month) + 
+    s(temp) +
+  # s(month) + 
     s(year)
     ## Spatial random
   , random = list(CNTY_NM = ~1)
@@ -24,11 +25,12 @@ comm_comp_spatio_temporal_f <- gamm(
 comm_comp_spatio_temporal_r <- gamm(
     med_comp ~ 
     ## Spatial fixed
-    s(NATRGN, bs = "mrf", xt = xt) + 
+    s(NATRGN, bs = "mrf", xt = xt) +
     s(log(Density)) +
     ## Temporal fixed
-    s(month) + 
-    s(year)
+    s(temp) +
+#   s(month) + 
+    s(year) 
     ## Spatial random
   , random = list(CNTY_NM = ~1)
     ## Other
@@ -46,7 +48,8 @@ comm_comp_spatio_temporal_f <- gamm(
     s(NATRGN, bs = "mrf", xt = xt) + 
     s(log(Density)) +
     ## Temporal fixed
-    s(month) + 
+    s(temp) +
+#   s(month) + 
     s(year)
     ## Spatial random
   , random = list(CNTY_NM = ~1)
@@ -58,11 +61,12 @@ comm_comp_spatio_temporal_f <- gamm(
 comm_comp_spatio_temporal_r <- gamm(
     med_comp ~ 
     ## Spatial fixed
-#   s(X, Y) +
+ #  s(X, Y) +
     s(NATRGN, bs = "mrf", xt = xt) + 
     s(log(Density)) +
     ## Temporal fixed
-    s(month) + 
+    s(temp) +
+#   s(month) + 
     s(year)
     ## Spatial random
   , random = list(CNTY_NM = ~1)
