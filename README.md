@@ -18,13 +18,13 @@ This code can be run using two methods: <br />
 			ii) Cant be run if there are missing scientific names (see "saved_matching" below) <br />
 	
 	This repository contains a number of folders, many of which are empty. The folders are one of three types: <br />		
-	1) Folders that need to have data placed in them prior to running the code. Data available as the supplementary material to Kain and Bolker 2019 at: URL HERE is organized in the appropriate folders <br />
+	(1) Folders that need to have data placed in them prior to running the code. Data available as the supplementary material to Kain and Bolker 2019 at: URL HERE is organized in the appropriate folders <br />
 		A) trees -- Contains phylogenetic tree data <br />
 		B) ebird_zip_fresh -- Contains the .zip ebird file <br />
 		C) data -- Contains all other data (bird responses, county data etc.) <br />
-	2) Folders that contain model components <br />
+	(2) Folders that contain model components <br />
 		A) stan -- Contains stan model definitions <br />
-        3) Folders that start empty but get filled as part of the automated workflow when output is saved to disk <br />
+        (3) Folders that start empty but get filled as part of the automated workflow when output is saved to disk <br />
         		A) ebird_data_for_R -- Will contain all of the eBird data once it is extracted <br />
         		B) ebird_zip_dump -- Will contain .zip files after they get extracted <br />
 		C) ebird_pieces -- One of two intermediate folders to momentarily house extracted eBird pieces <br />
