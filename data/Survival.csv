@@ -1,0 +1,1121 @@
+Citation,Scientific_Name,Host_Species,Host_Family,Host_Family_Simplified,Host_Order,WNV_Strain,Virus_Isolate_Date,Isolate_Location,Isolate_Lineage,Virus_Lineage,Virus_Dose,Dose_Method,Host_Isolate_Date,Host_Isolate_Location,Sample_Size_Original,Sample_Size_Death,Day,Titer,Titer_SD,Titer_SE,Survival,Alive,Potential_Error,Variance
+Komar et al. 2003,Fulica_americana,American coot,Rallidae,Other,Gruiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,1,1.7,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Fulica_americana,American coot,Rallidae,Other,Gruiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,2,3.4,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Fulica_americana,American coot,Rallidae,Other,Gruiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,3,4.5,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Fulica_americana,American coot,Rallidae,Other,Gruiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,4,4.6,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Fulica_americana,American coot,Rallidae,Other,Gruiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,5,2.8,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Fulica_americana,American coot,Rallidae,Other,Gruiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,6,0.85,,,1,1,N,Y
+Komar et al. 2003,Fulica_americana,American coot,Rallidae,Other,Gruiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,7,0.85,,,1,1,N,Y
+Komar et al. 2003,Fulica_americana,American coot,Rallidae,Other,Gruiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,8,,,,1,1,N,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,42000,needle,2002,Kansas,8,8,1,1.787,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,42000,needle,2002,Kansas,8,8,2,5.84,1.093,0.386433856,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,42000,needle,2002,Kansas,8,8,3,8.239,1.147,0.405525739,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,42000,needle,2002,Kansas,8,7,4,8.645,1.208,0.456581083,0.875,7,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,42000,needle,2002,Kansas,8,2,5,9.369,0.693,0.490024999,0.25,2,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,42000,needle,2002,Kansas,8,1,6,8.509,0.8282,0.347713136,0.125,1,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,42000,needle,2002,Kansas,8,0,7,0,,,0,0,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,,1a1,B,42000,needle,2002,Kansas,8,0,8,,,,0,0,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,1,1.676,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,2,1.582,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,3,2.109,1.458,0.515480843,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,4,2.852,2.332,0.824486507,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,5,2.935,2.476,0.875398195,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,6,2.855,1.117,0.394919137,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,7,2.334,1.419,0.501692261,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,7,8,0.85,,,0.875,7,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,42000,needle,2002,Kansas,8,8,1,1.681,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,42000,needle,2002,Kansas,8,8,2,2.468,0.888,0.313955411,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,42000,needle,2002,Kansas,8,8,3,4.044,0.883,0.312187644,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,42000,needle,2002,Kansas,8,8,4,2.788,1.316,0.465276262,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,42000,needle,2002,Kansas,8,8,5,0.85,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,42000,needle,2002,Kansas,8,8,6,0.85,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,42000,needle,2002,Kansas,8,8,7,0.85,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,42000,needle,2002,Kansas,8,8,8,0.85,,,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-sub,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,1,1.65,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-sub,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,2,1.741,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-sub,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,3,1.694,0,0,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-sub,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,4,2.766,1.202,0.424971175,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-sub,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,5,3.952,1.086,0.383958982,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-sub,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,6,3.972,1.247,0.440881078,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-sub,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,7,2.626,1.255,0.443709505,1,8,Y,Y
+Brault et al. 2004,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-sub,1998,Kenya,1a1,A,42000,needle,2002,Kansas,8,8,8,0.85,,,1,8,Y,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,1,1.564,0,0,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,2,1.724,0,0,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,3,2.886,1.413,0.35325,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,4,4.695,1.824,0.456,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,5,5.211,1.315,0.32875,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,6,4.87,1.461,0.36525,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,7,3.861,1.046,0.2615,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,15,8,0.85,,,0.9375,15,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya_sub,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,1,1.564,0,0,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya_sub,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,2,1.724,0.49,0.1225,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya_sub,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,3,2.343,1.293,0.32325,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya_sub,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,4,3.004,1.974,0.4935,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya_sub,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,16,5,3.499,2.079,0.51975,1,16,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya_sub,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,13,6,3.304,0.675,0.187211316,0.8125,13,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya_sub,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,2,7,3.067,1.208,0.854184992,0.125,2,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya_sub,1998,Kenya,1a1,A,15000,needle,2005,Kansas,16,0,8,0,,,0,0,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,15000,needle,2005,Kansas,8,8,1,3.15,0,0,1,8,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,15000,needle,2005,Kansas,8,8,2,6.463,0.715,0.252790674,1,8,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,15000,needle,2005,Kansas,8,8,3,8.502,0.796,0.281428499,1,8,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,15000,needle,2005,Kansas,8,7,4,9.476,0.801,0.302749543,0.875,7,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,15000,needle,2005,Kansas,8,3,5,8.238,0.505,0.291561886,0.375,3,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,15000,needle,2005,Kansas,8,3,6,7.208,1.423,0.821569433,0.375,3,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,15000,needle,2005,Kansas,8,0,7,0,,,0,0,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,15000,needle,2005,Kansas,8,0,8,,,,0,0,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991_sub,1999,New York,1a1,B,15000,needle,2005,Kansas,8,8,1,1.564,0,0,1,8,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991_sub,1999,New York,1a1,B,15000,needle,2005,Kansas,8,8,2,4.313,0.746,0.263750829,1,8,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991_sub,1999,New York,1a1,B,15000,needle,2005,Kansas,8,8,3,6.957,0.849,0.300166829,1,8,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991_sub,1999,New York,1a1,B,15000,needle,2005,Kansas,8,8,4,8.078,1.137,0.401990205,1,8,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991_sub,1999,New York,1a1,B,15000,needle,2005,Kansas,8,8,5,8.112,1.817,0.642406511,1,8,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991_sub,1999,New York,1a1,B,15000,needle,2005,Kansas,8,6,6,7.187,2.233,0.911618433,0.75,6,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991_sub,1999,New York,1a1,B,15000,needle,2005,Kansas,8,2,7,2.399,1.184,0.837214429,0.25,2,N,Y
+Brault et al. 2007,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991_sub,1999,New York,1a1,B,15000,needle,2005,Kansas,8,1,8,0.85,,,0.125,1,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,BIRD1153,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,1,1.728571196,0,0,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,BIRD1153,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,2,3.638738797,1.288738797,0.455637971,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,BIRD1153,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,3,5.263194439,1.627194439,0.575300111,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,BIRD1153,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,4,5.973518327,1.587580948,0.561294627,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,BIRD1153,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,5,5.340849484,2.141849484,0.757258147,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,BIRD1153,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,7,6,3.051051273,2.264948727,0.856070152,0.875,7,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,BIRD1153,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,6,7,1.675458075,0,0,0.75,6,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,BIRD1153,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,6,8,0.85,,,0.75,6,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TWN301,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,1,1.728571196,0,0,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TWN301,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,2,5.810149694,0.514850306,0.182027072,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TWN301,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,3,8.32038567,1.08161433,0.382408414,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TWN301,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,4,9.659129352,0.595870648,0.210672088,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TWN301,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,6,5,9.512170841,0.801829159,0.327345383,0.75,6,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TWN301,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,0,6,0,,,0,0,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TWN301,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,0,7,,,,0,0,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TWN301,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,0,8,,,,0,0,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM173-03-pp1,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,1,1.728644455,0,0,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM173-03-pp1,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,2,1.810108994,0,0,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM173-03-pp1,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,3,3.148925935,0.895925935,0.316757652,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM173-03-pp1,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,4,4.087746131,1.088746131,0.384929886,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM173-03-pp1,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,5,3.655075661,1.792075661,0.633594426,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM173-03-pp1,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,8,6,2.365342569,1.389657431,0.491318096,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM173-03-pp1,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,6,7,1.646886879,0,0,0.75,6,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM173-03-pp1,2003,Texas,1a2,C,15000,needle,2009,Colorado,8,4,8,0.85,,,0.5,4,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,Colorado,8,8,1,1.728717715,0,0,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,Colorado,8,8,2,5.867365345,1.056634655,0.373576765,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,Colorado,8,8,3,8.206027627,0.862972373,0.305106808,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,Colorado,8,8,4,8.630566296,1.245433704,0.440327309,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,Colorado,8,2,5,9.340743665,0.724256335,0.512126566,0.25,2,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,Colorado,8,1,6,8.479431995,0.777859413,0.32622749,0.125,1,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,Colorado,8,0,7,0,,,0,0,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,Colorado,8,0,8,,,,0,0,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,Colorado,8,8,1,2.299921857,0.826078143,0.292062729,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,Colorado,8,8,2,4.638803917,1.014803917,0.358787366,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,Colorado,8,8,3,5.691689119,1.619689119,0.57264658,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,Colorado,8,8,4,6.830580948,2.490518327,0.880531199,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,Colorado,8,8,5,6.369339281,2.246660719,0.794314515,1,8,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,Colorado,8,3,6,3.908113894,3.189886106,1.841681602,0.375,3,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,Colorado,8,3,7,1.70417579,0,0,0.375,3,N,Y
+Brault et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,Colorado,8,3,8,0.85,,,0.375,3,N,Y
+Grubaugh et al. 2015,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,1,,,,1,4,N,Y
+Grubaugh et al. 2015,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,2,4.736,1.049,0.5245,1,4,N,Y
+Grubaugh et al. 2015,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,3,6.263,0.396,0.198,1,4,N,Y
+Grubaugh et al. 2015,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,4,7.189,1.414,0.707,1,4,N,Y
+Grubaugh et al. 2015,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,5,6.28,2.785,1.3925,1,4,N,Y
+Grubaugh et al. 2015,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,3,6,4.251,2.464,1.422591063,0.75,3,N,Y
+Grubaugh et al. 2015,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,1,7,0.85,,,0.25,1,N,Y
+Grubaugh et al. 2015,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,0,8,0,,,0,0,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,1500,needle,2004,Colorado,8,8,1,3.198,0.525,0.18561553,1,8,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,1500,needle,2004,Colorado,8,8,2,6.497,0.672,0.237587878,1,8,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,1500,needle,2004,Colorado,8,8,3,8.473,0.824,0.291327994,1,8,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,1500,needle,2004,Colorado,8,8,4,9.485,0.771,0.272589664,1,8,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,1500,needle,2004,Colorado,8,5,5,8.212,0.503,0.224948439,0.625,5,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,1500,needle,2004,Colorado,8,1,6,7.18,1.43,1.43,0.125,1,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,1500,needle,2004,Colorado,8,0,7,0,,,0,0,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,P991,1999,New York,1a1,B,1500,needle,2004,Colorado,8,0,8,,,,0,0,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1500,needle,2004,Colorado,16,16,1,1.736,0,0,1,16,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1500,needle,2004,Colorado,16,16,2,1.828,0.205,0.05125,1,16,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1500,needle,2004,Colorado,16,16,3,2.71,1.116,0.279,1,16,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1500,needle,2004,Colorado,16,16,4,4.469,1.742,0.4355,1,16,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1500,needle,2004,Colorado,16,16,5,5.168,1.663,0.41575,1,16,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1500,needle,2004,Colorado,16,16,6,4.883,1.426,0.3565,1,16,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1500,needle,2004,Colorado,16,16,7,3.822,1.104,0.276,1,16,N,Y
+Kinney et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1500,needle,2004,Colorado,16,15,8,0.85,,,0.9375,15,N,Y
+Kipp et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,1,6.069,0.27825,0.087990376,1,10,N,Y
+Kipp et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,2,8.698,0.63125,0.199618777,1,10,N,Y
+Kipp et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,3,10.387,0.37275,0.1178739,1,10,N,Y
+Kipp et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,1,4,10.314,0.25175,0.25175,0.1,1,N,Y
+Kipp et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,0,5,0,,,0,0,N,Y
+Kipp et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,0,6,,,,0,0,N,Y
+Kipp et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,0,7,,,,0,0,N,Y
+Kipp et al. 2006,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,0,8,,,,0,0,N,Y
+Komar et al. 2003,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,8,8,1,5.8,1.65,0.583363094,1,8,N,Y
+Komar et al. 2003,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,8,8,2,8.7,2.4,0.848528137,1,8,N,Y
+Komar et al. 2003,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,8,8,3,9.9,0.975,0.344714556,1,8,N,Y
+Komar et al. 2003,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,8,6,4,10.2,0.4,0.163299316,0.75,6,N,Y
+Komar et al. 2003,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,8,3,5,10.8,0.55,0.317542648,0.375,3,N,Y
+Komar et al. 2003,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,8,0,6,0,,,0,0,N,Y
+Komar et al. 2003,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,8,0,7,,,,0,0,N,Y
+Komar et al. 2003,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,8,0,8,,,,0,0,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,1,3.317,0.687,0.242891179,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,2,6.548,0.695,0.245719606,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,3,8.523,0.89,0.315,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,4,9.586,0.836,0.295570635,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2005,Colorado,8,4,5,8.213,0.57,0.285,0.5,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2005,Colorado,8,4,6,7.211,1.023,0.5115,0.5,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2005,Colorado,8,0,7,0,,,0,0,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2005,Colorado,8,0,8,,,,0,0,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2005,Colorado,8,8,1,1.776,0,0,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2005,Colorado,8,8,2,5.517,1.425,0.503813582,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2005,Colorado,8,8,3,7.477,0.827,0.292388654,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2005,Colorado,8,8,4,8.852,1.006,0.355674711,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2005,Colorado,8,4,5,8.476,1.142,0.571,0.5,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2005,Colorado,8,3,6,7.133,0.871,0.502872084,0.375,3,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2005,Colorado,8,2,7,6.373,0.314,0.222031529,0.25,2,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2005,Colorado,8,0,8,0,,,0,0,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2005,Colorado,8,8,1,1.696,0,0,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2005,Colorado,8,8,2,4.993,0.827,0.292388654,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2005,Colorado,8,8,3,7.35,0.673,0.237941432,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2005,Colorado,8,8,4,8.924,1.008,0.356381818,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2005,Colorado,8,8,5,8.795,1.234,0.436284884,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2005,Colorado,8,4,6,8.065,1.916,0.958,0.5,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2005,Colorado,8,1,7,6.805,0.943,0.380166131,0.125,1,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2005,Colorado,8,1,8,0.85,,,0.125,1,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,1,1.734,0,0,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,2,4.441,1.058,0.374059487,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,3,6.501,0.851,0.300873935,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,4,6.856,1.291,0.456437427,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,5,6.814,2.046,0.723370237,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2005,Colorado,8,7,6,5.997,2.556,0.966077193,0.875,7,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2005,Colorado,8,5,7,3.831,1.300333333,0.47013638,0.625,5,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2005,Colorado,8,3,8,0.85,,,0.375,3,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,1,1.721,0,0,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,2,1.867,0.396,0.140007143,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,3,2.352,1.286,0.45466966,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,4,3.027,1.961,0.693318199,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,5,3.457,2.11,0.746,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,6,3.873,2.423,0.856659865,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2005,Colorado,8,8,7,3.53,1.873,0.662205501,1,8,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2005,Colorado,8,7,8,0.85,,,0.875,7,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2011,Colorado,4,4,1,1.995,0,0,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2011,Colorado,4,4,2,5.265,2.042,1.021,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2011,Colorado,4,4,3,8.629,1.847,0.9235,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2011,Colorado,4,3,4,10.527,1.284,0.741317746,0.75,3,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2011,Colorado,4,1,5,11.746,1.004,1.004,0.25,1,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2011,Colorado,4,1,6,11.558,1.184,1.184,0.25,1,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2011,Colorado,4,0,7,0,,,0,0,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2011,Colorado,4,0,8,,,,0,0,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2011,Colorado,4,4,1,2.161,0.242,0.121,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2011,Colorado,4,4,2,3.64,1.613,0.8065,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2011,Colorado,4,4,3,6.747,0.892,0.446,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2011,Colorado,4,4,4,7.307,0.636,0.318,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2011,Colorado,4,4,5,7.346,3.137,1.5685,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2011,Colorado,4,4,6,6.416,3.297,1.6485,1,4,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2011,Colorado,4,3,7,5.731,3.875,2.237232293,0.75,3,N,Y
+Langevin et al. 2014,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2011,Colorado,4,2,8,0.85,,,0.5,2,N,Y
+Nemeth et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,1,0.574333333,0.984382717,0.568333627,1,3,N,Y
+Nemeth et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,2,5.029,0.630348316,0.36393177,1,3,N,Y
+Nemeth et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,3,8.012666667,0.446656841,0.257877447,1,3,N,Y
+Nemeth et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,4,8.797333333,0.959675119,0.554068688,1,3,N,Y
+Nemeth et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,5,8.616,0.833730772,0.481354686,1,3,N,Y
+Nemeth et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,2,6,7.514666667,0.205000813,0.144957465,0.666666667,2,N,Y
+Nemeth et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,2,7,0.85,,,0.666666667,2,N,Y
+Nemeth et al. 2011,Corvus_brachyrhynchos,American crow,Corvidae,Corvidae,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,2,8,0.85,,,0.666666667,2,N,Y
+Komar et al. 2003,Falco_sparverius,American kestrel,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,1,6.2,0.225,0.159099026,1,2,N,Y
+Komar et al. 2003,Falco_sparverius,American kestrel,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,2,8.4,0.725,0.512652416,1,2,N,Y
+Komar et al. 2003,Falco_sparverius,American kestrel,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,3,6.6,0.175,0.123743687,1,2,N,Y
+Komar et al. 2003,Falco_sparverius,American kestrel,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,4,3.8,0.1,0.070710678,1,2,N,Y
+Komar et al. 2003,Falco_sparverius,American kestrel,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,5,2,0.575,0.406586399,1,2,N,Y
+Komar et al. 2003,Falco_sparverius,American kestrel,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,6,0.85,0,0,1,2,N,Y
+Komar et al. 2003,Falco_sparverius,American kestrel,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,7,0.85,0,0,1,2,N,Y
+Komar et al. 2003,Falco_sparverius,American kestrel,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,8,,,,1,2,N,Y
+Kilpatrick et al. 2010,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,WN02,2003,New York,1a2,C,10000,needle,2007,New York,2,2,1,5.0125,0.721956024,0.5105,1,2,N,Y
+Kilpatrick et al. 2010,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,WN02,2003,New York,1a2,C,10000,needle,2007,New York,2,2,2,6.572,0.216374675,0.153,1,2,N,Y
+Kilpatrick et al. 2010,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,WN02,2003,New York,1a2,C,10000,needle,2007,New York,2,2,3,4.7485,0.359917352,0.2545,1,2,N,Y
+Kilpatrick et al. 2010,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,WN02,2003,New York,1a2,C,10000,needle,2007,New York,2,2,4,3.804,0.6986215,0.494,1,2,N,Y
+Kilpatrick et al. 2010,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,WN02,2003,New York,1a2,C,10000,needle,2007,New York,2,2,5,2.302,0.014142136,0.01,1,2,N,Y
+Kilpatrick et al. 2010,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,WN02,2003,New York,1a2,C,10000,needle,2007,New York,2,2,6,0.85,,,1,2,N,Y
+Kilpatrick et al. 2010,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,WN02,2003,New York,1a2,C,10000,needle,2007,New York,2,2,7,0.85,,,1,2,N,Y
+Kilpatrick et al. 2010,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,WN02,2003,New York,1a2,C,10000,needle,2007,New York,2,2,8,,,,1,2,N,Y
+Komar et al. 2003,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,1,5.8,0.075,0.053033009,1,2,N,Y
+Komar et al. 2003,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,2,8.9,0.35,0.247487373,1,2,N,Y
+Komar et al. 2003,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,3,7.3,0.175,0.123743687,1,2,N,Y
+Komar et al. 2003,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,4,4.6,0.3,0.212132034,1,2,N,Y
+Komar et al. 2003,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,5,2,0.575,0.406586399,1,2,N,Y
+Komar et al. 2003,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,6,0,0,0,1,2,N,Y
+Komar et al. 2003,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,7,0,0,0,1,2,N,Y
+Komar et al. 2003,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,8,,,,1,2,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,8.912509381,needle,2005,Colorado,5,5,1,0,0,0,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,8.912509381,needle,2005,Colorado,5,5,2,2.22,3.041710045,1.360294086,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,8.912509381,needle,2005,Colorado,5,5,3,3.18,4.361421787,1.950487119,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,8.912509381,needle,2005,Colorado,5,5,4,3.28,4.518517456,2.020742438,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,8.912509381,needle,2005,Colorado,5,4,5,2.84,4.050061728,2.025030864,0.8,4,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,8.912509381,needle,2005,Colorado,5,4,6,0.575,1.15,0.575,0.8,4,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,8.912509381,needle,2005,Colorado,5,4,7,0.85,,,0.8,4,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,8.912509381,needle,2005,Colorado,5,4,8,,,,0.8,4,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,18.19700859,needle,2005,Colorado,7,7,1,0.442857143,1.171689866,0.442857143,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,18.19700859,needle,2005,Colorado,7,7,2,2.957142857,3.157983081,1.193605411,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,18.19700859,needle,2005,Colorado,7,6,3,3.485714286,3.618207923,1.477127199,0.857142857,6,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,18.19700859,needle,2005,Colorado,7,6,4,1.2,1.860107524,0.759385717,0.857142857,6,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,18.19700859,needle,2005,Colorado,7,6,5,0.85,0,0,0.857142857,6,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,18.19700859,needle,2005,Colorado,7,6,6,0.85,0,0,0.857142857,6,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,18.19700859,needle,2005,Colorado,7,6,7,0.85,,,0.857142857,6,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,18.19700859,needle,2005,Colorado,7,6,8,,,,0.857142857,6,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,141.2537545,needle,2005,Colorado,5,5,1,0.42,0.939148551,0.42,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,141.2537545,needle,2005,Colorado,5,5,2,3.92,2.37844487,1.063672882,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,141.2537545,needle,2005,Colorado,5,5,3,4.94,3.036939249,1.358160521,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,141.2537545,needle,2005,Colorado,5,5,4,3.5,2.465765601,1.1027239,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,141.2537545,needle,2005,Colorado,5,5,5,1.96,1.852835665,0.828613299,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,141.2537545,needle,2005,Colorado,5,5,6,0.85,1.252198067,0.56,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,141.2537545,needle,2005,Colorado,5,5,7,0.85,,,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,141.2537545,needle,2005,Colorado,5,5,8,,,,1,5,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,1412.537545,needle,2005,Colorado,7,7,1,2.785714286,1.343414271,0.507762867,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,1412.537545,needle,2005,Colorado,7,7,2,5.285714286,1.188035594,0.449035247,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,1412.537545,needle,2005,Colorado,7,7,3,6.157142857,1.019570404,0.385361391,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,1412.537545,needle,2005,Colorado,7,7,4,4.128571429,1.191237852,0.450245587,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,1412.537545,needle,2005,Colorado,7,7,5,2.128571429,1.561745056,0.590284147,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,1412.537545,needle,2005,Colorado,7,7,6,0.285714286,0.755928946,0.285714286,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,1412.537545,needle,2005,Colorado,7,7,7,0.85,,,1,7,N,Y
+VanDalen et al. 2014,Turdus_migratorius,American robin,Turdidae,Turdidae,Passeriformes,NY99,1999,New York,1a1,B,1412.537545,needle,2005,Colorado,7,7,8,,,,1,7,N,Y
+Komar et al. 2003,Pica_hudsonia,Black-billed magpie,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,5.3,0.5,0.288675135,1,3,N,Y
+Komar et al. 2003,Pica_hudsonia,Black-billed magpie,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,8.3,0.225,0.129903811,1,3,N,Y
+Komar et al. 2003,Pica_hudsonia,Black-billed magpie,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,8.8,0.175,0.101036297,1,3,N,Y
+Komar et al. 2003,Pica_hudsonia,Black-billed magpie,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,4.9,0.05,0.028867513,1,3,N,Y
+Komar et al. 2003,Pica_hudsonia,Black-billed magpie,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,4,0.025,0.014433757,1,3,N,Y
+Komar et al. 2003,Pica_hudsonia,Black-billed magpie,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,0,6,0,,,0,0,N,Y
+Komar et al. 2003,Pica_hudsonia,Black-billed magpie,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,0,7,,,,0,0,N,Y
+Komar et al. 2003,Pica_hudsonia,Black-billed magpie,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,0,8,,,,,0,N,Y
+Komar et al. 2003,Cyanocitta_cristata,Blue jay,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,4,4,1,8.5,0.8,0.4,1,4,N,Y
+Komar et al. 2003,Cyanocitta_cristata,Blue jay,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,4,4,2,11.1,0.95,0.475,1,4,N,Y
+Komar et al. 2003,Cyanocitta_cristata,Blue jay,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,4,4,3,12.1,1.275,0.6375,1,4,N,Y
+Komar et al. 2003,Cyanocitta_cristata,Blue jay,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,4,3,4,10.5,1.5,0.9,0.75,3,N,Y
+Komar et al. 2003,Cyanocitta_cristata,Blue jay,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,4,1,5,2.2,1.13125,0.594631351,0.25,1,N,Y
+Komar et al. 2003,Cyanocitta_cristata,Blue jay,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,4,1,6,0.85,,,0.25,1,N,Y
+Komar et al. 2003,Cyanocitta_cristata,Blue jay,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,4,1,7,0.85,,,0.25,1,N,Y
+Komar et al. 2003,Cyanocitta_cristata,Blue jay,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,4,0,8,,,,,0,N,Y
+Reisen and Hahn 2007,Euphagus_cyanocephalus,BrewerŠ—Ès blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,1,5.356,,,1,7,N,N
+Reisen and Hahn 2007,Euphagus_cyanocephalus,BrewerŠ—Ès blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,2,6.364,,,1,7,N,N
+Reisen and Hahn 2007,Euphagus_cyanocephalus,BrewerŠ—Ès blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,3,4.35,,,1,7,N,N
+Reisen and Hahn 2007,Euphagus_cyanocephalus,BrewerŠ—Ès blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,4,3.065,,,1,7,N,N
+Reisen and Hahn 2007,Euphagus_cyanocephalus,BrewerŠ—Ès blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,5,1.394,,,1,7,N,N
+Reisen and Hahn 2007,Euphagus_cyanocephalus,BrewerŠ—Ès blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,6,0.85,,,1,7,N,N
+Reisen and Hahn 2007,Euphagus_cyanocephalus,BrewerŠ—Ès blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,7,0.85,,,1,7,N,N
+Reisen and Hahn 2007,Euphagus_cyanocephalus,BrewerŠ—Ès blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,8,,,,1,7,N,N
+Reisen and Hahn 2007,Molothrus_ater,Brown-headed cowbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,9,9,1,3.53,6.657,2.219,1,9,N,Y
+Reisen and Hahn 2007,Molothrus_ater,Brown-headed cowbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,9,9,2,2.984,5.778,1.926,1,9,N,Y
+Reisen and Hahn 2007,Molothrus_ater,Brown-headed cowbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,9,9,3,1.659,4.365,1.455,1,9,N,Y
+Reisen and Hahn 2007,Molothrus_ater,Brown-headed cowbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,9,9,4,1.356,4.32,1.44,1,9,N,Y
+Reisen and Hahn 2007,Molothrus_ater,Brown-headed cowbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,9,9,5,0.783,4.53,1.51,1,9,N,Y
+Reisen and Hahn 2007,Molothrus_ater,Brown-headed cowbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,9,9,6,0.791,5.049,1.683,1,9,N,Y
+Reisen and Hahn 2007,Molothrus_ater,Brown-headed cowbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,9,9,7,0.8,0,0,1,9,N,Y
+Reisen and Hahn 2007,Molothrus_ater,Brown-headed cowbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,9,9,8,,,,1,9,N,N
+Komar et al. 2003,Melopsittacus_undulatus,Budgerigar,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,2.3,0.7,0.404145188,1,3,N,Y
+Komar et al. 2003,Melopsittacus_undulatus,Budgerigar,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,1.9,0.6,0.346410162,1,3,N,Y
+Komar et al. 2003,Melopsittacus_undulatus,Budgerigar,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,2.8,0.825,0.476313972,1,3,N,Y
+Komar et al. 2003,Melopsittacus_undulatus,Budgerigar,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,2.9,0.85,0.490747729,1,3,N,Y
+Komar et al. 2003,Melopsittacus_undulatus,Budgerigar,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,2.1,0.65,0.375277675,1,3,N,Y
+Komar et al. 2003,Melopsittacus_undulatus,Budgerigar,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,6,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Melopsittacus_undulatus,Budgerigar,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,7,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Melopsittacus_undulatus,Budgerigar,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,8,,,,1,3,N,Y
+Reisen et al. 2005,Callipepla_californica,California quail ,Odontophpridae,Other,Galliformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,4,4,1,3.286,,,1,4,Y,N
+Reisen et al. 2005,Callipepla_californica,California quail ,Odontophpridae,Other,Galliformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,4,4,2,3.366,,,1,4,Y,N
+Reisen et al. 2005,Callipepla_californica,California quail ,Odontophpridae,Other,Galliformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,4,4,3,2.774,,,1,4,Y,N
+Reisen et al. 2005,Callipepla_californica,California quail ,Odontophpridae,Other,Galliformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,4,4,4,2.035,,,1,4,Y,N
+Reisen et al. 2005,Callipepla_californica,California quail ,Odontophpridae,Other,Galliformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,4,4,5,1.997,,,1,4,Y,N
+Reisen et al. 2005,Callipepla_californica,California quail ,Odontophpridae,Other,Galliformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,4,4,6,,,,1,4,Y,N
+Reisen et al. 2005,Callipepla_californica,California quail ,Odontophpridae,Other,Galliformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,4,4,7,,,,1,4,Y,N
+Reisen et al. 2005,Callipepla_californica,California quail ,Odontophpridae,Other,Galliformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,4,4,8,,,,1,4,Y,N
+Komar et al. 2003,Branta_canadensis,Canada goose,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,2.8,0.75,0.433012702,1,3,N,Y
+Komar et al. 2003,Branta_canadensis,Canada goose,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,5.3,0.65,0.375277675,1,3,N,Y
+Komar et al. 2003,Branta_canadensis,Canada goose,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,4.5,0.325,0.187638837,1,3,N,Y
+Komar et al. 2003,Branta_canadensis,Canada goose,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,3.4,0.95,0.548482756,1,3,N,Y
+Komar et al. 2003,Branta_canadensis,Canada goose,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,1.9,0.5,0.288675135,1,3,N,Y
+Komar et al. 2003,Branta_canadensis,Canada goose,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,6,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Branta_canadensis,Canada goose,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,7,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Branta_canadensis,Canada goose,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,8,,,,1,3,N,Y
+Kilpatrick et al. 2013,Thryothorus_ludovicianus,Carolina wren,Troglodytidae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,11,11,1,4.157,1.27,0.382919408,1,11,N,N
+Kilpatrick et al. 2013,Thryothorus_ludovicianus,Carolina wren,Troglodytidae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,11,11,2,7.355,0.916,0.276184392,1,11,N,N
+Kilpatrick et al. 2013,Thryothorus_ludovicianus,Carolina wren,Troglodytidae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,11,11,3,9.006,0.828,0.249651393,1,11,N,N
+Kilpatrick et al. 2013,Thryothorus_ludovicianus,Carolina wren,Troglodytidae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,11,11,4,10.307,0.226,0.068141564,1,11,N,N
+Kilpatrick et al. 2013,Thryothorus_ludovicianus,Carolina wren,Troglodytidae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,11,10,5,9.981,0.61,0.192898937,0.909090909,10,N,N
+Kilpatrick et al. 2013,Thryothorus_ludovicianus,Carolina wren,Troglodytidae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,11,8,6,9.787,0.882,0.311834091,0.727272727,8,N,N
+Kilpatrick et al. 2013,Thryothorus_ludovicianus,Carolina wren,Troglodytidae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,11,8,7,,,,,8,N,N
+Kilpatrick et al. 2013,Thryothorus_ludovicianus,Carolina wren,Troglodytidae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,11,0,8,,,,,0,N,N
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,1,0,0,0,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,2,4.279,1.1465,0.57325,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,3,4.241,0.59175,0.295875,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,4,2.395,0.74425,0.372125,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,5,0.85,0,0,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,6,0.85,0,0,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,7,0.85,,,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,8,,,,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,4,4,1,0,0,0,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,4,4,2,3.497,0.92775,0.463875,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,4,4,3,4.774,0.428,0.214,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,4,4,4,5.045,0.96525,0.482625,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,4,4,5,5.267,1.48425,0.742125,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,4,4,6,6.289,1.744,0.872,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,4,4,7,0.85,,,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Turdus_grayi,Clay-colored thrush,Turdidae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,4,4,8,,,,1,4,Y,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10,needle,2004,Colorado,10,10,1,1.494,2.23618206,0.707142857,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10,needle,2004,Colorado,10,10,2,5.901,9.57234355,3.027040816,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10,needle,2004,Colorado,10,10,3,6.522,10.37420681,3.280612245,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10,needle,2004,Colorado,10,10,4,4.75,8.025086266,2.537755102,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10,needle,2004,Colorado,10,10,5,3.014,5.280681011,1.669897959,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10,needle,2004,Colorado,10,10,6,0.85,,,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10,needle,2004,Colorado,10,10,7,0.85,,,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10,needle,2004,Colorado,10,10,8,,,,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,31.6227766,needle,2004,Colorado,8,8,1,3.32,5.010356621,1.771428571,1,8,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,31.6227766,needle,2004,Colorado,8,8,2,5.397,7.583359459,2.681122449,1,8,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,31.6227766,needle,2004,Colorado,8,8,3,6.447,8.899443918,3.146428571,1,8,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,31.6227766,needle,2004,Colorado,8,8,4,6.323,9.519966195,3.365816327,1,8,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,31.6227766,needle,2004,Colorado,8,8,5,3.035,4.687107807,1.657142857,1,8,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,31.6227766,needle,2004,Colorado,8,8,6,4.195,6.531357738,2.309183673,1,8,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,31.6227766,needle,2004,Colorado,8,8,7,,,,1,8,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,31.6227766,needle,2004,Colorado,8,8,8,3.412,5.356694636,1.893877551,1,8,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,316.227766,needle,2004,Colorado,10,10,1,3.154,5.149995047,1.628571429,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,316.227766,needle,2004,Colorado,10,10,2,5.547,8.678516089,2.744387755,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,316.227766,needle,2004,Colorado,10,10,3,5.78,9.399709004,2.97244898,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,316.227766,needle,2004,Colorado,10,10,4,4.709,7.904080743,2.499489796,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,316.227766,needle,2004,Colorado,10,10,5,4.804,8.262257091,2.612755102,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,316.227766,needle,2004,Colorado,10,10,6,0.85,,,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,316.227766,needle,2004,Colorado,10,10,7,0.85,,,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,316.227766,needle,2004,Colorado,10,10,8,,,,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3162.27766,needle,2004,Colorado,10,10,1,3.895,6.581087028,2.081122449,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3162.27766,needle,2004,Colorado,10,10,2,5.812,9.225461051,2.917346939,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3162.27766,needle,2004,Colorado,10,10,3,5.906,9.623972573,3.043367347,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3162.27766,needle,2004,Colorado,10,10,4,2.527,4.248100551,1.343367347,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3162.27766,needle,2004,Colorado,10,10,5,2.493,4.499792038,1.422959184,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3162.27766,needle,2004,Colorado,10,10,6,0.85,,,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3162.27766,needle,2004,Colorado,10,10,7,0.85,,,1,10,N,Y
+Oesterle et al. 2009,Petrochelidon_pyrrhonota,Cliff swallow,Hirundinidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3162.27766,needle,2004,Colorado,10,10,8,,,,1,10,N,Y
+Komar et al. 2003,Quiscalus_quiscula,Common grackle,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,1,6.1,0.875,0.357217254,1,6,N,Y
+Komar et al. 2003,Quiscalus_quiscula,Common grackle,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,2,10.2,1.4,0.571547607,1,6,N,Y
+Komar et al. 2003,Quiscalus_quiscula,Common grackle,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,3,11.8,1.95,0.796084166,1,6,N,Y
+Komar et al. 2003,Quiscalus_quiscula,Common grackle,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,5,4,11.8,3.125,1.397542486,0.833333333,5,N,Y
+Komar et al. 2003,Quiscalus_quiscula,Common grackle,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,4,5,0.85,0,0,0.666666667,4,N,Y
+Komar et al. 2003,Quiscalus_quiscula,Common grackle,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,4,6,0.85,0,0,0.666666667,4,N,Y
+Komar et al. 2003,Quiscalus_quiscula,Common grackle,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,4,7,0.85,0,0,0.666666667,4,N,Y
+Komar et al. 2003,Quiscalus_quiscula,Common grackle,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,0,8,,,,,0,N,Y
+Reisen et al. 2005,Columbina_passerina,Common ground dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,1,4.776,,,1,6,Y,N
+Reisen et al. 2005,Columbina_passerina,Common ground dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,2,5.023,,,1,6,Y,N
+Reisen et al. 2005,Columbina_passerina,Common ground dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,3,4.788,,,1,6,Y,N
+Reisen et al. 2005,Columbina_passerina,Common ground dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,4,3.776,,,1,6,Y,N
+Reisen et al. 2005,Columbina_passerina,Common ground dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,5,2.176,,,1,6,Y,N
+Reisen et al. 2005,Columbina_passerina,Common ground dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,6,0.85,,,1,6,Y,N
+Reisen et al. 2005,Columbina_passerina,Common ground dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,7,0.85,,,1,6,Y,N
+Reisen et al. 2005,Columbina_passerina,Common ground dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,8,,,,1,6,Y,N
+Nemeth et al. 2006,Megascops_asio,Eastern screech owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,1500,needle,2004,Colorado,9,9,1,2.210934656,2.158009699,0.719336566,1,9,N,Y
+Nemeth et al. 2006,Megascops_asio,Eastern screech owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,1500,needle,2004,Colorado,9,9,2,5.844444444,1.523205757,0.507735252,1,9,N,Y
+Nemeth et al. 2006,Megascops_asio,Eastern screech owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,1500,needle,2004,Colorado,9,9,3,6.637888889,1.253676139,0.417892046,1,9,N,Y
+Nemeth et al. 2006,Megascops_asio,Eastern screech owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,1500,needle,2004,Colorado,9,9,4,6.452555556,1.44026752,0.480089173,1,9,N,Y
+Nemeth et al. 2006,Megascops_asio,Eastern screech owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,1500,needle,2004,Colorado,9,9,5,5.24,2.570098247,0.856699416,1,9,N,Y
+Nemeth et al. 2006,Megascops_asio,Eastern screech owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,1500,needle,2004,Colorado,9,9,6,2.714555556,3.021713467,1.007237822,1,9,N,Y
+Nemeth et al. 2006,Megascops_asio,Eastern screech owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,1500,needle,2004,Colorado,9,9,7,1.875333333,2.719376537,0.906458846,1,9,N,Y
+Nemeth et al. 2006,Megascops_asio,Eastern screech owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,1500,needle,2004,Colorado,9,9,8,1.580333333,2.439102089,0.81303403,1,9,N,Y
+Komar et al. 2003,Sturnus_vulgaris,European starling,Sturnidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,1,5.3,0.625,0.255155182,1,6,N,Y
+Komar et al. 2003,Sturnus_vulgaris,European starling,Sturnidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,2,6.1,0.3,0.122474487,1,6,N,Y
+Komar et al. 2003,Sturnus_vulgaris,European starling,Sturnidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,3,4.9,0.85,0.347011047,1,6,N,Y
+Komar et al. 2003,Sturnus_vulgaris,European starling,Sturnidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,4,2.3,0.775,0.316392425,1,6,N,Y
+Komar et al. 2003,Sturnus_vulgaris,European starling,Sturnidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,5,0.85,0,0,1,6,N,Y
+Komar et al. 2003,Sturnus_vulgaris,European starling,Sturnidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,6,0.85,0,0,1,6,N,Y
+Komar et al. 2003,Sturnus_vulgaris,European starling,Sturnidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,7,0.85,0,0,1,6,N,Y
+Komar et al. 2003,Sturnus_vulgaris,European starling,Sturnidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,8,,,,1,6,N,Y
+Kipp et al. 2006,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,1,5.124,0.49325,0.155979346,1,10,N,Y
+Kipp et al. 2006,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,2,6.806,0.5055,0.159853136,1,10,N,Y
+Kipp et al. 2006,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,3,6.988,0.67925,0.21479771,1,10,N,Y
+Kipp et al. 2006,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,4,6.11,1.02025,0.322631378,1,10,N,Y
+Kipp et al. 2006,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,5,5.196,1.52175,0.481219603,1,10,N,Y
+Kipp et al. 2006,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,10,6,5.103,1.5995,0.505806312,1,10,N,Y
+Kipp et al. 2006,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,8,7,2.295,1.65175,0.583981813,0.8,8,N,Y
+Kipp et al. 2006,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,4000,needle,2004,Kansas,10,6,8,0.933,0.7275,0.297000631,0.6,6,N,Y
+Komar et al. 2003,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,9,9,1,5.4,1.061838029,0.35394601,1,9,N,Y
+Komar et al. 2003,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,9,9,2,6.8,0.672887641,0.22429588,1,9,N,Y
+Komar et al. 2003,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,9,9,3,7.8,1.036956015,0.345652005,1,9,N,Y
+Komar et al. 2003,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,9,9,4,8.9,2.630589288,0.876863096,1,9,N,Y
+Komar et al. 2003,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,9,9,5,8.5,3.012658479,1.004219493,1,9,N,Y
+Komar et al. 2003,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,9,8,6,4,1.876166304,0.663324958,0.888888889,8,N,Y
+Komar et al. 2003,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,9,8,7,1.3,0.819213715,0.289635787,0.888888889,8,N,Y
+Komar et al. 2003,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,9,0,8,,,,,0,N,Y
+Nemeth et al. 2011,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,1,0.936,1.621199556,0.936,1,3,N,Y
+Nemeth et al. 2011,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,2,4.74,0.734872098,0.424278603,1,3,N,Y
+Nemeth et al. 2011,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,3,5.492666667,0.837793133,0.483700091,1,3,N,Y
+Nemeth et al. 2011,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,4,5.033333333,0.563516045,0.32534614,1,3,N,Y
+Nemeth et al. 2011,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,5,3.049,0.77107652,0.445181237,1,3,N,Y
+Nemeth et al. 2011,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,6,2.227666667,0.929553298,0.536677847,1,3,N,Y
+Nemeth et al. 2011,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,7,0.85,,,1,3,N,Y
+Nemeth et al. 2011,Corvus_ossifragus,Fish crow,Corvidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1584.893192,needle,2008,Oklahoma,3,3,8,,,,1,3,Y,Y
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,16,16,1,2.3,0.464327471,0.14,1,16,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,16,16,2,5.2,1.04,0.26,1,16,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,16,16,3,3.4,1.33,0.4,1,16,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,16,16,4,3.1,1.47,0.6,1,16,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,16,16,5,1.9,0.339411255,0.24,1,16,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,,,6,,,,1,0,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,,,7,,,,1,0,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,,,8,,,,1,0,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,5,5,1,1.7,0,0,1,5,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,5,5,2,3.8,0.626099034,0.28,1,5,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,5,5,3,2.6,0.760263112,0.34,1,5,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,5,5,4,2,0.42,0.3,1,5,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,5,,,,1,0,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,6,,,,1,0,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,7,,,,1,0,N,N
+Owen et al. 2006,Dumetella_carolinensis,Gray catbird,Mimidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,8,,,,1,0,N,N
+Komar et al. 2003,Bubo_virginianus,Great horned owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,1,3.9,0.763512774,0.338131285,1,1,N,Y
+Komar et al. 2003,Bubo_virginianus,Great horned owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,2,6.2,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Bubo_virginianus,Great horned owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,3,7.6,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Bubo_virginianus,Great horned owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,4,6,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Bubo_virginianus,Great horned owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,5,5.6,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Bubo_virginianus,Great horned owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,6,3.5,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Bubo_virginianus,Great horned owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,7,0.85,,,1,1,N,Y
+Komar et al. 2003,Bubo_virginianus,Great horned owl,Strigidae,Other,Strigiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,8,,,,1,1,N,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,1,5.06,0.351,0.1755,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,2,8.717,0.6665,0.33325,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,4,3,9.629,0.4485,0.22425,1,4,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,3,4,9.932,0.69125,0.399093374,0.75,3,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,2,5,9.74,1.10575,0.781883323,0.5,2,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,1,6,8.209,1.0705,1.0705,0.25,1,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,1,7,2.512,0.72225,0.497412783,0.25,1,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,4,0,8,,,,,0,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,3,3,1,4.992,0.331,0.191102939,1,3,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,3,3,2,7.689,0.53075,0.306428655,1,3,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,3,3,3,9.005,0.76325,0.440662593,1,3,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,3,3,4,9.692,1.455,0.840044642,1,3,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,3,3,5,6.64,1.24125,0.716636022,1,3,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,3,3,6,6.325,1.29025,0.744926185,1,3,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,3,3,7,5.852,1.595,0.920873679,1,3,Y,Y
+Guerrero-Sanchez et al. 2011,Quiscalus_mexicanus,Great-tailed grackle,Icteridae,Other,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,3,3,8,,,,1,3,Y,Y
+Clark et al. 2006,Centrocercus_urophasianus,Greater sage-grouse,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,1584.893192,needle,2003,Nevada,9,9,1,1.7,0.6,0.2,1,9,N,N
+Clark et al. 2006,Centrocercus_urophasianus,Greater sage-grouse,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,1584.893192,needle,2003,Nevada,9,9,2,5.4,0.9,0.3,1,9,N,N
+Clark et al. 2006,Centrocercus_urophasianus,Greater sage-grouse,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,1584.893192,needle,2003,Nevada,9,8,3,6.4,0.565685425,0.2,0.888888889,8,N,N
+Clark et al. 2006,Centrocercus_urophasianus,Greater sage-grouse,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,1584.893192,needle,2003,Nevada,9,2,4,5.9,0.282842712,0.2,0.222222222,2,N,N
+Clark et al. 2006,Centrocercus_urophasianus,Greater sage-grouse,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,1584.893192,needle,2003,Nevada,9,1,5,6.1,0.587132034,0.225,0.111111111,1,N,N
+Clark et al. 2006,Centrocercus_urophasianus,Greater sage-grouse,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,1584.893192,needle,2003,Nevada,9,1,6,6.1,0.583915043,0.23125,0.111111111,1,N,N
+Clark et al. 2006,Centrocercus_urophasianus,Greater sage-grouse,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,1584.893192,needle,2003,Nevada,,,7,,,,,0,N,N
+Clark et al. 2006,Centrocercus_urophasianus,Greater sage-grouse,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,1584.893192,needle,2003,Nevada,,,8,,,,,0,N,N
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,500,needle,2011,USA,2,2,1,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,500,needle,2011,USA,2,2,2,4.3265,1.248043469,0.8825,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,500,needle,2011,USA,2,2,3,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,500,needle,2011,USA,2,2,4,5.6285,0.193040151,0.1365,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,500,needle,2011,USA,2,2,5,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,500,needle,2011,USA,2,2,6,4.095,0.196575685,0.139,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,500,needle,2011,USA,2,2,7,0.85,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,500,needle,2011,USA,2,2,8,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2011,USA,2,2,1,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2011,USA,2,2,2,3.251,0.37335238,0.264,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2011,USA,2,2,3,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2011,USA,2,2,4,4.3665,0.910046427,0.6435,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2011,USA,2,2,5,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2011,USA,2,2,6,2.889,0.1668772,0.118,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2011,USA,2,2,7,0.85,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,10000,needle,2011,USA,2,2,8,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,1000000,needle,2011,USA,2,2,1,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,1000000,needle,2011,USA,2,2,2,1.5155,2.143240654,1.5155,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,1000000,needle,2011,USA,2,2,3,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,1000000,needle,2011,USA,2,2,4,3.3975,0.924188563,0.6535,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,1000000,needle,2011,USA,2,2,5,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,1000000,needle,2011,USA,2,2,6,2.657,0.173948268,0.123,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,1000000,needle,2011,USA,2,2,7,0.85,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,NY99,1999,New York,1a1,B,1000000,needle,2011,USA,2,2,8,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,500,needle,2011,USA,2,2,1,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,500,needle,2011,USA,2,2,2,4.94,0.366281313,0.259,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,500,needle,2011,USA,2,2,3,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,500,needle,2011,USA,2,2,4,5.2955,1.543614103,1.0915,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,500,needle,2011,USA,2,2,5,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,500,needle,2011,USA,2,2,6,3.3825,0.572049386,0.4045,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,500,needle,2011,USA,2,2,7,0.85,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,500,needle,2011,USA,2,2,8,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,10000,needle,2011,USA,2,2,1,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,10000,needle,2011,USA,2,2,2,5.529,0.032526912,0.023,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,10000,needle,2011,USA,2,2,3,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,10000,needle,2011,USA,2,2,4,5.889,1.593818685,1.127,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,10000,needle,2011,USA,2,2,5,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,10000,needle,2011,USA,2,2,6,3.072,0.688722005,0.487,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,10000,needle,2011,USA,2,2,7,0.85,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,10000,needle,2011,USA,2,2,8,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,1000000,needle,2011,USA,2,2,1,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,1000000,needle,2011,USA,2,2,2,4.819,0.403050865,0.285,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,1000000,needle,2011,USA,2,2,3,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,1000000,needle,2011,USA,2,2,4,6.411,0.18243355,0.129,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,1000000,needle,2011,USA,2,2,5,,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,1000000,needle,2011,USA,2,2,6,3.9215,0.170412734,0.1205,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,1000000,needle,2011,USA,2,2,7,0.85,,,1,2,N,Y
+Ziegler et al. 2013,Falco_rusticolus,Gyrfalcon,Falconidae,Other,Falconiformes,Austria361/10,1998,Austria,1a1,D,1000000,needle,2011,USA,2,2,8,,,,1,2,N,Y
+Fang et al. 2006,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,3162.27766,needle,2003,California,16,16,1,5.377,0.643,0.16075,1,16,Y,Y
+Fang et al. 2006,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,3162.27766,needle,2003,California,16,16,2,6.88,0.445,0.11125,1,16,Y,Y
+Fang et al. 2006,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,3162.27766,needle,2003,California,16,16,3,7.326,1.023,0.25575,1,16,Y,Y
+Fang et al. 2006,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,3162.27766,needle,2003,California,16,16,4,6.469,1.139,0.28475,1,16,Y,Y
+Fang et al. 2006,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,3162.27766,needle,2003,California,16,16,5,6.198,1.278,0.3195,1,16,Y,Y
+Fang et al. 2006,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,3162.27766,needle,2003,California,16,11,6,4.758,1.988,0.599404553,0.6875,11,Y,Y
+Fang et al. 2006,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,3162.27766,needle,2003,California,16,6,7,2.814,1.991,0.812822346,0.375,6,Y,Y
+Fang et al. 2006,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,3162.27766,needle,2003,California,16,0,8,0,,,0,0,Y,Y
+Komar et al. 2003,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,1,5.4,0.85,0.601040764,1,2,N,Y
+Komar et al. 2003,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,2,5.8,0.1,0.070710678,1,2,N,Y
+Komar et al. 2003,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,3,8.8,0.075,0.053033009,1,2,N,Y
+Komar et al. 2003,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,4,6.6,0.2,0.141421356,1,2,N,Y
+Komar et al. 2003,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,5,6,0.05,0.035355339,1,2,N,Y
+Komar et al. 2003,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,1,6,6.2,0.255,0.180312229,0.5,1,N,Y
+Komar et al. 2003,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,1,7,6.3,0.255,0.1803122,0.5,1,N,Y
+Komar et al. 2003,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,0,8,0,,,0,0,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,California,8,8,1,2.296,0.396,0.140007143,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,California,8,8,2,5.973,0.602,0.212839141,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,California,8,8,3,7.227,0.881,0.311480537,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,California,8,8,4,6.319,0.81,0.286378246,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,California,8,8,5,2.96,0.872,0.308298557,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,California,8,8,6,2.313,0.87,0.30759145,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,California,8,8,7,1.777,0.646,0.22839549,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,California,8,8,8,,,,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2012,California,8,8,1,1.728,0,0,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2012,California,8,8,2,5.859,0.716,0.253144228,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2012,California,8,8,3,6.482,0.542,0.191625938,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2012,California,8,8,4,5.857,0.749,0.26481149,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2012,California,8,8,5,2.382,0.708,0.250315801,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2012,California,8,8,6,1.745,0.695,0.245719606,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2012,California,8,8,7,1.701,0,0,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249H,1999,New York,2,D,1500,needle,2012,California,8,8,8,,,,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2012,California,8,8,1,2.36,0,0,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2012,California,8,8,2,5.799,0.776,0.274357431,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2012,California,8,8,3,6.182,0.842,0.297691955,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2012,California,8,8,4,6.416,0.713,0.252083567,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2012,California,8,8,5,4.022,0.513,0.181372889,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2012,California,8,8,6,3.429,0.649,0.22945615,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2012,California,8,8,7,2.549,0.664,0.234759451,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249D,1999,New York,exp,E,1500,needle,2012,California,8,8,8,,,,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2012,California,8,8,1,3.023,0.748,0.264457936,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2012,California,8,8,2,5.88,0.695,0.245719606,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2012,California,8,8,3,6.479,0.545,0.192686598,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2012,California,8,8,4,5.87,0.736,0.260215295,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2012,California,8,8,5,3.667,0.411,0.145310444,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2012,California,8,8,6,1.725,0.715,0.252790674,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2012,California,8,8,7,1.732,0,0,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249A,1999,New York,1a,A,1500,needle,2012,California,8,8,8,,,,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2012,California,8,8,1,2.041,0.359,0.126925667,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2012,California,8,8,2,5.68,0.895,0.316430285,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2012,California,8,8,3,6.136,0.888,0.313955411,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2012,California,8,8,4,4.035,0.694,0.245366053,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2012,California,8,8,5,2.41,0.68,0.24,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2012,California,8,8,6,2.13,0.695,0.245719606,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2012,California,8,8,7,1.712,0,0,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249T,1999,New York,1a,A,1500,needle,2012,California,8,8,8,,,,1,8,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,Colorado,4,4,1,2.23,0.587,0.2935,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,Colorado,4,4,2,5.132,1.514,0.757,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,Colorado,4,4,3,6.245,1.515,0.7575,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,Colorado,4,4,4,5.468,0.711,0.3555,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,Colorado,4,4,5,4.788,0.769,0.3845,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,Colorado,4,4,6,3.365,1.128,0.564,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,Colorado,4,4,7,2.018,,,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249P,1999,New York,1a,A,1500,needle,2012,Colorado,4,4,8,,,,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2012,Colorado,4,4,1,1.989,0,0,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2012,Colorado,4,4,2,2.82,1.104,0.552,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2012,Colorado,4,4,3,4.052,1.795,0.8975,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2012,Colorado,4,4,4,5.174,1.636,0.818,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2012,Colorado,4,4,5,6.055,1.666,0.833,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2012,Colorado,4,4,6,5.708,2.336,1.168,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2012,Colorado,4,4,7,6.22,2.82,1.41,1,4,N,Y
+Langevin et al. 2014,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NS3-249N,1999,New York,3,D,1500,needle,2012,Colorado,4,4,8,,,,1,4,N,Y
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,16,1,4.184,,,1,16,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,16,2,5.11,,,1,16,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,16,3,5.46,,,1,16,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,13,4,4.475,,,0.8125,13,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,10,5,3.52,,,0.625,10,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,7,6,2.787,,,0.4375,7,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,6,7,0.85,,,0.375,6,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,0,8,,,,,0,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,16,1,5.383,,,1,16,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,16,2,6.868,,,1,16,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,16,3,7.321,,,1,16,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,13,4,6.461,,,0.8125,13,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,10,5,6.181,,,0.625,10,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,7,6,4.713,,,0.4375,7,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,6,7,2.466,,,0.375,6,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,16,0,8,,,,,0,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,1,2.262,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,2,5.319,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,3,6.959,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,4,5.813,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,3,5,5.752,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,2,6,4.653,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,1,7,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,1,8,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,1,2.229,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,2,6.171,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,3,6.586,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,4,6.245,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,3,5,4.955,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,2,6,3.162,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,1,7,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,0,8,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,3.981071706,needle,2003,California,4,4,1,4.533,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,3.981071706,needle,2003,California,4,4,2,5.983,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,3.981071706,needle,2003,California,4,4,3,6.741,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,3.981071706,needle,2003,California,4,3,4,5.911,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,3.981071706,needle,2003,California,4,2,5,5.732,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,3.981071706,needle,2003,California,4,1,6,3.213,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,3.981071706,needle,2003,California,4,0,7,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,3.981071706,needle,2003,California,4,0,8,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,1,5.149,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,2,6.387,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,3,7.59,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,4,6.25,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,3,5,6.286,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,3,6,5.583,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,3,7,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,3,8,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,California,4,4,1,6.351,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,California,4,4,2,6.873,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,California,4,4,3,7.525,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,California,4,3,4,6.127,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,California,4,2,5,5.334,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,California,4,1,6,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,California,4,1,7,,,,,,Y,N
+Reisen et al. 2005,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2003,California,4,1,8,,,,,,Y,N
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV997,2003,California,1a2,C,1000,needle,2013,California,6,6,1,3.069333333,0.595569531,0.243140243,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV997,2003,California,1a2,C,1000,needle,2013,California,6,6,2,6.513333333,0.792951617,0.323721142,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV997,2003,California,1a2,C,1000,needle,2013,California,6,6,3,7.207666667,0.214882914,0.087725582,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV997,2003,California,1a2,C,1000,needle,2013,California,6,6,4,4.414166667,2.150173706,0.87780474,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV997,2003,California,1a2,C,1000,needle,2013,California,6,6,5,0.457,0,0,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV997,2003,California,1a2,C,1000,needle,2013,California,6,6,6,0.859166667,1.007148533,0.411166667,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV997,2003,California,1a2,C,1000,needle,2013,California,6,5,7,0.464,0,0,0.833333333,5,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV997,2003,California,1a2,C,1000,needle,2013,California,6,5,8,,,,0.833333333,5,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,SAC047168 (CA04),2004,California,1a2,C,1000,needle,2013,California,6,6,1,4.9135,0.500683033,0.204402992,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,SAC047168 (CA04),2004,California,1a2,C,1000,needle,2013,California,6,6,2,7.7925,0.565413742,0.230829194,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,SAC047168 (CA04),2004,California,1a2,C,1000,needle,2013,California,6,6,3,7.9514,0.558892625,0.228166959,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,SAC047168 (CA04),2004,California,1a2,C,1000,needle,2013,California,6,6,4,6.123,1.379134946,0.563029484,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,SAC047168 (CA04),2004,California,1a2,C,1000,needle,2013,California,6,6,5,4.780166667,1.816049054,0.741398922,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,SAC047168 (CA04),2004,California,1a2,C,1000,needle,2013,California,6,5,6,3.0086,1.453211375,0.649895884,0.833333333,5,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,SAC047168 (CA04),2004,California,1a2,C,1000,needle,2013,California,6,4,7,0.436,0,0,0.666666667,4,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,SAC047168 (CA04),2004,California,1a2,C,1000,needle,2013,California,6,4,8,,,,0.666666667,4,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV9975nt,2003,California,1a2,C,1000,needle,2013,California,6,6,1,3.6535,0.611410092,0.249607125,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV9975nt,2003,California,1a2,C,1000,needle,2013,California,6,6,2,7.005333333,0.675681779,0.275845931,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV9975nt,2003,California,1a2,C,1000,needle,2013,California,6,6,3,7.106833333,0.884052581,0.360912955,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV9975nt,2003,California,1a2,C,1000,needle,2013,California,6,6,4,5.241333333,1.802176203,0.735735354,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV9975nt,2003,California,1a2,C,1000,needle,2013,California,6,6,5,4.354,5.489977049,2.241273745,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV9975nt,2003,California,1a2,C,1000,needle,2013,California,6,6,6,4.6485,5.906462943,2.411303399,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV9975nt,2003,California,1a2,C,1000,needle,2013,California,6,5,7,0.472,0,0,0.833333333,5,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,COAV9975nt,2003,California,1a2,C,1000,needle,2013,California,6,5,8,,,,0.833333333,5,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2013,California,6,6,1,4.565166667,0.540660861,0.220723872,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2013,California,6,6,2,7.2905,0.583547342,0.238232205,1,6,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2013,California,6,5,3,7.8658,0.616111354,0.275533374,0.833333333,5,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2013,California,6,5,4,6.1174,1.598593069,0.714912554,0.833333333,5,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2013,California,6,5,5,5.9968,2.262022259,1.011607108,0.833333333,5,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2013,California,6,3,6,3.7808,2.463780774,1.422464493,0.5,3,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2013,California,6,2,7,0.48,0,0,0.333333333,2,N,Y
+Worwa et al. 2015,Carpodacus_mexicanus,House finch,Fringillidae,Fringillidae,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2013,California,6,2,8,,,,0.333333333,2,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1153,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,1,2.640185,0.458815,0.18731044,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1153,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,2,5.101482751,1.644517249,0.671371356,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1153,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,3,3.812858924,1.429141076,0.583444401,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1153,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,4,2.524127985,0.915872015,0.373903184,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1153,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,5,2.089623804,0.488376196,0.199378747,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1153,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,6,1.717566544,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1153,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,7,1.741720542,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1153,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,8,,,,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1461,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,1,4.640468084,0.669531916,0.27333526,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1461,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,2,6.24764619,0.99035381,0.40431025,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1461,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,3,3.729846293,1.708153707,0.697350831,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1461,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,4,2.44116891,1.71183109,0.698852116,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1461,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,5,5,1.714781604,0,0,0.833333333,5,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1461,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,5,6,1.717673657,0,0,0.833333333,5,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1461,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,5,7,1.741666985,0,0,0.833333333,5,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,BIRD1461,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,5,8,,,,0.833333333,5,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM173-03-pp1,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,1,1.70294561,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM173-03-pp1,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,2,2.622618456,1.090381544,0.445146401,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM173-03-pp1,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,3,1.833891341,0.157108659,0.064139341,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM173-03-pp1,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,4,1.711889551,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM173-03-pp1,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,5,1.694001668,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM173-03-pp1,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,6,1.717834327,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM173-03-pp1,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,7,1.720887049,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM173-03-pp1,2003,Mexico,1a2,C,15000,needle,2009,Colorado,6,6,8,,,,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,California,5,5,1,2.348837441,0.681162559,0.304625157,1,5,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,California,5,5,2,5.997644277,1.320355723,0.59048103,1,5,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,California,5,5,3,7.250599451,1.396400549,0.62448931,1,5,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,California,5,5,4,6.274424459,2.082575541,0.931356096,1,5,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,California,5,4,5,3.027398759,1.469601241,0.73480062,0.8,4,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,California,5,4,6,2.342731995,1.215268005,0.607634002,0.8,4,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,California,5,4,7,1.845780893,0,0,0.8,4,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,15000,needle,2009,California,5,4,8,,,,0.8,4,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,California,6,6,1,2.599053579,1.056946421,0.431496569,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,California,6,6,2,4.51868052,1.68131948,0.686395803,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,California,6,6,3,2.542551433,0.944448567,0.385569513,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,California,6,6,4,1.753877876,0.107122124,0.043732424,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,California,6,6,5,1.694269451,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,California,6,6,6,1.697322173,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,California,6,6,7,1.721154832,0,0,1,6,N,Y
+Brault et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,TM171-03-pp5,2003,Mexico,1a2,C,15000,needle,2009,California,6,6,8,,,,1,6,N,Y
+Grubaugh et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,1,2.276,0.609,0.3045,1,4,N,Y
+Grubaugh et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,2,3.522,1.475,0.7375,1,4,N,Y
+Grubaugh et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,3,5.016,0.581,0.2905,1,4,N,Y
+Grubaugh et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,4,4,5.941,0.912,0.456,1,4,N,Y
+Grubaugh et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,3,5,4.757,2.48,1.431828668,0.75,3,N,Y
+Grubaugh et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,3,6,2.201,0.315,0.181865335,0.75,3,N,Y
+Grubaugh et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,3,7,0.85,,,0.75,3,N,Y
+Grubaugh et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,2000,New York,1a1,B,1000,needle,2013,Colorado,4,2,8,0.85,,,0.5,2,N,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,6,6,1,4.899,0.299,0.122066239,1,6,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,6,6,2,7.252,0.52025,0.212391173,1,6,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,6,6,3,6.547,1.1925,0.486836086,1,6,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,6,3,4,7.626,1.417,0.818105331,0.5,3,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,6,2,5,6.933,0.72375,0.511768533,0.333333333,2,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,6,2,6,1.618,0.09975,0.070533901,0.333333333,2,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,6,2,7,0.85,,,0.333333333,2,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tabasco,2003,Southern Mexico,1a1,B,100000,needle,2009,Mexico,6,0,8,0,,,0,0,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,6,6,1,5.845,0.57975,0.236681946,1,6,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,6,6,2,8.403,0.83025,0.338948143,1,6,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,6,5,3,9.415,1.911,0.854625181,0.833333333,5,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,6,3,4,9.48,1.821,1.05135484,0.5,3,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,6,2,5,5.856,0.824,0.582655988,0.333333333,2,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,6,2,6,2.834,0.34925,0.246957043,0.333333333,2,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,6,2,7,2.156,0.2375,0.167937861,0.333333333,2,Y,Y
+Guerrero-Sanchez et al. 2011,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Tecate,2004,Northern Mexico,1a2,C,100000,needle,2009,Mexico,6,0,8,,,,,0,Y,Y
+Komar et al. 2003,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,1,7.8,1.175,0.479691741,1,6,N,Y
+Komar et al. 2003,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,2,9.8,0.725,0.295980011,1,6,N,Y
+Komar et al. 2003,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,5,3,10.3,1.55,0.693181073,0.833333333,5,N,Y
+Komar et al. 2003,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,5,4,10.3,2.15,0.96150923,0.833333333,5,N,Y
+Komar et al. 2003,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,4,5,8.4,2.25,1.125,0.666666667,4,N,Y
+Komar et al. 2003,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,3,6,1.8,0.525,0.303108891,0.5,3,N,Y
+Komar et al. 2003,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,3,7,0.85,0,0,0.5,3,N,Y
+Komar et al. 2003,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,3,8,,,,0.5,3,N,Y
+Komar et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,6,6,1,3.308,0.587,0.239641747,1,6,N,Y
+Komar et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,6,6,2,7.26,1.55,0.633,1,6,N,Y
+Komar et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,6,6,3,8,1.069,0.436417423,1,6,N,Y
+Komar et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,6,6,4,5.92,1.32,0.539,1,6,N,Y
+Komar et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,6,6,5,3.237,1.238,0.505411384,1,6,N,Y
+Komar et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,6,6,6,0.85,,,1,6,N,Y
+Komar et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,6,6,7,0.85,,,1,6,N,Y
+Komar et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,6,6,8,,,,1,6,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1700,needle,2003,New York,8,8,1,3.886,0.535,0.189151064,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1700,needle,2003,New York,8,8,2,7.033,0.694,0.245366053,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1700,needle,2003,New York,8,8,3,8.8,1.511,0.534219173,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1700,needle,2003,New York,8,8,4,9.815,1.989,0.703217694,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1700,needle,2003,New York,8,7,5,9.939,2.666,1.007653285,0.875,7,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1700,needle,2003,New York,8,5,6,2.726,1.591,0.71151683,0.625,5,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1700,needle,2003,New York,8,4,7,0.019,0,0,0.5,4,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1700,needle,2003,New York,8,4,8,,,,0.5,4,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1700,needle,2003,New York,8,8,1,3.27,0.618,0.218495995,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1700,needle,2003,New York,8,8,2,8.023,1.104,0.390322943,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1700,needle,2003,New York,8,8,3,9.314,1.13,0.399515331,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1700,needle,2003,New York,8,8,4,9.894,2.203,0.778878119,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1700,needle,2003,New York,8,7,5,9.927,2.523,0.953604365,0.875,7,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1700,needle,2003,New York,8,6,6,5.69,2.481,1.012864009,0.75,6,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1700,needle,2003,New York,8,6,7,0,0,0,0.75,6,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kenya-3829,1998,Kenya,1a,A,1700,needle,2003,New York,8,5,8,0,,,0.625,5,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,1700,needle,2003,New York,8,8,1,2.02,1.127,0.398454671,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,1700,needle,2003,New York,8,8,2,4.228,0.843,0.298045508,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,1700,needle,2003,New York,8,8,3,5.098,0.932,0.32951176,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,1700,needle,2003,New York,8,8,4,4.699,1.76,0.622253967,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,1700,needle,2003,New York,8,8,5,2.904,1.653,0.584423755,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,1700,needle,2003,New York,8,8,6,0.03,0,0,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,1700,needle,2003,New York,8,8,7,0.013,0,0,1,8,N,Y
+Langevin et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Kunjin-6453,1998,Australia,1b,A,1700,needle,2003,New York,8,8,8,,,,1,8,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,1,2.361,0.474341649,0.15,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,2,3.886,0.850652691,0.269,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,3,4.724,1.302858396,0.412,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,4,3.306,1.315507507,0.416,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,5,2.398,1.302858396,0.412,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,6,2.537,1.751901824,0.554,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,7,2.128,1.220639177,0.386,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,8,,,,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99A30A,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,1,2.342,0.632455532,0.2,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99A30A,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,2,3.731,1.23012601,0.389,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99A30A,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,3,3.451,1.163718179,0.368,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99A30A,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,4,2.864,1.24277512,0.393,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99A30A,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,5,2.737,1.524217832,0.482,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99A30A,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,6,1.993,0.942358743,0.298,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99A30A,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,7,1.794,0.268793601,0.085,1,10,N,Y
+Melian et al. 2015,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99A30A,1999,New York,1a1,B,1500,needle,2012,Colorado,10,10,8,,,,1,10,N,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,5,5,1,4.506,0.887718987,0.397,1,5,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,5,5,2,8.396,1.509345885,0.675,1,5,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,5,5,3,9.312,2.113084239,0.945,1,5,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,5,4,4,9.539,2.836,1.418,0.8,4,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,5,3,5,7.056,1.621199556,0.936,0.6,3,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,5,2,6,3.153,1.026719046,0.726,0.4,2,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,5,1,7,2.776,1.665677952,0.8495,0.2,1,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,5,0,8,,,,0,0,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,13,13,1,3.421,0.634577024,0.176,1,13,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,13,13,2,5.73,0.67784364,0.188,1,13,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,13,13,3,6.294,0.749954665,0.208,1,13,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,13,13,4,6.561,1.424192754,0.395,1,13,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,13,13,5,5.384,1.460248267,0.405,1,13,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,13,13,6,3.932,0.937443332,0.26,1,13,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,13,13,7,1.083,0,0,1,13,Y,Y
+Nemeth et al. 2009,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99,1999,New York,1a1,B,1500,needle,2005,Colorado,13,13,8,,,,1,13,Y,Y
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,1,4.788,,,1,6,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,2,5.66,,,1,6,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,3,5.95,,,1,6,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,4,5.074,,,1,6,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,5,5,4.176,,,0.833333333,5,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,5,6,3.516,,,0.833333333,5,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,5,7,,,,0.833333333,5,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,0,8,,,,,0,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,1,4.260444444,,,1,6,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,2,7.798666667,,,1,6,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,3,8.644,,,1,6,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,6,4,8.873222222,,,1,6,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,5,5,6.685444444,,,0.833333333,5,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,5,6,3.324777778,,,0.833333333,5,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,5,7,2.396444444,,,0.833333333,5,Y,N
+Reisen et al. 2005,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,6,0,8,,,,,0,Y,N
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,1999,New York,1a1,B,1500,needle,2012,Colorado,14,14,1,2.160714,,,1,14,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,1999,New York,1a1,B,1500,needle,2012,Colorado,14,13,2,5.492308,,,0.928571429,13,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,1999,New York,1a1,B,1500,needle,2012,Colorado,14,13,3,6.453846,,,0.928571429,13,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,1999,New York,1a1,B,1500,needle,2012,Colorado,14,13,4,5.338462,,,0.928571429,13,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,1999,New York,1a1,B,1500,needle,2012,Colorado,14,13,5,4.761538,,,0.928571429,13,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,1999,New York,1a1,B,1500,needle,2012,Colorado,14,13,6,2.892308,,,0.928571429,13,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,1999,New York,1a1,B,1500,needle,2012,Colorado,14,12,7,0.85,,,0.857142857,12,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,1999,New York,1a1,B,1500,needle,2012,Colorado,14,,8,,,,,,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,2012,"Texas, Juarez",1a2,C,1500,needle,2012,Colorado,58,58,1,3.780172,,,1,58,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,2012,"Texas, Juarez",1a2,C,1500,needle,2012,Colorado,58,58,2,6.566379,,,1,58,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,2012,"Texas, Juarez",1a2,C,1500,needle,2012,Colorado,58,56,3,7.088393,,,0.965517241,56,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,2012,"Texas, Juarez",1a2,C,1500,needle,2012,Colorado,58,55,4,5.498182,,,0.948275862,55,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,2012,"Texas, Juarez",1a2,C,1500,needle,2012,Colorado,58,49,5,3.515306,,,0.844827586,49,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,2012,"Texas, Juarez",1a2,C,1500,needle,2012,Colorado,58,48,6,1.927083,,,0.827586207,48,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,2012,"Texas, Juarez",1a2,C,1500,needle,2012,Colorado,58,43,7,1.302326,,,0.74137931,43,N,Y
+Duggal et al. 2014,Passer_domesticus,House sparrow,Passeridae,Passeridae,Passeriformes,Multiple ,2012,"Texas, Juarez",1a2,C,1500,needle,2012,Colorado,58,,8,,,,,,N,Y
+Komar et al. 2003,Coturnix_japonica,Japanese quail,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,1.7,0,0,1,3,N,Y
+Komar et al. 2003,Coturnix_japonica,Japanese quail,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,1.7,0,0,1,3,N,Y
+Komar et al. 2003,Coturnix_japonica,Japanese quail,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,2.8,0.825,0.476313972,1,3,N,Y
+Komar et al. 2003,Coturnix_japonica,Japanese quail,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,3.4,0.975,0.562916512,1,3,N,Y
+Komar et al. 2003,Coturnix_japonica,Japanese quail,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,3.1,0.9,0.519615242,1,3,N,Y
+Komar et al. 2003,Coturnix_japonica,Japanese quail,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,6,2.2,0.675,0.389711432,1,3,N,Y
+Komar et al. 2003,Coturnix_japonica,Japanese quail,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,7,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Coturnix_japonica,Japanese quail,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,8,,,,1,3,N,Y
+Komar et al. 2003,Charadrius_vociferus,Killdeer,Charadriidae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,1,6.2,0.125,0.088388348,1,2,N,Y
+Komar et al. 2003,Charadrius_vociferus,Killdeer,Charadriidae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,2,7.5,0.325,0.229809704,1,2,N,Y
+Komar et al. 2003,Charadrius_vociferus,Killdeer,Charadriidae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,3,8.1,1.025,0.724784451,1,2,N,Y
+Komar et al. 2003,Charadrius_vociferus,Killdeer,Charadriidae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,4,4.9,0.775,0.548007755,1,2,N,Y
+Komar et al. 2003,Charadrius_vociferus,Killdeer,Charadriidae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,5,2.6,0.725,0.512652416,1,2,N,Y
+Komar et al. 2003,Charadrius_vociferus,Killdeer,Charadriidae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,6,0.85,0,0,1,2,N,Y
+Komar et al. 2003,Charadrius_vociferus,Killdeer,Charadriidae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,7,0.85,0,0,1,2,N,Y
+Komar et al. 2003,Charadrius_vociferus,Killdeer,Charadriidae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,8,,,,1,2,N,Y
+Komar et al. 2003,Anas_platyrhynchos,Mallard,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,1,6.1,1.6,1.13137085,1,2,N,Y
+Komar et al. 2003,Anas_platyrhynchos,Mallard,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,2,5.7,0.1,0.070710678,1,2,N,Y
+Komar et al. 2003,Anas_platyrhynchos,Mallard,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,3,6.7,0.9,0.636396103,1,2,N,Y
+Komar et al. 2003,Anas_platyrhynchos,Mallard,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,4,5.1,0.925,0.654073773,1,2,N,Y
+Komar et al. 2003,Anas_platyrhynchos,Mallard,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,5,4.7,1.25,0.883883476,1,2,N,Y
+Komar et al. 2003,Anas_platyrhynchos,Mallard,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,6,0.85,0,0,1,2,N,Y
+Komar et al. 2003,Anas_platyrhynchos,Mallard,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,7,0.85,0,0,1,2,N,Y
+Komar et al. 2003,Anas_platyrhynchos,Mallard,Anatidae,Other,Anseriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,8,,,,1,2,N,Y
+Komar et al. 2003,Myiopsitta_monachus,Monk parakeet,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,2.8,0.75,0.433012702,1,3,N,Y
+Komar et al. 2003,Myiopsitta_monachus,Monk parakeet,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,3.6,1,0.577350269,1,3,N,Y
+Komar et al. 2003,Myiopsitta_monachus,Monk parakeet,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,3.5,0.975,0.562916512,1,3,N,Y
+Komar et al. 2003,Myiopsitta_monachus,Monk parakeet,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,1.7,0.5,0.288675135,1,3,N,Y
+Komar et al. 2003,Myiopsitta_monachus,Monk parakeet,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Myiopsitta_monachus,Monk parakeet,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,6,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Myiopsitta_monachus,Monk parakeet,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,7,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Myiopsitta_monachus,Monk parakeet,Psittacidae,Other,Psittaciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,8,,,,1,3,N,Y
+Komar et al. 2003,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,4.8,0.575,0.331976405,1,3,N,Y
+Komar et al. 2003,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,5.9,0.6,0.346410162,1,3,N,Y
+Komar et al. 2003,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,5.6,0.625,0.360843918,1,3,N,Y
+Komar et al. 2003,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,3.3,0.9,0.519615242,1,3,N,Y
+Komar et al. 2003,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,6,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,7,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,8,,,,1,3,N,Y
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,8,8,1,4.38,,,1,8,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,8,8,2,4.792,,,1,8,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,8,8,3,3.787,,,1,8,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,8,8,4,0.85,,,1,8,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,8,8,5,0.85,,,1,8,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,8,8,6,0.85,,,1,8,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,8,8,7,0.85,,,1,8,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,8,8,8,,,,1,8,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,1,1.899,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,2,4.612,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,3,4.569,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,4,0.85,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,5,0.85,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,6,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,7,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1.995262315,needle,2003,California,4,4,8,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19.95262315,needle,2003,California,4,4,1,2.242,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19.95262315,needle,2003,California,4,4,2,3.964,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19.95262315,needle,2003,California,4,4,3,4.611,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19.95262315,needle,2003,California,4,4,4,0.85,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19.95262315,needle,2003,California,4,4,5,0.85,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19.95262315,needle,2003,California,4,4,6,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19.95262315,needle,2003,California,4,4,7,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19.95262315,needle,2003,California,4,4,8,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,1,2.611,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,2,3.083,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,3,4.054,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,4,0.85,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,5,0.85,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,6,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,7,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,199.5262315,needle,2003,California,4,4,8,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1995.262315,needle,2003,California,4,4,1,4.001,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1995.262315,needle,2003,California,4,4,2,4.271,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1995.262315,needle,2003,California,4,4,3,3.767,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1995.262315,needle,2003,California,4,4,4,0.85,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1995.262315,needle,2003,California,4,4,5,0.85,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1995.262315,needle,2003,California,4,4,6,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1995.262315,needle,2003,California,4,4,7,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,1995.262315,needle,2003,California,4,4,8,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19952.62315,needle,2003,California,4,4,1,4.759,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19952.62315,needle,2003,California,4,4,2,5.215,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19952.62315,needle,2003,California,4,4,3,3.773,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19952.62315,needle,2003,California,4,4,4,1.889,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19952.62315,needle,2003,California,4,4,5,1.7,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19952.62315,needle,2003,California,4,4,6,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19952.62315,needle,2003,California,4,4,7,,,,1,4,Y,N
+Reisen et al. 2005,Zenaida_macroura,Morning dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,19952.62315,needle,2003,California,4,4,8,,,,1,4,Y,N
+Komar et al. 2003,Colinus_virginianus,Northern bobwhite,Odontophpridae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,2.8,0.35,0.202072594,1,3,N,Y
+Komar et al. 2003,Colinus_virginianus,Northern bobwhite,Odontophpridae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,2.9,0.25,0.144337567,1,3,N,Y
+Komar et al. 2003,Colinus_virginianus,Northern bobwhite,Odontophpridae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,2,0.125,0.072168784,1,3,N,Y
+Komar et al. 2003,Colinus_virginianus,Northern bobwhite,Odontophpridae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,1.9,0.6,0.346410162,1,3,N,Y
+Komar et al. 2003,Colinus_virginianus,Northern bobwhite,Odontophpridae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,1.2,0.425,0.245373864,1,3,N,Y
+Komar et al. 2003,Colinus_virginianus,Northern bobwhite,Odontophpridae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,6,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Colinus_virginianus,Northern bobwhite,Odontophpridae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,7,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Colinus_virginianus,Northern bobwhite,Odontophpridae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,8,,,,1,3,N,Y
+Komar et al. 2005,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,8,8,1,4.405,0.974,0.344361002,1,8,N,Y
+Komar et al. 2005,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,8,8,2,6.283,1.061,0.375120147,1,8,N,Y
+Komar et al. 2005,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,8,8,3,8.431,1.819,0.643113617,1,8,N,Y
+Komar et al. 2005,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,8,8,4,8.708,2.799,0.98959594,1,8,N,Y
+Komar et al. 2005,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,8,6,5,3.603,1.778,0.72586546,0.75,6,N,Y
+Komar et al. 2005,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,8,6,6,1.804,0.961,0.392326607,0.75,6,N,Y
+Komar et al. 2005,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,8,6,7,0.85,,,0.75,6,N,Y
+Komar et al. 2005,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,8,6,8,,,,0.75,6,N,Y
+Owen et al. 2012,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2009,Michigan,10,10,1,4.737666667,1.222699064,0.386651393,1,10,N,N
+Owen et al. 2012,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2009,Michigan,10,10,2,7.055777778,1.600645321,0.506168494,1,10,N,N
+Owen et al. 2012,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2009,Michigan,10,10,3,8.281555556,2.567882401,0.812035715,1,10,N,N
+Owen et al. 2012,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2009,Michigan,10,10,4,6.678333333,1.843795067,0.583059195,1,10,N,N
+Owen et al. 2012,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2009,Michigan,10,10,5,5.593777778,2.708628517,0.856543545,1,10,N,N
+Owen et al. 2012,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2009,Michigan,10,9,6,0.85,,,0.9,9,N,N
+Owen et al. 2012,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2009,Michigan,10,9,7,0.85,,,0.9,9,N,N
+Owen et al. 2012,Cardinalis_cardinalis,Northern cardinal,Cardinalidae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2009,Michigan,10,9,8,,,,0.9,9,N,N
+Komar et al. 2003,Colaptes_auratus,Northern flicker,Picidae,Other,Piciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,1,3.9,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Colaptes_auratus,Northern flicker,Picidae,Other,Piciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,2,4.9,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Colaptes_auratus,Northern flicker,Picidae,Other,Piciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,3,5.4,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Colaptes_auratus,Northern flicker,Picidae,Other,Piciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,4,3.9,0.566620931,0.290181523,1,1,N,Y
+Komar et al. 2003,Colaptes_auratus,Northern flicker,Picidae,Other,Piciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,5,0.85,,,1,1,N,Y
+Komar et al. 2003,Colaptes_auratus,Northern flicker,Picidae,Other,Piciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,6,0.85,,,1,1,N,Y
+Komar et al. 2003,Colaptes_auratus,Northern flicker,Picidae,Other,Piciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,7,0.85,,,1,1,N,Y
+Komar et al. 2003,Colaptes_auratus,Northern flicker,Picidae,Other,Piciformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,1,1,8,,,,1,1,N,Y
+Komar et al. 2005,Mimus_polyglottos,Northern mockingbird,Mimidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,4,4,1,3.802,0.744,0.372,1,4,N,Y
+Komar et al. 2005,Mimus_polyglottos,Northern mockingbird,Mimidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,4,4,2,6.327,1.106,0.553,1,4,N,Y
+Komar et al. 2005,Mimus_polyglottos,Northern mockingbird,Mimidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,4,4,3,6.42,1.014,0.507,1,4,N,Y
+Komar et al. 2005,Mimus_polyglottos,Northern mockingbird,Mimidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,4,4,4,3.528,0.72,0.36,1,4,N,Y
+Komar et al. 2005,Mimus_polyglottos,Northern mockingbird,Mimidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,4,4,5,3.477,2.369,1.1845,1,4,N,Y
+Komar et al. 2005,Mimus_polyglottos,Northern mockingbird,Mimidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,4,4,6,0.85,0,0,1,4,N,Y
+Komar et al. 2005,Mimus_polyglottos,Northern mockingbird,Mimidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,4,4,7,0.85,,,1,4,N,Y
+Komar et al. 2005,Mimus_polyglottos,Northern mockingbird,Mimidae,Other,Passeriformes,NY99-4132,1999,New York,1a1,B,12589.25412,needle,2002,New York,4,4,8,,,,1,4,N,Y
+Komar et al. 2003,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,5.9,0.15,0.08660254,1,3,N,Y
+Komar et al. 2003,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,8.6,0.375,0.216506351,1,3,N,Y
+Komar et al. 2003,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,6,0.2,0.115470054,1,3,N,Y
+Komar et al. 2003,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,6,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,7,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,8,,,,1,3,N,Y
+Reisen and Hahn 2007,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,1,5.023,,,1,7,N,N
+Reisen and Hahn 2007,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,2,5.479,,,1,7,N,N
+Reisen and Hahn 2007,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,3,4.072,,,1,7,N,N
+Reisen and Hahn 2007,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,4,2.285,,,1,7,N,N
+Reisen and Hahn 2007,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,5,1.218,,,1,7,N,N
+Reisen and Hahn 2007,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,6,0.778,,,1,7,N,N
+Reisen and Hahn 2007,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,7,0.788,,,1,7,N,N
+Reisen and Hahn 2007,Agelaius_phoeniceus,Red-winged blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,7,7,8,,,,1,7,N,N
+Komar et al. 2003,Larus_delawarensis,Ring-billed gull,Laridae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,1,5.4,0,0,1,2,N,Y
+Komar et al. 2003,Larus_delawarensis,Ring-billed gull,Laridae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,2,7.8,0.4,0.282842712,1,2,N,Y
+Komar et al. 2003,Larus_delawarensis,Ring-billed gull,Laridae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,3,8,0.725,0.512652416,1,2,N,Y
+Komar et al. 2003,Larus_delawarensis,Ring-billed gull,Laridae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,2,4,7.4,1.2,0.848528137,1,2,N,Y
+Komar et al. 2003,Larus_delawarensis,Ring-billed gull,Laridae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,1,5,7.2,0.58125,0.411005817,0.5,1,N,Y
+Komar et al. 2003,Larus_delawarensis,Ring-billed gull,Laridae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,1,6,5.3,0.58125,0.411005817,0.5,1,N,Y
+Komar et al. 2003,Larus_delawarensis,Ring-billed gull,Laridae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,1,7,4.1,0.58125,0.411005817,0.5,1,N,Y
+Komar et al. 2003,Larus_delawarensis,Ring-billed gull,Laridae,Other,Charadriiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,2,0,8,,,,,0,N,Y
+Komar et al. 2003,Phasianus_colchicus,Ring-necked pheasant,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,1,2.1,0.575,0.331976405,1,3,N,Y
+Komar et al. 2003,Phasianus_colchicus,Ring-necked pheasant,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,2,2.8,0.8,0.461880215,1,3,N,Y
+Komar et al. 2003,Phasianus_colchicus,Ring-necked pheasant,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,3,2.6,0.325,0.187638837,1,3,N,Y
+Komar et al. 2003,Phasianus_colchicus,Ring-necked pheasant,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,4,1.8,0.075,0.04330127,1,3,N,Y
+Komar et al. 2003,Phasianus_colchicus,Ring-necked pheasant,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,5,1.2,0.425,0.245373864,1,3,N,Y
+Komar et al. 2003,Phasianus_colchicus,Ring-necked pheasant,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,6,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Phasianus_colchicus,Ring-necked pheasant,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,7,0.85,0,0,1,3,N,Y
+Komar et al. 2003,Phasianus_colchicus,Ring-necked pheasant,Phasianidae,Other,Galliformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,3,3,8,,,,1,3,N,Y
+Komar et al. 2003,Columba_livia,Rock dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,1,3.5,1,0.40824829,1,6,N,Y
+Komar et al. 2003,Columba_livia,Rock dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,2,4.3,0.325,0.132680694,1,6,N,Y
+Komar et al. 2003,Columba_livia,Rock dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,3,4.2,0.25,0.102062073,1,6,N,Y
+Komar et al. 2003,Columba_livia,Rock dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,4,2.9,0.925,0.377629669,1,6,N,Y
+Komar et al. 2003,Columba_livia,Rock dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,5,0.85,0,0,1,6,N,Y
+Komar et al. 2003,Columba_livia,Rock dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,6,0.85,0,0,1,6,N,Y
+Komar et al. 2003,Columba_livia,Rock dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,7,0.85,0,0,1,6,N,Y
+Komar et al. 2003,Columba_livia,Rock dove,Columbidae,Other,Columbiformes,NY99,1999,New York,1a1,B,10000,needle,2000,New York,6,6,8,,,,1,6,N,Y
+Reisen and Fang 2007,Melospiza_melodia,Song sparrow,Emberizidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3981.071706,needle,2002,California,6,6,1,3.008,1.829748398,1.055,1,6,N,N
+Reisen and Fang 2007,Melospiza_melodia,Song sparrow,Emberizidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3981.071706,needle,2002,California,6,6,2,6.278,2.129754681,0.85,1,6,N,N
+Reisen and Fang 2007,Melospiza_melodia,Song sparrow,Emberizidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3981.071706,needle,2002,California,6,6,3,5.91,1.898649391,0.781,1,6,N,N
+Reisen and Fang 2007,Melospiza_melodia,Song sparrow,Emberizidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3981.071706,needle,2002,California,6,6,4,5.915,4.090754021,1.682,1,6,N,N
+Reisen and Fang 2007,Melospiza_melodia,Song sparrow,Emberizidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3981.071706,needle,2002,California,6,6,5,3.323,4.568211863,2.506,1,6,N,N
+Reisen and Fang 2007,Melospiza_melodia,Song sparrow,Emberizidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3981.071706,needle,2002,California,6,5,6,2.17,1.688163416,1.146,0.833333333,5,N,N
+Reisen and Fang 2007,Melospiza_melodia,Song sparrow,Emberizidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3981.071706,needle,2002,California,6,0,7,0.85,,,,0,N,N
+Reisen and Fang 2007,Melospiza_melodia,Song sparrow,Emberizidae,Other,Passeriformes,NY99,1999,New York,1a1,B,3981.071706,needle,2002,California,6,0,8,,,,,0,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,17,17,1,3.4,0.84,0.21,1,17,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,17,17,2,5.5,0.907083238,0.22,1,17,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,17,17,3,2.4,0.431161223,0.13,1,17,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,17,17,4,2.2,0.658179307,0.19,1,17,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,17,17,5,2.2,0.709105942,0.1875,1,17,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,17,17,6,1.7,0.709105942,0.1875,1,17,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,,,7,,,,1,0,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,10000,needle,2003,Alabama,,,8,,,,1,0,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,7,7,1,3.5,1.050951949,0.47,1,7,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,7,7,2,4.3,0.581377674,0.26,1,7,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,7,7,3,3.2,0.42,0.3,1,7,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,4,,,,1,0,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,5,,,,1,0,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,6,,,,1,0,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,7,,,,1,0,N,N
+Owen et al. 2006,Catharus_ustulatus,SwainsonŠ—Ès thrushes,Catharus,Other,Ustulatus,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,8,,,,1,0,N,N
+Reisen and Hahn 2007,Agelaius_tricolor,Tricolored blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,5,5,1,2.53,,,1,5,N,N
+Reisen and Hahn 2007,Agelaius_tricolor,Tricolored blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,5,5,2,5.844,,,1,5,N,N
+Reisen and Hahn 2007,Agelaius_tricolor,Tricolored blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,5,5,3,6.869,,,1,5,N,N
+Reisen and Hahn 2007,Agelaius_tricolor,Tricolored blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,5,5,4,5.689,,,1,5,N,N
+Reisen and Hahn 2007,Agelaius_tricolor,Tricolored blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,5,5,5,3.648,,,1,5,N,N
+Reisen and Hahn 2007,Agelaius_tricolor,Tricolored blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,5,5,6,1.916,,,1,5,N,N
+Reisen and Hahn 2007,Agelaius_tricolor,Tricolored blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,5,5,7,0.85,,,1,5,N,N
+Reisen and Hahn 2007,Agelaius_tricolor,Tricolored blackbird,Icteridae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2004,California,5,5,8,,,,1,5,N,N
+Kilpatrick et al. 2013,Baeolophus_bicolor,Tufted titmouse,Paridae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,12,12,1,4.592,1.04,0.30022214,1,12,N,N
+Kilpatrick et al. 2013,Baeolophus_bicolor,Tufted titmouse,Paridae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,12,12,2,8.008,0.425,0.122686932,1,12,N,N
+Kilpatrick et al. 2013,Baeolophus_bicolor,Tufted titmouse,Paridae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,12,12,3,7.649,0.933,0.269333901,1,12,N,N
+Kilpatrick et al. 2013,Baeolophus_bicolor,Tufted titmouse,Paridae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,12,12,4,6.03,1.236,0.356802466,1,12,N,N
+Kilpatrick et al. 2013,Baeolophus_bicolor,Tufted titmouse,Paridae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,12,9,5,5.057,2.402,0.800666667,0.75,9,N,N
+Kilpatrick et al. 2013,Baeolophus_bicolor,Tufted titmouse,Paridae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,12,2,6,4.698,1.753,1.239558187,0.166666667,2,N,N
+Kilpatrick et al. 2013,Baeolophus_bicolor,Tufted titmouse,Paridae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,12,0,7,0,,,0,0,N,N
+Kilpatrick et al. 2013,Baeolophus_bicolor,Tufted titmouse,Paridae,Other,Passeriformes,WN02,2003,California,1a2,C,10000,needle,2009,Maryland,12,0,8,,,,,0,N,N
+Reisen et al. 2005,Aphelocoma_californica,Western scrub jay,Corvidae,Other,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,5,5,1,6.057,,,1,5,Y,N
+Reisen et al. 2005,Aphelocoma_californica,Western scrub jay,Corvidae,Other,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,5,5,2,7.614,,,1,5,Y,N
+Reisen et al. 2005,Aphelocoma_californica,Western scrub jay,Corvidae,Other,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,5,5,3,9.118,,,1,5,Y,N
+Reisen et al. 2005,Aphelocoma_californica,Western scrub jay,Corvidae,Other,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,5,5,4,9.195,,,1,5,Y,N
+Reisen et al. 2005,Aphelocoma_californica,Western scrub jay,Corvidae,Other,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,5,5,5,8.634,,,1,5,Y,N
+Reisen et al. 2005,Aphelocoma_californica,Western scrub jay,Corvidae,Other,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,5,5,6,,,,1,5,Y,N
+Reisen et al. 2005,Aphelocoma_californica,Western scrub jay,Corvidae,Other,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,5,5,7,,,,1,5,Y,N
+Reisen et al. 2005,Aphelocoma_californica,Western scrub jay,Corvidae,Other,Passeriformes,NY99AAF,1999,New York,1a1,B,1000,needle,2003,California,5,5,8,,,,1,5,Y,N
+Owen et al. 2006,Hylocichla_mustelina,Wood thrush,Turdidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,7,7,1,3.1,0.582065288,0.22,1,7,N,N
+Owen et al. 2006,Hylocichla_mustelina,Wood thrush,Turdidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,7,7,2,4,0.53,0.2,1,7,N,N
+Owen et al. 2006,Hylocichla_mustelina,Wood thrush,Turdidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,7,7,3,2.7,0.881816307,0.36,1,7,N,N
+Owen et al. 2006,Hylocichla_mustelina,Wood thrush,Turdidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,7,7,4,1.7,0,0,1,7,N,N
+Owen et al. 2006,Hylocichla_mustelina,Wood thrush,Turdidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,5,,,,1,0,N,N
+Owen et al. 2006,Hylocichla_mustelina,Wood thrush,Turdidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,6,,,,1,0,N,N
+Owen et al. 2006,Hylocichla_mustelina,Wood thrush,Turdidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,7,,,,1,0,N,N
+Owen et al. 2006,Hylocichla_mustelina,Wood thrush,Turdidae,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2002,Alabama,,,8,,,,1,0,N,N
+Hofmeister et al. 2015,Aix_sponsa,Wood Duck,Sponsa,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2012,"Madison, WI",14,14,1,4.405,0.15714961,0.042,1,14,N,Y
+Hofmeister et al. 2015,Aix_sponsa,Wood Duck,Sponsa,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2012,"Madison, WI",14,14,2,4.543,0.752073135,0.201,1,14,N,Y
+Hofmeister et al. 2015,Aix_sponsa,Wood Duck,Sponsa,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2012,"Madison, WI",14,14,3,2.136,1.126238873,0.301,1,14,N,Y
+Hofmeister et al. 2015,Aix_sponsa,Wood Duck,Sponsa,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2012,"Madison, WI",14,14,4,1.7,0,0,1,14,N,Y
+Hofmeister et al. 2015,Aix_sponsa,Wood Duck,Sponsa,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2012,"Madison, WI",14,14,5,,,,1,14,N,Y
+Hofmeister et al. 2015,Aix_sponsa,Wood Duck,Sponsa,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2012,"Madison, WI",14,14,6,,,,1,14,N,Y
+Hofmeister et al. 2015,Aix_sponsa,Wood Duck,Sponsa,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2012,"Madison, WI",14,14,7,,,,1,14,N,Y
+Hofmeister et al. 2015,Aix_sponsa,Wood Duck,Sponsa,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2012,"Madison, WI",14,14,8,,,,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2014,University of Illinois,14,14,1,1.7,0,0,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2014,University of Illinois,14,14,2,1.897,1.938178526,0.518,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2014,University of Illinois,14,14,3,2.669,1.724904055,0.461,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2014,University of Illinois,14,14,4,3.543,2.312344265,0.618,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2014,University of Illinois,14,14,5,4.57,0.886772801,0.237,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2014,University of Illinois,14,14,6,3.914,2.121519738,0.567,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2014,University of Illinois,14,14,7,3.406,2.645351772,0.707,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,1000,needle,2014,University of Illinois,14,14,8,2.495,2.278669349,0.609,1,14,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2014,University of Illinois,13,13,1,1.781,0.948259985,0.263,1,13,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2014,University of Illinois,13,13,2,3.037,2.188569624,0.607,1,13,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2014,University of Illinois,13,13,3,3.244,2.823146649,0.783,1,13,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2014,University of Illinois,13,13,4,4.613,2.952946495,0.819,1,13,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2014,University of Illinois,13,13,5,3.25,2.383269393,0.661,1,13,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2014,University of Illinois,13,13,6,3.537,2.949340943,0.818,1,13,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2014,University of Illinois,13,13,7,2.717,2.321975021,0.644,1,13,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,100000,needle,2014,University of Illinois,13,13,8,2.983,3.028663071,0.84,1,13,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,10000000,needle,2014,University of Illinois,8,8,1,6.47,0.873983982,0.309,1,8,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,10000000,needle,2014,University of Illinois,8,8,2,6.45,0.356381818,0.126,1,8,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,10000000,needle,2014,University of Illinois,8,8,3,7.979,2.565383402,0.907,1,8,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,10000000,needle,2014,University of Illinois,8,8,4,5.376,0.73821948,0.261,1,8,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,10000000,needle,2014,University of Illinois,8,8,5,3.061,2.740745884,0.969,1,8,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,10000000,needle,2014,University of Illinois,8,8,6,1.694,0.854184992,0.302,1,8,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,10000000,needle,2014,University of Illinois,8,7,7,1.7,0,0,0.875,7,N,Y
+Hofmeister et al. 2017,Taeniopygia_guttata,Zebra Finch,guttata,Other,Passeriformes,NY99,1999,New York,1a1,B,10000000,needle,2014,University of Illinois,8,6,8,1.7,0,0,0.75,6,N,Y

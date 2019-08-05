@@ -1,0 +1,618 @@
+Citation,Location,Unique_Line,Vector_Species,Temperature_C,Strain,Updated_Lineage,Virus_Lineage,Days_Post_Infection,Virus_Received_From,Receiving_Dose,Log_Dose,Receiving_Host,Sample_Size,Percent_Infected,Number_Infected,Number_Transmitting_Mean,Percent_Transmitting_Mean,Adjusted_Percent_Transmitted_Mean,Percent_Transmitting_SD,Percent_Transmitting_0.025_Confidence_Interval,Percent_Transmitting_0.975_Confidence_Interval,Titer_Level_Mean,Titer_Level_SD,Titer_Level_0.025_Confidence_Interval,Titer_Level_0.975_Confidence_Interval,Use_Titer,Time_Series,Host_to_Mosquito
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,5,Hamster Blood,245000000,8.38916608436453,Mouse,19,,,3,0.16,0.16,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,6,Hamster Blood,245000000,8.38916608436453,Mouse,27,,,4,0.149,0.149,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,7,Hamster Blood,245000000,8.38916608436453,Mouse,19,,,5,0.259,0.259,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,8,Hamster Blood,245000000,8.38916608436453,Mouse,16,,,5,0.312,0.312,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,9,Hamster Blood,245000000,8.38916608436453,Mouse,14,,,8,0.542,0.542,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,10,Hamster Blood,245000000,8.38916608436453,Mouse,13,,,6,0.462,0.462,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,11,Hamster Blood,245000000,8.38916608436453,Mouse,15,,,10,0.673,0.673,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,12,Hamster Blood,245000000,8.38916608436453,Mouse,13,,,11,0.853,0.853,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,13,Hamster Blood,245000000,8.38916608436453,Mouse,18,,,16,0.893,0.893,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,14,Hamster Blood,245000000,8.38916608436453,Mouse,16,,,12,0.752,0.752,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,15,Hamster Blood,245000000,8.38916608436453,Mouse,16,,,14,0.881,0.881,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,16,Hamster Blood,245000000,8.38916608436453,Mouse,16,,,14,0.881,0.881,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,17,Hamster Blood,245000000,8.38916608436453,Mouse,11,,,9,0.823,0.823,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,18,Hamster Blood,245000000,8.38916608436453,Mouse,20,,,19,0.951,0.951,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,19,Hamster Blood,245000000,8.38916608436453,Mouse,12,,,12,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,20,Hamster Blood,245000000,8.38916608436453,Mouse,17,,,13,0.771,0.771,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,21,Hamster Blood,245000000,8.38916608436453,Mouse,5,,,4,0.798,0.798,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,22,Hamster Blood,245000000,8.38916608436453,Mouse,5,,,5,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",1,Culex tarsalis,26,NY99,1a1,B,23,Hamster Blood,245000000,8.38916608436453,Mouse,5,,,5,0.999,0.999,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,5,Hamster Blood,245000000,8.38916608436453,Mouse,23,,,1,0.041,0.041,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,6,Hamster Blood,245000000,8.38916608436453,Mouse,24,,,3,0.131,0.131,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,7,Hamster Blood,245000000,8.38916608436453,Mouse,22,,,8,0.362,0.362,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,8,Hamster Blood,245000000,8.38916608436453,Mouse,24,,,11,0.461,0.461,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,9,Hamster Blood,245000000,8.38916608436453,Mouse,21,,,12,0.572,0.572,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,10,Hamster Blood,245000000,8.38916608436453,Mouse,11,,,7,0.643,0.643,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,11,Hamster Blood,245000000,8.38916608436453,Mouse,15,,,14,0.93,0.93,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,12,Hamster Blood,245000000,8.38916608436453,Mouse,18,,,14,0.831,0.831,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,13,Hamster Blood,245000000,8.38916608436453,Mouse,16,,,12,0.752,0.752,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,14,Hamster Blood,245000000,8.38916608436453,Mouse,20,,,19,0.953,0.953,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,15,Hamster Blood,245000000,8.38916608436453,Mouse,15,,,13,0.868,0.868,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,16,Hamster Blood,245000000,8.38916608436453,Mouse,8,,,8,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,17,Hamster Blood,245000000,8.38916608436453,Mouse,29,,,27,0.932,0.932,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,18,Hamster Blood,245000000,8.38916608436453,Mouse,16,,,15,0.999,0.999,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,19,Hamster Blood,245000000,8.38916608436453,Mouse,15,,,14,0.931,0.931,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,20,Hamster Blood,245000000,8.38916608436453,Mouse,17,,,14,0.822,0.822,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,21,Hamster Blood,245000000,8.38916608436453,Mouse,5,,,5,0.999,0.999,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,22,Hamster Blood,245000000,8.38916608436453,Mouse,5,,,5,0.999,0.999,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",2,Culex tarsalis,26,WN02,1a2,C,23,Hamster Blood,245000000,8.38916608436453,Mouse,5,,,4,0.711,0.711,,,,,,,,N,Y,N
+Dohm et al 2002,"Westchester, NY",3,Culex pipiens,18,NY99,1a1,B,6,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0,,,,,1.287,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",3,Culex pipiens,18,NY99,1a1,B,12,Chicken Blood,6309573.44480193,6.8,Vero cells,5,,,,0,,,,,2.078,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",3,Culex pipiens,18,NY99,1a1,B,14,Chicken Blood,6309573.44480193,6.8,Vero cells,6,0.67,4,,0,,,,,2.002,,,,Y,Y,Y
+Dohm et al 2002,"Westchester, NY",3,Culex pipiens,18,NY99,1a1,B,19,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0,,,,,2.584,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",3,Culex pipiens,18,NY99,1a1,B,21,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0,,,,,2.789,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",3,Culex pipiens,18,NY99,1a1,B,25,Chicken Blood,6309573.44480193,6.8,Vero cells,7,,,,0.1233,,,,,3.185,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",3,Culex pipiens,18,NY99,1a1,B,28,Chicken Blood,6309573.44480193,6.8,Vero cells,7,,,,0.2601,,,,,3.683,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",3,Culex pipiens,18,NY99,1a1,B,32,Chicken Blood,6309573.44480193,6.8,Vero cells,7,,,,0.3816,,,,,3.376,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",4,Culex pipiens,20,NY99,1a1,B,4,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0,,,,,2.16,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",4,Culex pipiens,20,NY99,1a1,B,6,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0,,,,,1.594,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",4,Culex pipiens,20,NY99,1a1,B,8,Chicken Blood,6309573.44480193,6.8,Vero cells,8,,,,0,,,,,1.687,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",4,Culex pipiens,20,NY99,1a1,B,11,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0,,,,,3.16,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",4,Culex pipiens,20,NY99,1a1,B,14,Chicken Blood,6309573.44480193,6.8,Vero cells,7,1,7,,0.3789,,,,,3.872,,,,Y,Y,Y
+Dohm et al 2002,"Westchester, NY",4,Culex pipiens,20,NY99,1a1,B,18,Chicken Blood,6309573.44480193,6.8,Vero cells,8,,,,0.2205,,,,,3.986,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",4,Culex pipiens,20,NY99,1a1,B,21,Chicken Blood,6309573.44480193,6.8,Vero cells,7,,,,0.3816,,,,,4.561,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,4,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0,,,,,2.526,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,6,Chicken Blood,6309573.44480193,6.8,Vero cells,12,,,,0.1521,,,,,3.322,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,8,Chicken Blood,6309573.44480193,6.8,Vero cells,8,,,,0,,,,,3.322,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,11,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0.2997,,,,,5.019,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,12,Chicken Blood,6309573.44480193,6.8,Vero cells,5,,,,0.5355,,,,,5.315,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,14,Chicken Blood,6309573.44480193,6.8,Vero cells,14,0.93,13,,0.324,,,,,4.01,,,,Y,Y,Y
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,18,Chicken Blood,6309573.44480193,6.8,Vero cells,13,,,,0.6957,,,,,5.593,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,21,Chicken Blood,6309573.44480193,6.8,Vero cells,13,,,,0.7641,,,,,5.92,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,25,Chicken Blood,6309573.44480193,6.8,Vero cells,7,,,,0.8982,,,,,6.494,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,28,Chicken Blood,6309573.44480193,6.8,Vero cells,7,,,,0.8982,,,,,6.402,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",5,Culex pipiens,26,NY99,1a1,B,32,Chicken Blood,6309573.44480193,6.8,Vero cells,7,,,,0.6381,,,,,4.909,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",6,Culex pipiens,30,NY99,1a1,B,4,Chicken Blood,6309573.44480193,6.8,Vero cells,5,,,,0.1818,,,,,4.805,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",6,Culex pipiens,30,NY99,1a1,B,6,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0.7506,,,,,5.402,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",6,Culex pipiens,30,NY99,1a1,B,8,Chicken Blood,6309573.44480193,6.8,Vero cells,8,,,,0.558,,,,,6.113,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",6,Culex pipiens,30,NY99,1a1,B,12,Chicken Blood,6309573.44480193,6.8,Vero cells,8,,,,0.9,,,,,6.314,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",6,Culex pipiens,30,NY99,1a1,B,14,Chicken Blood,6309573.44480193,6.8,Vero cells,8,0.88,7,,0.792,,,,,5.601,,,,Y,Y,Y
+Dohm et al 2002,"Westchester, NY",6,Culex pipiens,30,NY99,1a1,B,18,Chicken Blood,6309573.44480193,6.8,Vero cells,6,,,,0.9,,,,,6.51,,,,Y,Y,N
+Dohm et al 2002,"Westchester, NY",6,Culex pipiens,30,NY99,1a1,B,21,Chicken Blood,6309573.44480193,6.8,Vero cells,2,,,,0.9,,,,,6.295,,,,Y,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,0.5,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,1,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,0,0.001,0.001,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,1.5,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.916,23,0,0.001,0.00109170305676856,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,2,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.916,23,0,0.001,0.00109170305676856,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,2.5,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.959,24,0,0.001,0.00104275286757039,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,3,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,1,0.04,0.04,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,4,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,1,0.041,0.041,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,6,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,6,0.242,0.242,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,8,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.958,24,4,0.161,0.168058455114823,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,10,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.999,25,11,0.441,0.441441441441441,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,7,Culex pipiens,32,NY99,1a1,B,14,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,,,,,,,,,,,,,
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,0.5,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.919,23,1,0.041,0.044613710554951,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,1,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.878,22,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,1.5,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.961,24,2,0.08,0.0832466181061394,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,2,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.958,24,0,0.002,0.00208768267223382,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,2.5,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,1,0.041,0.041,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,3,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.88,22,7,0.242,0.275,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,4,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,,,,,,,,,,,,,
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,6,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.918,23,8,0.282,0.30718954248366,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,7,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.96,24,7,0.28,0.292,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,10,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.917,23,13,0.481,0.52453653217012,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,8,Culex pipiens,32,WN02,1a2,C,14,Goose Blood,130000000,8.11394335230684,Vero cells,25,1,25,,,,,,,,,,,,,
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,4,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.442,11,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,7,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.681,17,2,0.041,0.0602055800293686,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,10,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.958,24,1,0.04,0.0417536534446764,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,14,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.718,18,1,0.04,0.0557103064066852,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,18,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.759,19,3,0.081,0.106719367588933,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,21,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.721,18,1,0.04,0.0554785020804438,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,24,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.921,23,2,0.081,0.0879478827361563,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,28,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.799,20,3,0.08,0.100125156445557,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,31,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.76,19,8,0.239,0.314473684210526,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,9,Culex pipiens,22,NY99,1a1,B,34,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.839,21,6,0.199,0.237187127532777,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,NY99,1a1,B,40,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.661,17,,,,,,,,,,,,,
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,4,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.558,14,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,7,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.797,20,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,10,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.797,20,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,14,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.678,17,1,0.039,0.0575221238938053,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,18,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.761,19,3,0.08,0.105124835742444,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,21,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.801,20,2,0.079,0.0986267166042447,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,24,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.679,17,10,0.279,0.410898379970545,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,28,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.96,24,13,0.518,0.539583333333333,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,31,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.639,16,12,0.319,0.499217527386541,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,34,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.797,20,16,0.519,0.651191969887077,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,10,Culex pipiens,22,WN02,1a2,C,40,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.529,13,0,,0,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,11,Culex pipiens,27,NY99,1a1,B,1,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,1.55,,,,Y,Y,N
+Moudy et al 2007,Pennsylvania,11,Culex pipiens,27,NY99,1a1,B,2,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,2.951,,2.642,3.242,Y,Y,N
+Moudy et al 2007,Pennsylvania,11,Culex pipiens,27,NY99,1a1,B,3,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,4.482,,4.169,4.752,Y,Y,N
+Moudy et al 2007,Pennsylvania,11,Culex pipiens,27,NY99,1a1,B,4,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,4.613,,4.276,4.905,Y,Y,N
+Moudy et al 2007,Pennsylvania,11,Culex pipiens,27,NY99,1a1,B,5,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,4.586,,4.255,4.888,Y,Y,N
+Moudy et al 2007,Pennsylvania,11,Culex pipiens,27,NY99,1a1,B,7,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,5.773,,5.527,5.971,Y,Y,N
+Moudy et al 2007,Pennsylvania,11,Culex pipiens,27,NY99,1a1,B,9,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,6.823,,6.428,7.172,Y,Y,N
+Moudy et al 2007,Pennsylvania,11,Culex pipiens,27,NY99,1a1,B,14,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,6.85,,6.444,7.18,Y,Y,N
+Moudy et al 2007,Pennsylvania,12,Culex pipiens,27,WN02,1a2,C,1,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,1.791,,,,Y,Y,N
+Moudy et al 2007,Pennsylvania,12,Culex pipiens,27,WN02,1a2,C,2,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,3.795,,3.556,4.1,Y,Y,N
+Moudy et al 2007,Pennsylvania,12,Culex pipiens,27,WN02,1a2,C,3,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,5.09,,4.848,5.415,Y,Y,N
+Moudy et al 2007,Pennsylvania,12,Culex pipiens,27,WN02,1a2,C,4,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,5.491,,5.228,5.78,Y,Y,N
+Moudy et al 2007,Pennsylvania,12,Culex pipiens,27,WN02,1a2,C,5,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,5.829,,5.702,6.025,Y,Y,N
+Moudy et al 2007,Pennsylvania,12,Culex pipiens,27,WN02,1a2,C,7,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,6.557,,,,Y,Y,N
+Moudy et al 2007,Pennsylvania,12,Culex pipiens,27,WN02,1a2,C,9,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,7.609,,,,Y,Y,N
+Moudy et al 2007,Pennsylvania,12,Culex pipiens,27,WN02,1a2,C,14,Goose Blood,10000000,7,Vero cells,25,,,,,,,,,7.753,,,,Y,Y,N
+Moudy et al 2007,Pennsylvania,13,Culex pipiens,27,NY99,1a1,B,1,Goose Blood,10000000,7,Vero cells,25,0.76,19,0,0,0,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,13,Culex pipiens,27,NY99,1a1,B,2,Goose Blood,10000000,7,Vero cells,25,0.84,21,1,0.04,0.0476190476190476,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,13,Culex pipiens,27,NY99,1a1,B,3,Goose Blood,10000000,7,Vero cells,25,1,25,1,0.04,0.04,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,13,Culex pipiens,27,NY99,1a1,B,4,Goose Blood,10000000,7,Vero cells,25,0.88,22,13,0.44,0.5,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,13,Culex pipiens,27,NY99,1a1,B,5,Goose Blood,10000000,7,Vero cells,25,0.96,24,13,0.48,0.5,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,13,Culex pipiens,27,NY99,1a1,B,7,Goose Blood,10000000,7,Vero cells,25,0.96,24,21,0.8,0.833333333333333,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,13,Culex pipiens,27,NY99,1a1,B,9,Goose Blood,10000000,7,Vero cells,25,1,25,21,0.84,0.84,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,13,Culex pipiens,27,NY99,1a1,B,14,Goose Blood,10000000,7,Vero cells,25,1,25,20,0.8,0.8,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,14,Culex pipiens,27,WN02,1a2,C,1,Goose Blood,10000000,7,Vero cells,25,0.88,22,0,0,0,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,14,Culex pipiens,27,WN02,1a2,C,2,Goose Blood,10000000,7,Vero cells,25,0.92,23,4,0.16,0.173913043478261,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,14,Culex pipiens,27,WN02,1a2,C,3,Goose Blood,10000000,7,Vero cells,25,0.96,24,4,0.16,0.166666666666667,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,14,Culex pipiens,27,WN02,1a2,C,4,Goose Blood,10000000,7,Vero cells,25,1,25,13,0.52,0.52,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,14,Culex pipiens,27,WN02,1a2,C,5,Goose Blood,10000000,7,Vero cells,25,1,25,17,0.68,0.68,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,14,Culex pipiens,27,WN02,1a2,C,7,Goose Blood,10000000,7,Vero cells,25,1,25,18,0.72,0.72,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,14,Culex pipiens,27,WN02,1a2,C,9,Goose Blood,10000000,7,Vero cells,25,1,25,22,0.88,0.88,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,14,Culex pipiens,27,WN02,1a2,C,14,Goose Blood,10000000,7,Vero cells,25,1,25,20,0.8,0.8,,,,,,,,N,Y,Y
+Danforth et al 2015,"Kern County, CA",15,Culex tarsalis,22,NY99,1a1,B,10,Sheep Blood,1071519305.2376,9.03,Vero cells,16,,,2,0.13,0.13,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",15,Culex tarsalis,22,NY99,1a1,B,12,Sheep Blood,1071519305.2376,9.03,Vero cells,19,,,2,0.11,0.11,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",15,Culex tarsalis,22,NY99,1a1,B,14,Sheep Blood,1071519305.2376,9.03,Vero cells,5,1,5,0,0,0,,,,,,,,N,Y,Y
+Danforth et al 2015,"Kern County, CA",15,Culex tarsalis,22,NY99,1a1,B,16,Sheep Blood,1071519305.2376,9.03,Vero cells,15,,,9,0.6,0.6,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",15,Culex tarsalis,22,NY99,1a1,B,18,Sheep Blood,1071519305.2376,9.03,Vero cells,14,,,6,0.43,0.43,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",16,Culex tarsalis,22,WN02,1a2,C,10,Sheep Blood,1047128548.0509,9.02,Vero cells,14,,,1,0.07,0.07,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",16,Culex tarsalis,22,WN02,1a2,C,12,Sheep Blood,1047128548.0509,9.02,Vero cells,19,,,2,0.12,0.12,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",16,Culex tarsalis,22,WN02,1a2,C,14,Sheep Blood,1047128548.0509,9.02,Vero cells,19,1,19,6,0.32,0.32,,,,,,,,N,Y,Y
+Danforth et al 2015,"Kern County, CA",16,Culex tarsalis,22,WN02,1a2,C,16,Sheep Blood,1047128548.0509,9.02,Vero cells,20,,,9,0.45,0.45,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",16,Culex tarsalis,22,WN02,1a2,C,18,Sheep Blood,1047128548.0509,9.02,Vero cells,20,,,12,0.6,0.6,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",17,Culex tarsalis,22,WN02,1a2,C,10,Sheep Blood,1000000000,9,Vero cells,14,,,2,0.15,0.15,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",17,Culex tarsalis,22,WN02,1a2,C,12,Sheep Blood,1000000000,9,Vero cells,16,,,1,0.06,0.06,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",17,Culex tarsalis,22,WN02,1a2,C,14,Sheep Blood,1000000000,9,Vero cells,18,1,18,5,0.28,0.28,,,,,,,,N,Y,Y
+Danforth et al 2015,"Kern County, CA",17,Culex tarsalis,22,WN02,1a2,C,16,Sheep Blood,1000000000,9,Vero cells,17,,,7,0.41,0.41,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",17,Culex tarsalis,22,WN02,1a2,C,18,Sheep Blood,1000000000,9,Vero cells,20,,,8,0.4,0.4,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",18,Culex tarsalis,30,NY99,1a1,B,2,Sheep Blood,1071519305.2376,9.03,Vero cells,21,,,0,0,0,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",18,Culex tarsalis,30,NY99,1a1,B,5,Sheep Blood,1071519305.2376,9.03,Vero cells,19,,,1,0.05,0.05,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",18,Culex tarsalis,30,NY99,1a1,B,5,Sheep Blood,1071519305.2376,9.03,Vero cells,,,,,,,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",18,Culex tarsalis,30,NY99,1a1,B,8,Sheep Blood,1071519305.2376,9.03,Vero cells,20,,,13,0.65,0.65,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",18,Culex tarsalis,30,NY99,1a1,B,10,Sheep Blood,1071519305.2376,9.03,Vero cells,16,,,16,1,1,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",19,Culex tarsalis,30,WN02,1a2,C,2,Sheep Blood,1047128548.0509,9.02,Vero cells,25,,,0,0,0,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",19,Culex tarsalis,30,WN02,1a2,C,4,Sheep Blood,1047128548.0509,9.02,Vero cells,22,,,8,0.38,0.38,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",19,Culex tarsalis,30,WN02,1a2,C,6,Sheep Blood,1047128548.0509,9.02,Vero cells,23,,,5,0.22,0.22,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",19,Culex tarsalis,30,WN02,1a2,C,8,Sheep Blood,1047128548.0509,9.02,Vero cells,21,,,12,0.57,0.57,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",19,Culex tarsalis,30,WN02,1a2,C,10,Sheep Blood,1047128548.0509,9.02,Vero cells,20,,,13,0.65,0.65,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",20,Culex tarsalis,30,WN02,1a2,C,2,Sheep Blood,1000000000,9,Vero cells,21,,,0,0,0,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",20,Culex tarsalis,30,WN02,1a2,C,5,Sheep Blood,1000000000,9,Vero cells,25,,,5,0.18,0.18,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",20,Culex tarsalis,30,WN02,1a2,C,5,Sheep Blood,1000000000,9,Vero cells,,,,,,,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",20,Culex tarsalis,30,WN02,1a2,C,8,Sheep Blood,1000000000,9,Vero cells,21,,,10,0.48,0.48,,,,,,,,N,Y,N
+Danforth et al 2015,"Kern County, CA",20,Culex tarsalis,30,WN02,1a2,C,10,Sheep Blood,1000000000,9,Vero cells,20,,,12,0.6,0.6,,,,,,,,N,Y,N
+Johnson et al 2003,"Vero Beach, Florida",21,Culex quinquefasciatus,27,NY99,1a1,B,2,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,6.5,,6.196,6.788,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",21,Culex quinquefasciatus,27,NY99,1a1,B,4,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,6.915,,6.307,7.422,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",21,Culex quinquefasciatus,27,NY99,1a1,B,6,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,7.276,,7.114,7.453,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",21,Culex quinquefasciatus,27,NY99,1a1,B,8,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,7.317,,,,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",21,Culex quinquefasciatus,27,NY99,1a1,B,10,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,7.232,,,,Y,Y,N
+Johnson et al 2003,"Fort Collins, Colorado",22,Culex tritaeniorhynchus,27,NY99,1a1,B,2,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,4.717,,3.948,5.412,Y,Y,N
+Johnson et al 2003,"Fort Collins, Colorado",22,Culex tritaeniorhynchus,27,NY99,1a1,B,4,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,5.616,,5.227,5.956,Y,Y,N
+Johnson et al 2003,"Fort Collins, Colorado",22,Culex tritaeniorhynchus,27,NY99,1a1,B,6,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,6.476,,6.411,6.527,Y,Y,N
+Johnson et al 2003,"Fort Collins, Colorado",22,Culex tritaeniorhynchus,27,NY99,1a1,B,8,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,6.635,,6.396,6.869,Y,Y,N
+Johnson et al 2003,"Fort Collins, Colorado",22,Culex tritaeniorhynchus,27,NY99,1a1,B,10,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,6.74,,6.29,7.115,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",23,Culex nigripalpus,27,NY99,1a1,B,2,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,5.517,,4.971,6.114,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",23,Culex nigripalpus,27,NY99,1a1,B,4,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,5.948,,5.471,6.463,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",23,Culex nigripalpus,27,NY99,1a1,B,6,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,5.328,,5.135,5.541,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",23,Culex nigripalpus,27,NY99,1a1,B,8,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,5.823,,5.184,6.531,Y,Y,N
+Johnson et al 2003,"Vero Beach, Florida",23,Culex nigripalpus,27,NY99,1a1,B,10,Sheep Blood,15848931.9246111,7.2,Vero cells,3,,,,,,,,,5.344,,4.121,6.594,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,1,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,2.165,,1.887,2.472,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,2,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,3.974,,3.112,4.468,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,3,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,5.175,,4.655,5.692,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,4,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,5.703,,5.469,5.916,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,5,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,5.684,,5.314,6.017,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,6,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.445,,6.159,6.732,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,7,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.649,,6.397,6.868,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,8,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,7.304,,,,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,9,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.541,,5.323,7.783,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",24,Culex pipiens,27,NY99,1a1,B,10,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.703,,5.724,7.644,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,1,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,3.227,,2.842,3.663,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,2,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,4.336,,3.686,5.38,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,3,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,5.046,,3.712,6.373,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,4,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.19,,5.65,6.813,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,5,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.408,,6.201,6.698,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,6,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.299,,5.92,6.737,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,7,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.545,,6.407,6.752,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,8,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.64,,6.453,6.903,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,9,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.693,,,,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",25,Culex tarsalis,27,NY99,1a1,B,10,Goose Blood,3000000000,9.47712125471966,Vero cells,10,,,,,,,,,6.549,,6.271,6.888,Y,Y,N
+Reisen et al 2006,"Kern County, CA",26,Culex tarsalis,14,NY99,1a1,B,36,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,2,0.116,0.116,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",27,Culex tarsalis,18,NY99,1a1,B,22,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,1,0.053,0.053,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",27,Culex tarsalis,18,NY99,1a1,B,26,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,6,0.298,0.298,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",27,Culex tarsalis,18,NY99,1a1,B,29,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,9,0.45,0.45,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",27,Culex tarsalis,18,NY99,1a1,B,33,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,9,0.45,0.45,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",28,Culex tarsalis,22,NY99,1a1,B,14,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,5,0.247,0.247,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",28,Culex tarsalis,22,NY99,1a1,B,17,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,12,0.587,0.587,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",28,Culex tarsalis,22,NY99,1a1,B,19,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,16,0.807,0.807,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",29,Culex tarsalis,26,NY99,1a1,B,5,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,2,0.098,0.098,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",29,Culex tarsalis,26,NY99,1a1,B,7,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,3,0.149,0.149,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",29,Culex tarsalis,26,NY99,1a1,B,9,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,8,0.423,0.423,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",29,Culex tarsalis,26,NY99,1a1,B,12,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,16,0.79,0.79,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",29,Culex tarsalis,26,NY99,1a1,B,14,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,9,0.462,0.462,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",29,Culex tarsalis,26,NY99,1a1,B,16,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,19,0.93,0.93,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",30,Culex tarsalis,30,NY99,1a1,B,5,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,1,0.06,0.06,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",30,Culex tarsalis,30,NY99,1a1,B,7,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,12,0.6,0.6,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",30,Culex tarsalis,30,NY99,1a1,B,9,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,17,0.85,0.85,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",30,Culex tarsalis,30,NY99,1a1,B,12,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,15,0.753,0.753,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",30,Culex tarsalis,30,NY99,1a1,B,14,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,15,0.75,0.75,,,,,,,,N,Y,N
+Goenaga et al 2015,"Sebring, FL",31,Culex quinquefasciatus,28,NY99,1a1,B,3,Calf Blood,100000000,8,Vero cells,32,,,7,0.218,0.218,,,,,,,,N,Y,N
+Goenaga et al 2015,"Sebring, FL",31,Culex quinquefasciatus,28,NY99,1a1,B,5,Calf Blood,100000000,8,Vero cells,32,,,11,0.34,0.34,,,,,,,,N,Y,N
+Goenaga et al 2015,"Sebring, FL",31,Culex quinquefasciatus,28,NY99,1a1,B,7,Calf Blood,100000000,8,Vero cells,25,,,19,0.76,0.76,,,,,,,,N,Y,N
+Goenaga et al 2015,"Sebring, FL",31,Culex quinquefasciatus,28,NY99,1a1,B,9,Calf Blood,100000000,8,Vero cells,27,,,18,0.667,0.667,,,,,,,,N,Y,N
+Goenaga et al 2015,"Sebring, FL",32,Culex quinquefasciatus,28,NY99,1a1,B,3,Calf Blood,100000000,8,Vero cells,32,,,,,,,,,6.5,1.1,,,Y,Y,N
+Goenaga et al 2015,"Sebring, FL",32,Culex quinquefasciatus,28,NY99,1a1,B,5,Calf Blood,100000000,8,Vero cells,32,,,,,,,,,6.4,0.5,,,Y,Y,N
+Goenaga et al 2015,"Sebring, FL",32,Culex quinquefasciatus,28,NY99,1a1,B,7,Calf Blood,100000000,8,Vero cells,25,,,,,,,,,6.2,0.4,,,Y,Y,N
+Goenaga et al 2015,"Sebring, FL",32,Culex quinquefasciatus,28,NY99,1a1,B,9,Calf Blood,100000000,8,Vero cells,27,,,,,,,,,6.2,0.3,,,Y,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,6,Hamster Blood,245000000,8.38916608436453,Mouse,22,,,1,0.051,0.051,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,7,Hamster Blood,245000000,8.38916608436453,Mouse,17,,,3,0.179,0.179,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,8,Hamster Blood,245000000,8.38916608436453,Mouse,25,,,11,0.441,0.441,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,9,Hamster Blood,245000000,8.38916608436453,Mouse,15,,,10,0.673,0.673,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,10,Hamster Blood,245000000,8.38916608436453,Mouse,18,,,13,0.722,0.722,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,11,Hamster Blood,245000000,8.38916608436453,Mouse,7,,,7,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,12,Hamster Blood,245000000,8.38916608436453,Mouse,21,,,19,0.911,0.911,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,13,Hamster Blood,245000000,8.38916608436453,Mouse,15,,,15,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,14,Hamster Blood,245000000,8.38916608436453,Mouse,19,,,12,0.632,0.632,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,15,Hamster Blood,245000000,8.38916608436453,Mouse,13,,,13,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,16,Hamster Blood,245000000,8.38916608436453,Mouse,16,,,16,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,17,Hamster Blood,245000000,8.38916608436453,Mouse,17,,,17,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,18,Hamster Blood,245000000,8.38916608436453,Mouse,22,,,21,0.95,0.95,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,19,Hamster Blood,245000000,8.38916608436453,Mouse,13,,,10,0.769,0.769,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,20,Hamster Blood,245000000,8.38916608436453,Mouse,20,,,20,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,21,Hamster Blood,245000000,8.38916608436453,Mouse,8,,,8,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,22,Hamster Blood,245000000,8.38916608436453,Mouse,14,,,11,0.794,0.794,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,23,Hamster Blood,245000000,8.38916608436453,Mouse,12,,,10,0.831,0.831,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,24,Hamster Blood,245000000,8.38916608436453,Mouse,14,,,13,0.932,0.932,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,25,Hamster Blood,245000000,8.38916608436453,Mouse,9,,,9,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,26,Hamster Blood,245000000,8.38916608436453,Mouse,9,,,9,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,27,Hamster Blood,245000000,8.38916608436453,Mouse,11,,,10,0.911,0.911,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,28,Hamster Blood,245000000,8.38916608436453,Mouse,12,,,12,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,29,Hamster Blood,245000000,8.38916608436453,Mouse,11,,,11,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",33,Culex tarsalis,26,NY99,1a1,B,30,Hamster Blood,245000000,8.38916608436453,Mouse,13,,,12,0.921,0.921,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,6,Hamster Blood,245000000,8.38916608436453,Mouse,68,,,1,0.019,0.019,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,7,Hamster Blood,245000000,8.38916608436453,Mouse,54,,,1,0.019,0.019,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,8,Hamster Blood,245000000,8.38916608436453,Mouse,40,,,4,0.101,0.101,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,9,Hamster Blood,245000000,8.38916608436453,Mouse,32,,,2,0.06,0.06,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,10,Hamster Blood,245000000,8.38916608436453,Mouse,23,,,4,0.173,0.173,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,11,Hamster Blood,245000000,8.38916608436453,Mouse,17,,,8,0.472,0.472,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,12,Hamster Blood,245000000,8.38916608436453,Mouse,15,,,3,0.201,0.201,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,13,Hamster Blood,245000000,8.38916608436453,Mouse,91,,,70,0.761,0.761,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,14,Hamster Blood,245000000,8.38916608436453,Mouse,67,,,46,0.694,0.694,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,15,Hamster Blood,245000000,8.38916608436453,Mouse,12,,,9,0.75,0.75,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,16,Hamster Blood,245000000,8.38916608436453,Mouse,20,,,16,0.803,0.803,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,17,Hamster Blood,245000000,8.38916608436453,Mouse,21,,,16,0.761,0.761,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,18,Hamster Blood,245000000,8.38916608436453,Mouse,18,,,17,0.943,0.943,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,19,Hamster Blood,245000000,8.38916608436453,Mouse,16,,,14,0.884,0.884,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,20,Hamster Blood,245000000,8.38916608436453,Mouse,14,,,13,0.934,0.934,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,21,Hamster Blood,245000000,8.38916608436453,Mouse,52,,,50,0.96,0.96,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,22,Hamster Blood,245000000,8.38916608436453,Mouse,47,,,43,0.922,0.922,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,23,Hamster Blood,245000000,8.38916608436453,Mouse,21,,,20,0.95,0.95,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,24,Hamster Blood,245000000,8.38916608436453,Mouse,6,,,6,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,25,Hamster Blood,245000000,8.38916608436453,Mouse,,,,0,1,1,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,26,Hamster Blood,245000000,8.38916608436453,Mouse,3,,,,,,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,27,Hamster Blood,245000000,8.38916608436453,Mouse,11,,,10,0.911,0.911,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,28,Hamster Blood,245000000,8.38916608436453,Mouse,11,,,10,0.909,0.909,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,29,Hamster Blood,245000000,8.38916608436453,Mouse,31,,,27,0.873,0.873,,,,,,,,N,Y,N
+Anderson et al 2012,"Stratford, CT",34,Culex salinarius,26,NY99,1a1,B,30,Hamster Blood,245000000,8.38916608436453,Mouse,21,,,17,0.802,0.802,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,35,Culex tarsalis,27,NY99,1a1,B,5,Goose Blood,10000000,7,Vero cells,181,0.29,52,0,0,0,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,35,Culex tarsalis,27,NY99,1a1,B,7,Goose Blood,10000000,7,Vero cells,180,0.31,56,0,0,0,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,35,Culex tarsalis,27,NY99,1a1,B,9,Goose Blood,10000000,7,Vero cells,170,0.25,43,14,0.02,0.08,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,35,Culex tarsalis,27,NY99,1a1,B,14,Goose Blood,10000000,7,Vero cells,156,0.23,36,81,0.12,0.521739130434783,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,36,Culex tarsalis,27,WN02,1a2,C,5,Goose Blood,10000000,7,Vero cells,200,0.41,82,10,0.02,0.0487804878048781,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,36,Culex tarsalis,27,WN02,1a2,C,7,Goose Blood,10000000,7,Vero cells,189,0.44,83,17,0.04,0.0909090909090909,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,36,Culex tarsalis,27,WN02,1a2,C,9,Goose Blood,10000000,7,Vero cells,184,0.54,99,31,0.09,0.166666666666667,,,,,,,,N,Y,N
+Moudy et al 2007,Pennsylvania,36,Culex tarsalis,27,WN02,1a2,C,14,Goose Blood,10000000,7,Vero cells,164,0.45,74,84,0.23,0.511111111111111,,,,,,,,N,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,5,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,1.957,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,8,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,2.108,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,13,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,3.313,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,16,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,3.691,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,19,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,3.083,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,22,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,3.787,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,26,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,3.696,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,29,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.529,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,33,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.16,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",37,Culex tarsalis,14,NY99,1a1,B,36,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.056,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,5,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,1.546,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,8,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,2.927,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,13,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.111,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,16,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.129,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,19,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.127,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,22,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.273,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,26,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.722,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,29,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.786,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",38,Culex tarsalis,18,NY99,1a1,B,33,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.826,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",39,Culex tarsalis,22,NY99,1a1,B,5,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,2.65,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",39,Culex tarsalis,22,NY99,1a1,B,7,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,3.979,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",39,Culex tarsalis,22,NY99,1a1,B,10,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.574,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",39,Culex tarsalis,22,NY99,1a1,B,12,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.111,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",39,Culex tarsalis,22,NY99,1a1,B,14,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.966,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",39,Culex tarsalis,22,NY99,1a1,B,17,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.001,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",39,Culex tarsalis,22,NY99,1a1,B,19,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.827,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",40,Culex tarsalis,26,NY99,1a1,B,3,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,2.517,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",40,Culex tarsalis,26,NY99,1a1,B,5,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.344,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",40,Culex tarsalis,26,NY99,1a1,B,7,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,4.884,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",40,Culex tarsalis,26,NY99,1a1,B,9,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.105,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",40,Culex tarsalis,26,NY99,1a1,B,12,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.85,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",40,Culex tarsalis,26,NY99,1a1,B,14,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.103,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",40,Culex tarsalis,26,NY99,1a1,B,16,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.445,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",41,Culex tarsalis,30,NY99,1a1,B,2,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,2.323,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",41,Culex tarsalis,30,NY99,1a1,B,3,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.211,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",41,Culex tarsalis,30,NY99,1a1,B,5,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.719,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",41,Culex tarsalis,30,NY99,1a1,B,7,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,6.094,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",41,Culex tarsalis,30,NY99,1a1,B,9,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,6.34,,,,Y,Y,N
+Reisen et al 2006,"Kern County, CA",41,Culex tarsalis,30,NY99,1a1,B,12,White-Crowned Sparrow,3162277.66016838,6.5,Vero cells,20,,,,,,,,,5.461,,,,Y,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",42,Culex pipiens,27,NY99,1a1,B,5,Goose Blood,3000000000,9.47712125471966,Vero cells,80,0.71,57,0,0,0,,,,,,,,N,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",42,Culex pipiens,27,NY99,1a1,B,7,Goose Blood,3000000000,9.47712125471966,Vero cells,77,0.83,64,0,0,0,,,,,,,,N,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",42,Culex pipiens,27,NY99,1a1,B,9,Goose Blood,3000000000,9.47712125471966,Vero cells,77,0.79,61,4,0.05,0.05,,,,,,,,N,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",42,Culex pipiens,27,NY99,1a1,B,14,Goose Blood,3000000000,9.47712125471966,Vero cells,67,0.49,33,8,0.12,0.12,,,,,,,,N,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",43,Culex tarsalis,27,NY99,1a1,B,5,Goose Blood,3000000000,9.47712125471966,Vero cells,150,0.25,38,0,0,0,,,,,,,,N,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",43,Culex tarsalis,27,NY99,1a1,B,7,Goose Blood,3000000000,9.47712125471966,Vero cells,150,0.31,47,14,0.09,0.09,,,,,,,,N,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",43,Culex tarsalis,27,NY99,1a1,B,9,Goose Blood,3000000000,9.47712125471966,Vero cells,130,0.22,29,18,0.14,0.14,,,,,,,,N,Y,N
+Moudy et al. 2009,"Coachella Valley, CA",43,Culex tarsalis,27,NY99,1a1,B,14,Goose Blood,3000000000,9.47712125471966,Vero cells,98,0.21,21,51,0.52,0.52,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,4,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.682,17,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,7,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.122,3,0,0.001,0.00819672131147541,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,10,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.082,2,12,0.04,0.48780487804878,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,14,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.161,4,0,0.001,0.0062111801242236,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,18,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.122,3,0,0.001,0.00819672131147541,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,21,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.163,4,0,0.001,0.00613496932515337,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,24,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.163,4,0,0.001,0.00613496932515337,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,28,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.241,6,0,0.001,0.004149377593361,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,31,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.281,7,4,0.041,0.145907473309609,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,34,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.24,6,0,0.002,0.00833333333333333,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,44,Culex pipiens,18,NY99,1a1,B,40,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.202,5,0,0.001,0.00495049504950495,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,4,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.48,12,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,7,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.042,1,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,10,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.124,3,8,0.039,0.314516129032258,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,14,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.043,1,1,0.001,0.0232558139534884,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,18,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.164,4,6,0.041,0.25,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,21,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.361,9,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,24,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.399,10,3,0.042,0.105263157894737,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,28,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.722,18,3,0.08,0.110803324099723,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,31,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.241,6,8,0.08,0.33195020746888,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,34,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.442,11,0,0.002,0.00452488687782805,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,45,Culex pipiens,18,WN02,1a2,C,40,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.324,8,3,0.04,0.123456790123457,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,4,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.2,5,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,7,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.358,9,0,0.001,0.00279329608938547,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,10,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.2,5,0,0.001,0.005,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,14,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.281,7,0,0.001,0.00355871886120996,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,18,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.48,12,0,0.002,0.00416666666666667,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,21,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.521,13,0,0.002,0.00383877159309021,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,24,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.442,11,0,0.002,0.00452488687782805,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,28,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.399,10,3,0.041,0.102756892230576,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,31,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.559,14,0,0.002,0.0035778175313059,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,34,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.442,11,0,0.002,0.00452488687782805,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,46,Culex pipiens,15,NY99,1a1,B,40,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.637,16,0,0.001,0.00156985871271586,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,4,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.041,1,1,0.001,0.024390243902439,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,7,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.16,4,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,10,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.356,9,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,14,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.321,8,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,18,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.598,15,0,0.002,0.00334448160535117,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,21,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.717,18,0,0.001,0.00139470013947001,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,24,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.598,15,2,0.042,0.0702341137123746,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,28,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.638,16,3,0.08,0.125391849529781,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,31,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.72,18,3,0.079,0.109722222222222,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,34,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.558,14,0,0,0,,,,,,,,N,Y,N
+Kilpatrick et al 2008,Pennsylvania,47,Culex pipiens,15,WN02,1a2,C,40,Goose Blood,130000000,8.11394335230684,Vero cells,25,0.638,16,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,4,Chicken Blood,31.6227766016838,1.5,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,8,Chicken Blood,31.6227766016838,1.5,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,13,Chicken Blood,31.6227766016838,1.5,Chicken,5,,,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,18,Chicken Blood,31.6227766016838,1.5,Chicken,8,,,1,0.125,0.125,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,21,Chicken Blood,31.6227766016838,1.5,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,4,Chicken Blood,89.1250938133745,1.95,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,8,Chicken Blood,89.1250938133745,1.95,Chicken,15,,,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,13,Chicken Blood,89.1250938133745,1.95,Chicken,24,,,8,0.333333333333333,0.333333333333333,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,18,Chicken Blood,89.1250938133745,1.95,Chicken,10,,,3,0.3,0.3,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,21,Chicken Blood,89.1250938133745,1.95,Chicken,24,,,5,0.208333333333333,0.208333333333333,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,4,Chicken Blood,891.250938133746,2.95,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,8,Chicken Blood,891.250938133746,2.95,Chicken,10,,,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,13,Chicken Blood,891.250938133746,2.95,Chicken,16,,,8,0.5,0.5,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,18,Chicken Blood,891.250938133746,2.95,Chicken,8,,,7,0.875,0.875,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,21,Chicken Blood,891.250938133746,2.95,Chicken,4,,,4,1,1,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,4,Chicken Blood,14125.3754462276,4.15,Chicken,15,,,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,8,Chicken Blood,14125.3754462276,4.15,Chicken,36,,,17,0.472222222222222,0.472222222222222,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,13,Chicken Blood,14125.3754462276,4.15,Chicken,43,,,26,0.604651162790698,0.604651162790698,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,18,Chicken Blood,14125.3754462276,4.15,Chicken,20,,,18,0.9,0.9,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,B,21,Chicken Blood,14125.3754462276,4.15,Chicken,27,,,19,0.703703703703704,0.703703703703704,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,4,Chicken Blood,31.6227766016838,1.5,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,8,Chicken Blood,31.6227766016838,1.5,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,13,Chicken Blood,31.6227766016838,1.5,Chicken,5,,,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,18,Chicken Blood,31.6227766016838,1.5,Chicken,8,,,1,0.125,0.125,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,21,Chicken Blood,31.6227766016838,1.5,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,4,Chicken Blood,89.1250938133745,1.95,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,8,Chicken Blood,89.1250938133745,1.95,Chicken,15,,,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,13,Chicken Blood,89.1250938133745,1.95,Chicken,24,,,8,0.333333333333333,0.333333333333333,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,18,Chicken Blood,89.1250938133745,1.95,Chicken,10,,,3,0.3,0.3,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,21,Chicken Blood,89.1250938133745,1.95,Chicken,24,,,5,0.208333333333333,0.208333333333333,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,4,Chicken Blood,891.250938133746,2.95,Chicken,,,,,,,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,8,Chicken Blood,891.250938133746,2.95,Chicken,10,,,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,13,Chicken Blood,891.250938133746,2.95,Chicken,16,,,8,0.5,0.5,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,18,Chicken Blood,891.250938133746,2.95,Chicken,8,,,7,0.875,0.875,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,21,Chicken Blood,891.250938133746,2.95,Chicken,4,,,4,1,1,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,4,Chicken Blood,14125.3754462276,4.15,Chicken,15,,,0,0,0,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,8,Chicken Blood,14125.3754462276,4.15,Chicken,36,,,17,0.472222222222222,0.472222222222222,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,13,Chicken Blood,14125.3754462276,4.15,Chicken,43,,,26,0.604651162790698,0.604651162790698,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,18,Chicken Blood,14125.3754462276,4.15,Chicken,20,,,18,0.9,0.9,,,,,,,,N,Y,N
+Gould et al 1962,Malaya,48,Culex gelidus,27,JEV,JEV,C,21,Chicken Blood,14125.3754462276,4.15,Chicken,27,,,19,0.703703703703704,0.703703703703704,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,B,1,Horse Blood,10000,4,Vero cells,6,,,,,,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,B,3,Horse Blood,10000,4,Vero cells,3,,,,,,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,B,7,Horse Blood,10000,4,Vero cells,6,,,1,0.17,0.17,,,,,,0.07,0.36,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,B,14,Horse Blood,10000,4,Vero cells,20,,,1,0.03,0.03,,,,,,0,0.15,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,B,21,Horse Blood,10000,4,Vero cells,7,,,4,0.5,0.5,,,,,,0.24,0.76,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,C,1,Horse Blood,10000,4,Vero cells,6,,,,,,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,C,3,Horse Blood,10000,4,Vero cells,3,,,,,,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,C,7,Horse Blood,10000,4,Vero cells,6,,,1,0.17,0.17,,,,,,0.07,0.36,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,C,14,Horse Blood,10000,4,Vero cells,20,,,1,0.03,0.03,,,,,,0,0.15,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,49,Culex quinquefasciatus,23,JEV,JEV,C,21,Horse Blood,10000,4,Vero cells,7,,,4,0.5,0.5,,,,,,0.24,0.76,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,B,1,Horse Blood,10000,4,Vero cells,3,,,1,0.15,0.15,,,,,,0.08,0.26,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,B,3,Horse Blood,10000,4,Vero cells,0,,,,,,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,B,7,Horse Blood,10000,4,Vero cells,4,,,,,,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,B,14,Horse Blood,10000,4,Vero cells,8,,,1,0.17,0.17,,,,,,0.04,0.45,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,B,21,Horse Blood,10000,4,Vero cells,7,,,5,0.7,0.7,,,,,,0.4,0.89,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,C,1,Horse Blood,10000,4,Vero cells,3,,,1,0.15,0.15,,,,,,0.08,0.26,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,C,3,Horse Blood,10000,4,Vero cells,0,,,,,,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,C,7,Horse Blood,10000,4,Vero cells,4,,,,,,,,,,,,,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,C,14,Horse Blood,10000,4,Vero cells,8,,,1,0.17,0.17,,,,,,0.04,0.45,N,Y,N
+Mackenzie Impoinvil et al 2014,Brazil,50,Culex quinquefasciatus,28,JEV,JEV,C,21,Horse Blood,10000,4,Vero cells,7,,,5,0.7,0.7,,,,,,0.4,0.89,N,Y,N
+Muangman et al. 1972,Chiengmai,51,Culex fuscocephala,26,JEV,JEV,B,10,Chicken,2600,3.41497334797082,Chicken,10,,,1,0.1,0.1,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,51,Culex fuscocephala,26,JEV,JEV,B,11,Chicken,2600,3.41497334797082,Chicken,10,,,2,0.2,0.2,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,51,Culex fuscocephala,26,JEV,JEV,B,19,Chicken,2600,3.41497334797082,Chicken,10,,,2,0.2,0.2,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,51,Culex fuscocephala,26,JEV,JEV,B,27,Chicken,2600,3.41497334797082,Chicken,8,,,1,0.12,0.12,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,51,Culex fuscocephala,26,JEV,JEV,C,10,Chicken,2600,3.41497334797082,Chicken,10,,,1,0.1,0.1,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,51,Culex fuscocephala,26,JEV,JEV,C,11,Chicken,2600,3.41497334797082,Chicken,10,,,2,0.2,0.2,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,51,Culex fuscocephala,26,JEV,JEV,C,19,Chicken,2600,3.41497334797082,Chicken,10,,,2,0.2,0.2,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,51,Culex fuscocephala,26,JEV,JEV,C,27,Chicken,2600,3.41497334797082,Chicken,8,,,1,0.12,0.12,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,52,Culex tritaeniorhynchus,26,JEV,JEV,B,10,Chicken,2600,3.41497334797082,Chicken,10,,,0,0,0,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,52,Culex tritaeniorhynchus,26,JEV,JEV,B,11,Chicken,2600,3.41497334797082,Chicken,10,,,1,0.1,0.1,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,52,Culex tritaeniorhynchus,26,JEV,JEV,B,19,Chicken,2600,3.41497334797082,Chicken,10,,,4,0.4,0.4,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,52,Culex tritaeniorhynchus,26,JEV,JEV,B,27,Chicken,2600,3.41497334797082,Chicken,10,,,2,0.2,0.2,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,52,Culex tritaeniorhynchus,26,JEV,JEV,C,10,Chicken,2600,3.41497334797082,Chicken,10,,,0,0,0,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,52,Culex tritaeniorhynchus,26,JEV,JEV,C,11,Chicken,2600,3.41497334797082,Chicken,10,,,1,0.1,0.1,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,52,Culex tritaeniorhynchus,26,JEV,JEV,C,19,Chicken,2600,3.41497334797082,Chicken,10,,,4,0.4,0.4,,,,,,,,N,Y,N
+Muangman et al. 1972,Chiengmai,52,Culex tritaeniorhynchus,26,JEV,JEV,C,27,Chicken,2600,3.41497334797082,Chicken,10,,,2,0.2,0.2,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,53,Culex annulirostris,28,JEV,JEV,B,5,Mouse Blood,31622.7766016838,4.5,Mouse,,,,,,,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,53,Culex annulirostris,28,JEV,JEV,B,7,Mouse Blood,31622.7766016838,4.5,Mouse,17,,,4,0.24,0.24,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,53,Culex annulirostris,28,JEV,JEV,B,10,Mouse Blood,31622.7766016838,4.5,Mouse,14,,,8,0.57,0.57,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,53,Culex annulirostris,28,JEV,JEV,B,14,Mouse Blood,31622.7766016838,4.5,Mouse,16,,,13,0.81,0.81,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,53,Culex annulirostris,28,JEV,JEV,C,5,Mouse Blood,31622.7766016838,4.5,Mouse,,,,,,,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,53,Culex annulirostris,28,JEV,JEV,C,7,Mouse Blood,31622.7766016838,4.5,Mouse,17,,,4,0.24,0.24,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,53,Culex annulirostris,28,JEV,JEV,C,10,Mouse Blood,31622.7766016838,4.5,Mouse,14,,,8,0.57,0.57,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,53,Culex annulirostris,28,JEV,JEV,C,14,Mouse Blood,31622.7766016838,4.5,Mouse,16,,,13,0.81,0.81,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,54,Culex sitiens,28,JEV,JEV,B,5,Mouse Blood,31622.7766016838,4.5,Mouse,,,,,,,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,54,Culex sitiens,28,JEV,JEV,B,7,Mouse Blood,31622.7766016838,4.5,Mouse,15,,,2,0.13,0.13,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,54,Culex sitiens,28,JEV,JEV,B,10,Mouse Blood,31622.7766016838,4.5,Mouse,15,,,1,0.07,0.07,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,54,Culex sitiens,28,JEV,JEV,B,14,Mouse Blood,31622.7766016838,4.5,Mouse,15,,,10,0.67,0.67,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,54,Culex sitiens,28,JEV,JEV,C,5,Mouse Blood,31622.7766016838,4.5,Mouse,,,,,,,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,54,Culex sitiens,28,JEV,JEV,C,7,Mouse Blood,31622.7766016838,4.5,Mouse,15,,,2,0.13,0.13,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,54,Culex sitiens,28,JEV,JEV,C,10,Mouse Blood,31622.7766016838,4.5,Mouse,15,,,1,0.07,0.07,,,,,,,,N,Y,N
+Van Den Hurk et al 2003,Queensland,54,Culex sitiens,28,JEV,JEV,C,14,Mouse Blood,31622.7766016838,4.5,Mouse,15,,,10,0.67,0.67,,,,,,,,N,Y,N
+Bolling et al 2012,"Fort Collins, Colorado",,Culex pipiens,28,WN02,1a2,C,14,Sheep Blood,10000000,7,Immersion Oil,24,0.791666666666667,19,3,0.125,,,,,,,,,N,N,Y
+Ciota et al 2013,Pennsylvania,,Culex pipiens,27,WN02,1a2,C,14,Bovine Blood,1584893192.46111,9.2,Vero cells,70,0.836,57,,,,,,,,,,,N,N,Y
+Ciota et al 2013,Pennsylvania,,Culex quinquefasciatus,27,WN02,1a2,C,14,Bovine Blood,1584893192.46111,9.2,Vero cells,70,1,70,,,,,,,,,,,N,N,Y
+Ciota et al 2013,Pennsylvania,,Culex molestus,27,WN02,1a2,C,14,Bovine Blood,1584893192.46111,9.2,Vero cells,70,0.931,65,,,,,,,,,,,N,N,Y
+Dodson et al. 2011,Pennsylvania,,Culex tarsalis,27,WN02,1a2,C,14,Goose Blood,1584893192.46111,9.2,Vero cells,25,0.92,23,,,,,,,,,,,N,N,Y
+Dodson et al. 2011,Pennsylvania,,Culex tarsalis,27,WN02,1a2,C,14,Goose Blood,1000000000,9,Vero cells,50,0.72,36,,,,,,,,,,,N,N,Y
+Dodson et al. 2011,Pennsylvania,,Culex tarsalis,27,WN02,1a2,C,14,Goose Blood,630957344.480194,8.8,Vero cells,50,0.88,44,,,,,,,,,,,N,N,Y
+Dodson et al. 2014,Yolo,,Culex tarsalis,27,WN02,1a2,C,14,Bovine Blood,55000000,7.74036268949424,Vero cells,35,0.42685,15,,,,,,,,,,,N,N,Y
+Ebel et al 2005,California,,Culex pipiens,27,NY99,1a1,B,14,Goose Blood,50118723.3627272,7.7,Vero cells,795,0.141,112,,,,,,,,,,,N,N,Y
+Ebel et al 2005,California,,Culex restuans,27,NY99,1a1,B,14,Goose Blood,50118723.3627272,7.7,Vero cells,402,0.11,44,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex tarsalis,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,1,1,1,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex tarsalis,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,35,0.74,26,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex tarsalis,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,55,0.85,47,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex quinquefasciatus,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,50,0.58,29,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex quinquefasciatus,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,58,0.28,16,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex quinquefasciatus,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,50,0.66,33,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex pipiens,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,31,1,31,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex stigmatosoma,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,48,0.77,37,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex erythrothorax,28,NY99,1a1,B,14,Rabbit Blood,12589254.1179417,7.1,Vero cells,25,1,25,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex tarsalis,28,NY99,1a1,B,14,Rabbit Blood,79432.8234724282,4.9,Vero cells,11,0.36,4,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex tarsalis,28,NY99,1a1,B,14,Rabbit Blood,79432.8234724282,4.9,Vero cells,45,0.07,3,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex tarsalis,28,NY99,1a1,B,14,Rabbit Blood,79432.8234724282,4.9,Vero cells,10,0,0,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex quinquefasciatus,28,NY99,1a1,B,14,Rabbit Blood,79432.8234724282,4.9,Vero cells,50,0.1,5,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex quinquefasciatus,28,NY99,1a1,B,14,Rabbit Blood,79432.8234724282,4.9,Vero cells,55,0,0,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex pipiens,28,NY99,1a1,B,14,Rabbit Blood,79432.8234724282,4.9,Vero cells,35,0.23,8,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex stigmatosoma,28,NY99,1a1,B,14,Rabbit Blood,79432.8234724282,4.9,Vero cells,29,0.69,20,,,,,,,,,,,N,N,Y
+Goddard et al 2002,California,,Culex erythrothorax,28,NY99,1a1,B,14,Rabbit Blood,79432.8234724282,4.9,Vero cells,20,0.15,3,,,,,,,,,,,N,N,Y
+Hanley et al 2005,California,,Culex tarsalis,28,NY99,1a1,B,14,Rabbit Blood,3300000,6.51851393987789,Vero cells,40,0.46,18,,,,,,,,,,,N,N,Y
+Reisen et al 2005,Coachella-WWDC,,Culex tarsalis,26,NY99,1a1,B,14,House Finch,251188.643150958,5.4,Vero cells,21,0.9,19,12,0.52,0.577777777777778,,,,,,,,N,N,Y
+Reisen et al 2005,LA-Panaorama,,Culex tarsalis,26,NY99,1a1,B,14,House Finch,794328.234724282,5.9,Vero cells,16,0.94,15,4,0.25,0.265957446808511,,,,,,,,N,N,Y
+Reisen et al 2005,Kern-KNWR,,Culex tarsalis,26,NY99,1a1,B,14,House Sparrow,251188.643150958,5.4,Vero cells,17,0.94,16,12,0.65,0.691489361702128,,,,,,,,N,N,Y
+Reisen et al 2005,KNWR-c,,Culex tarsalis,26,NY99,1a1,B,14,House Sparrow,19952623.1496888,7.3,Vero cells,40,1,40,29,0.73,0.73,,,,,,,,N,N,Y
+Reisen et al 2005,KNWR-c,,Culex tarsalis,26,NY99,1a1,B,14,Chicken,1000000,6,Vero cells,40,0.2,8,30,0.15,0.75,,,,,,,,N,N,Y
+Reisen et al 2005,Kern-Bakersfield,,Culex tarsalis,26,NY99,1a1,B,14,Chicken,501187.233627272,5.7,Vero cells,16,0.13,2,0,0,0,,,,,,,,N,N,Y
+Reisen et al 2005,Coachella-Indio,,Culex quinquefasciatus,26,NY99,1a1,B,14,Chicken,100000,5,Vero cells,25,0.64,16,0,0,0,,,,,,,,N,N,Y
+Reisen et al 2005,LA-metro,,Culex quinquefasciatus,26,NY99,1a1,B,14,Chicken,316227.766016838,5.5,Vero cells,25,0.6,15,0,0,0,,,,,,,,N,N,Y
+Reisen et al 2005,Kern-Bakersfield,,Culex quinquefasciatus,26,NY99,1a1,B,14,Chicken,501187.233627272,5.7,Vero cells,25,0.4,10,0,0,0,,,,,,,,N,N,Y
+Reisen et al 2005,Kern-Bakersfield,,Culex quinquefasciatus,26,NY99,1a1,B,14,Chicken,63095.7344480193,4.8,Vero cells,25,0.04,1,0,0,0,,,,,,,,N,N,Y
+Reisen et al 2005,Coachella-WWDC,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,6309573.44480193,6.8,Vero cells,22,0.68,15,10,0.32,0.470588235294118,,,,,,,,N,N,Y
+Reisen et al 2005,Coachella-Indio,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,1995262.31496888,6.3,Vero cells,25,0.36,9,0,0,0,,,,,,,,N,N,Y
+Reisen et al 2005,LA-Panaorama,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,630957.344480193,5.8,Vero cells,24,0.38,9,3,0.04,0.105263157894737,,,,,,,,N,N,Y
+Reisen et al 2005,Kern-KNWR,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3981071.70553497,6.6,Vero cells,15,0.07,1,0,0,0,,,,,,,,N,N,Y
+Reisen et al 2005,Kern-Bakersfield,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,6309573.44480193,6.8,Vero cells,15,0.47,7,11,0.33,0.702127659574468,,,,,,,,N,N,Y
+Reisen et al 2005,Yolo,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3981071.70553497,6.6,Vero cells,19,0.47,9,6,0.16,0.340425531914894,,,,,,,,N,N,Y
+Reisen et al 2005,COAV-c,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3981071.70553497,6.6,Vero cells,18,0.89,16,2,0.11,0.123595505617978,,,,,,,,N,N,Y
+Reisen et al 2005,KNWR-c,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3981071.70553497,6.6,Vero cells,25,0.56,14,4,0.08,0.142857142857143,,,,,,,,N,N,Y
+Reisen et al 2005,Coachella,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,19952623.1496888,7.3,Vero cells,25,0.44,11,5,0.08,0.181818181818182,,,,,,,,N,N,Y
+Reisen et al 2005,LA-metro,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,19952623.1496888,7.3,Vero cells,24,0.76,18,3,0.08,0.105263157894737,,,,,,,,N,N,Y
+Reisen et al 2005,LA-Machado Lake,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,19952623.1496888,7.3,Vero cells,25,0.67,17,3,0.08,0.119402985074627,,,,,,,,N,N,Y
+Reisen et al 2005,LA-San Fernando,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,19952623.1496888,7.3,Vero cells,19,0.44,8,3,0.08,0.181818181818182,,,,,,,,N,N,Y
+Reisen et al 2005,tars-COA,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3162277.66016838,6.5,Vero cells,23,0.74,17,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-COA,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,316227.766016838,5.5,Vero cells,23,0.457,11,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-COA,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,31622.7766016838,4.5,Vero cells,23,0.132,3,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-COA,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3162.27766016838,3.5,Vero cells,23,0.06,1,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-LA,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3162277.66016838,6.5,Vero cells,23,0.386,9,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-LA,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,316227.766016838,5.5,Vero cells,23,0.245,6,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-LA,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,31622.7766016838,4.5,Vero cells,23,0.292,7,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-LA,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3162.27766016838,3.5,Vero cells,23,0.062,1,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-Kern,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3162277.66016838,6.5,Vero cells,23,0.783,18,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-Kern,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,316227.766016838,5.5,Vero cells,23,0.577,13,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-Kern,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,31622.7766016838,4.5,Vero cells,23,0.185,4,,,,,,,,,,,N,N,Y
+Reisen et al 2005,tars-Kern,,Culex tarsalis,26,NY99,1a1,B,14,Avian Blood,3162.27766016838,3.5,Vero cells,23,0.098,2,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin_LA,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,31622776.6016838,7.5,Vero cells,23,0.759,17,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin_LA,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,3162277.66016838,6.5,Vero cells,23,0.281,6,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin_LA,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,316227.766016838,5.5,Vero cells,23,0.19,4,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin_LA,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,31622.7766016838,4.5,Vero cells,23,0.128,3,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin_LA,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,3162.27766016838,3.5,Vero cells,23,0.004,0,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin-Kern,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,31622776.6016838,7.5,Vero cells,23,0.046,1,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin-Kern,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,3162277.66016838,6.5,Vero cells,23,0.004,0,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin-Kern,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,316227.766016838,5.5,Vero cells,23,0.001,0,,,,,,,,,,,N,N,Y
+Reisen et al 2005,quin-Kern,,Culex quinquefasciatus,26,NY99,1a1,B,14,Avian Blood,31622.7766016838,4.5,Vero cells,23,0.001,0,,,,,,,,,,,N,N,Y
+Reisen et al 2005,stig-LA,,Culex stigmatosoma,26,NY99,1a1,B,14,Avian Blood,3162277.66016838,6.5,Vero cells,23,0.901,21,,,,,,,,,,,N,N,Y
+Reisen et al 2005,stig-LA,,Culex stigmatosoma,26,NY99,1a1,B,14,Avian Blood,316227.766016838,5.5,Vero cells,23,0.414,10,,,,,,,,,,,N,N,Y
+Reisen et al 2005,stig-LA,,Culex stigmatosoma,26,NY99,1a1,B,14,Avian Blood,31622.7766016838,4.5,Vero cells,23,0.334,8,,,,,,,,,,,N,N,Y
+Reisen et al 2005,stig-LA,,Culex stigmatosoma,26,NY99,1a1,B,14,Avian Blood,3162.27766016838,3.5,Vero cells,23,0.053,1,,,,,,,,,,,N,N,Y
+Reisen et al 2006b,Whittier,,Culex quinquefasciatus,26,NY99,1a1,B,14,Bovine Blood,63095734.4480193,7.8,Vero cells,30,0.866666666666667,26,,,,,,,,,,,N,N,Y
+Reisen et al 2006b,San Gabriel,,Culex quinquefasciatus,26,NY99,1a1,B,14,Bovine Blood,2511886.43150958,6.4,Vero cells,30,0.766666666666667,23,,,,,,,,,,,N,N,Y
+Reisen et al 2006b,Hansen Dam,,Culex tarsalis,26,NY99,1a1,B,14,Bovine Blood,3162277.66016838,6.5,Vero cells,30,0.8,24,,,,,,,,,,,N,N,Y
+Reisen et al 2006b,Hansen Dam,,Culex stigmatosoma,26,NY99,1a1,B,14,Bovine Blood,3162277.66016838,6.5,Vero cells,22,0.909090909090909,20,,,,,,,,,,,N,N,Y
+Reisen et al 2006b,Hansen Dam,,Culex thriambus,26,NY99,1a1,B,14,Bovine Blood,3162277.66016838,6.5,Vero cells,16,0.8125,13,,,,,,,,,,,N,N,Y
+Richards et al 2007,Florida,,Culex pipiens,28,WN02,1a2,C,13,Bovine Blood,630957.344480193,5.8,Vero cells,108,0.51,47,,,,,,,,,,,N,N,Y
+Richards et al 2007,Florida,,Culex pipiens,28,WN02,1a2,C,13,Bovine Blood,25118.8643150958,4.4,Vero cells,104,0.05,5,,,,,,,,,,,N,N,Y
+Richards et al 2007,Florida,,Culex pipiens,28,WN02,1a2,C,13,Bovine Blood,5011.87233627273,3.7,Vero cells,118,0,0,,,,,,,,,,,N,N,Y
+Richards et al 2014,Florida,,Culex quinquefasciatus,28,NY99,1a1,B,14,Bovine Blood,79432823.4724282,7.9,Immersion Oil,20,0.95,19,,,,,,,,,,,N,N,Y
+Richards et al 2014,Florida,,Culex quinquefasciatus,28,NY99,1a1,B,14,Bovine Blood,79432823.4724282,7.9,Immersion Oil,20,1,20,,,,,,,,,,,N,N,Y
+Richards et al 2014,Florida,,Culex quinquefasciatus,28,WN02,1a2,C,14,Bovine Blood,79432823.4724282,7.9,Immersion Oil,20,1,20,,,,,,,,,,,N,N,Y
+Richards et al 2014,Florida,,Culex quinquefasciatus,28,WN02,1a2,C,14,Bovine Blood,79432823.4724282,7.9,Immersion Oil,20,1,20,,,,,,,,,,,N,N,Y
+Richards et al 2014,Florida,,Culex quinquefasciatus,28,WN02,1a2,C,14,Bovine Blood,79432823.4724282,7.9,Immersion Oil,20,1,20,,,,,,,,,,,N,N,Y
+Sardelis and Turell 2001,Maryland,,Culex pipiens,26,NY99,1a1,B,14,Chicken Blood,1000000,6,Vero cells,17,0.82,14,,,,,,,,,,,N,N,Y
+Sardelis et al 2001,Indian River FL,,Culex nigripalpus,26,NY99,1a1,B,14,Chicken,39810.7170553497,4.6,Chicken,7,0.29,2,0,0,0,,0.04,0.71,,,,,N,N,Y
+Sardelis et al 2001,Indian River FL,,Culex nigripalpus,26,NY99,1a1,B,14,Chicken,501187.233627272,5.7,Chicken,132,0.78,103,12,0.07,0.0897435897435897,,0.7,0.85,,,,,N,N,Y
+Sardelis et al 2001,Indian River FL,,Culex nigripalpus,26,NY99,1a1,B,14,Chicken,6309573.44480193,6.8,Chicken,127,0.84,107,15,0.1,0.119047619047619,,0.77,0.9,,,,,N,N,Y
+Sardelis et al 2001,Sebring FL,,Culex quinquefasciatus,26,NY99,1a1,B,14,Chicken,316227.766016838,5.5,Chicken,16,0.5,8,2,0.06,0.12,,0.25,0.75,,,,,N,N,Y
+Sardelis et al 2001,Sebring FL,,Culex quinquefasciatus,26,NY99,1a1,B,14,Chicken,1000000,6,Chicken,78,0.91,71,17,0.2,0.21978021978022,,0.82,0.96,,,,,N,N,Y
+Sardelis et al 2001,Vero Beach FL,,Culex quinquefasciatus,26,NY99,1a1,B,14,Chicken,100000,5,Chicken,13,0.46,6,0,0,0,,0.19,0.75,,,,,N,N,Y
+Sardelis et al 2001,Vero Beach FL,,Culex quinquefasciatus,26,NY99,1a1,B,14,Chicken,1995262.31496888,6.3,Chicken,17,0.94,16,2,0.13,0.138297872340426,,0.71,1,,,,,N,N,Y
+Sardelis et al 2001,Maryland,,Culex restuans,26,NY99,1a1,B,14,Chicken,3981071.70553497,6.6,Chicken,11,1,11,6,0.55,0.55,,0.72,1,,,,,N,N,Y
+Sardelis et al 2001,Chambers,,Culex salinarius,26,NY99,1a1,B,14,Chicken,3981071.70553497,6.6,Chicken,20,0.95,19,7,0.34,0.357894736842105,,0.75,1,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,316.227766016838,2.5,Vero cells,25,0,0,0,0,0,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,31622.7766016838,4.5,Vero cells,25,0.04,1,0,0,0,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,100000,5,Vero cells,25,0.04,1,0,0,0,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,316227.766016838,5.5,Vero cells,25,0.16,4,6,0.04,0.25,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,3162277.66016838,6.5,Vero cells,13,0.77,10,1,0.08,0.103896103896104,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,10000000,7,Vero cells,21,0.95,20,10,0.43,0.452631578947368,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,31622776.6016838,7.5,Vero cells,25,0.96,24,8,0.32,0.333333333333333,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,100000000,8,Vero cells,24,1,24,13,0.54,0.54,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,316227766.016838,8.5,Vero cells,26,0.96,25,16,0.58,0.604166666666667,,,,,,,,N,N,Y
+Tiawsirisup et al 2005,Iowa,,Culex pipiens,27,NY99,1a1,B,14,Chicken,3162277660.16838,9.5,Vero cells,19,1,19,9,0.47,0.47,,,,,,,,N,N,Y
+Turell et al 2000,New York,,Culex pipiens,26,NY99,1a1,B,14,Chicken,158489.319246111,5.2,Chicken,46,0.17,8,11,0.04,0.235294117647059,,,,,,,,N,N,Y
+Turell et al 2000,New York,,Culex pipiens,26,NY99,1a1,B,14,Chicken,15848931.9246111,7.2,Chicken,95,0.81,77,23,0.2,0.246913580246914,,,,,,,,N,N,Y
+Turell et al 2001,New York,,Culex pipiens,26,NY99,1a1,B,14,Chicken,158489.319246111,5.2,Chicken,46,0.16,7,6,0.02,0.125,,,,,,,,N,N,Y
+Turell et al 2001,New York,,Culex pipiens,26,NY99,1a1,B,14,Chicken,15848931.9246111,7.2,Chicken,83,0.81,67,14,0.14,0.17283950617284,,,,,,,,N,N,Y
+Vanlandingham et al 2004,Texas,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,79432823.4724282,7.9,Vero cells,23,1,23,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2007,Texas,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,33191738.1487512,7.52102999566398,Vero cells,30,1,30,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,158489319.246111,8.2,Vero cells,6,1,6,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,NY99,1a1,B,14,Sheep Blood,1659586.90743756,6.22,Vero cells,30,1,30,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,1659586.90743756,6.22,Vero cells,22,0.590909090909091,13,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,1659586.90743756,6.22,Vero cells,30,0.966666666666667,29,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,165958.690743756,5.22,Vero cells,26,0.961538461538462,25,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,165958.690743756,5.22,Vero cells,18,0.944444444444444,17,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,165958.690743756,5.22,Vero cells,30,0.566666666666667,17,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,NY99,1a1,B,14,Sheep Blood,44668.3592150963,4.65,Vero cells,30,0.9,27,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,16595.8690743756,4.22,Vero cells,20,0.75,15,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,16595.8690743756,4.22,Vero cells,30,0,0,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,4466.83592150963,3.65,Vero cells,24,0.5,12,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,4466.83592150963,3.65,Vero cells,30,0.166666666666667,5,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,NY99,1a1,B,14,Sheep Blood,1659.58690743756,3.22,Vero cells,30,0.133333333333333,4,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,446.683592150963,2.65,Vero cells,35,0.4,14,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,446.683592150963,2.65,Vero cells,30,0,0,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,165.958690743756,2.22,Vero cells,26,0.153846153846154,4,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,165.958690743756,2.22,Vero cells,24,0.0416666666666667,1,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,NY99,1a1,B,14,Sheep Blood,16.5958690743756,1.22,Vero cells,30,0.0666666666666667,2,,,,,,,,,,,N,N,Y
+Vanlandingham et al 2008,Florida,,Culex quinquefasciatus,26,WN02,1a2,C,14,Sheep Blood,1.65958690743756,0.22,Vero cells,18,0,0,,,,,,,,,,,N,N,Y
+Worwa et al 2015,California,,Culex tarsalis,26,NY99,1a1,B,14,Vero cells,10000000,7,Vero cells,30,0.43,13,28,0.4,0.930232558139535,,,,,,,,N,N,Y
+Worwa et al 2015,California,,Culex tarsalis,26,WN02,1a2,C,14,Vero cells,10000000,7,Vero cells,29,0.59,17,27,0.55,0.932203389830509,,,,,,,,N,N,Y
+Worwa et al 2015,California,,Culex tarsalis,26,WN02,1a2,C,14,Vero cells,10000000,7,Vero cells,30,0.8,24,24,0.63,0.7875,,,,,,,,N,N,Y
+Worwa et al 2015,California,,Culex tarsalis,26,WN02,1a2,C,14,Vero cells,10000000,7,Vero cells,30,0.7,21,27,0.63,0.9,,,,,,,,N,N,Y

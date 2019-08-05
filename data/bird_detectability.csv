@@ -1,0 +1,476 @@
+,Common_Name,SCIENTIFIC.NAME,phylo_name,Detection_Distance,Citation
+1,Gyrfalcon,Falco rusticolus,Falco_rusticolus,300,Blancher et al 2003
+2,Flammulated Owl,Otus flammeolus,Otus_flammeolus,125,Blancher et al 2003
+3,Long-eared Owl,Asio otus,Asio_otus,125,Blancher et al 2003
+4,Northern Wheatear,Oenanthe oenanthe,Oenanthe_oenanthe,200,Blancher et al 2003
+5,Mexican Whip-poor-will,Antrostomus arizonae,Caprimulgus_vociferus,300,Blancher et al 2003
+6,Harris's Hawk,Parabuteo unicinctus,Parabuteo_unicinctus,300,Blancher et al 2003
+7,Northern Pygmy-Owl,Glaucidium gnoma,Glaucidium_gnoma,200,Blancher et al 2003
+8,Northern Hawk Owl,Surnia ulula,Surnia_ulula,200,Blancher et al 2003
+9,Bendire's Thrasher,Toxostoma bendirei,Toxostoma_bendirei,200,Blancher et al 2003
+10,Le Conte's Thrasher,Toxostoma lecontei,Toxostoma_lecontei,200,Blancher et al 2003
+11,Lewis's Woodpecker,Melanerpes lewis,Melanerpes_lewis,200,Blancher et al 2003
+12,Black Swift,Cypseloides niger,Cypseloides_niger,200,Blancher et al 2003
+13,Elf Owl,Micrathene whitneyi,Micrathene_whitneyi,125,Blancher et al 2003
+14,Prairie Falcon,Falco mexicanus,Falco_mexicanus,300,Blancher et al 2003
+15,Ferruginous Hawk,Buteo regalis,Buteo_regalis,300,Blancher et al 2003
+16,Bridled Titmouse,Baeolophus wollweberi,Baeolophus_wollweberi,200,Blancher et al 2003
+17,Golden Eagle,Aquila chrysaetos,Aquila_chrysaetos,400,Blancher et al 2003
+18,Crissal Thrasher,Toxostoma crissale,Toxostoma_crissale,200,Blancher et al 2003
+19,Great Gray Owl,Strix nebulosa,Strix_nebulosa,200,Blancher et al 2003
+20,Swainson's Warbler,Limnothlypis swainsonii,Limnothlypis_swainsonii,200,Blancher et al 2003
+21,Long-billed Thrasher,Toxostoma longirostre,Toxostoma_longirostre,200,Blancher et al 2003
+22,Black-whiskered Vireo,Vireo altiloquus,Vireo_altiloquus,125,Blancher et al 2003
+23,White-headed Woodpecker,Picoides albolarvatus,Picoides_albolarvatus,125,Blancher et al 2003
+24,Barn Owl,Tyto alba,Tyto_alba,200,Blancher et al 2003
+25,Seaside Sparrow,Ammodramus maritimus,Ammodramus_maritimus,125,Blancher et al 2003
+26,Black-chinned Sparrow,Spizella atrogularis,Spizella_atrogularis,200,Blancher et al 2003
+27,American Dipper,Cinclus mexicanus,Cinclus_mexicanus,125,Blancher et al 2003
+28,Juniper Titmouse,Baeolophus ridgwayi,Baeolophus_ridgwayi,200,Blancher et al 2003
+29,Bachman's Sparrow,Peucaea aestivalis,Aimophila_aestivalis,200,Blancher et al 2003
+30,Northern Goshawk,Accipiter gentilis,Accipiter_gentilis,125,Blancher et al 2003
+31,California Thrasher,Toxostoma redivivum,Toxostoma_redivivum,200,Blancher et al 2003
+32,Clark's Nutcracker,Nucifraga columbiana,Nucifraga_columbiana,300,Blancher et al 2003
+33,Gilded Flicker,Colaptes chrysoides,Colaptes_chrysoides,200,Blancher et al 2003
+34,Osprey,Pandion haliaetus,Pandion_haliaetus,300,Blancher et al 2003
+35,Red-faced Warbler,Cardellina rubrifrons,Cardellina_rubrifrons,125,Blancher et al 2003
+36,Lawrence's Goldfinch,Spinus lawrencei,Carduelis_lawrencei,125,Blancher et al 2003
+37,Canyon Wren,Catherpes mexicanus,Catherpes_mexicanus,200,Blancher et al 2003
+38,Mississippi Kite,Ictinia mississippiensis,Ictinia_mississippiensis,300,Blancher et al 2003
+39,Williamson's Sapsucker,Sphyrapicus thyroideus,Sphyrapicus_thyroideus,125,Blancher et al 2003
+40,Mountain Quail,Oreortyx pictus,Oreortyx_pictus,300,Blancher et al 2003
+41,Vaux's Swift,Chaetura vauxi,Chaetura_vauxi,200,Blancher et al 2003
+42,Hooded Oriole,Icterus cucullatus,Icterus_cucullatus,125,Blancher et al 2003
+43,Louisiana Waterthrush,Parkesia motacilla,Seiurus_motacilla,200,Blancher et al 2003
+44,Hoary Redpoll,Acanthis hornemanni,Carduelis_hornemanni,125,Blancher et al 2003
+45,Greater Prairie-Chicken,Tympanuchus cupido,Tympanuchus_cupido,200,Blancher et al 2003
+46,Gray Vireo,Vireo vicinior,Vireo_vicinior,125,Blancher et al 2003
+47,Chihuahuan Raven,Corvus cryptoleucus,Corvus_cryptoleucus,400,Blancher et al 2003
+48,Short-eared Owl,Asio flammeus,Asio_flammeus,200,Blancher et al 2003
+49,Henslow's Sparrow,Ammodramus henslowii,Ammodramus_henslowii,125,Blancher et al 2003
+50,Golden-winged Warbler,Vermivora chrysoptera,Vermivora_chrysoptera,125,Blancher et al 2003
+51,Gila Woodpecker,Melanerpes uropygialis,Melanerpes_uropygialis,200,Blancher et al 2003
+52,Fish Crow,Corvus ossifragus,Corvus_ossifragus,400,Blancher et al 2003
+53,Chukar,Alectoris chukar,Alectoris_chukar,300,Blancher et al 2003
+54,Sharp-shinned Hawk,Accipiter striatus,Accipiter_striatus,125,Blancher et al 2003
+55,Oak Titmouse,Baeolophus inornatus,Baeolophus_inornatus,200,Blancher et al 2003
+56,Black-crested Titmouse,Baeolophus atricristatus,Baeolophus_atricristatus,200,Blancher et al 2003
+57,American Pipit,Anthus rubescens,Anthus_rubescens,200,Blancher et al 2003
+58,Swainson's Hawk,Buteo swainsoni,Buteo_swainsoni,300,Blancher et al 2003
+59,Sharp-tailed Grouse,Tympanuchus phasianellus,Tympanuchus_phasianellus,200,Blancher et al 2003
+60,McCown's Longspur,Rhynchophanes mccownii,Calcarius_mccownii,200,Blancher et al 2003
+61,Golden-fronted Woodpecker,Melanerpes aurifrons,Melanerpes_aurifrons,200,Blancher et al 2003
+62,Nuttall's Woodpecker,Picoides nuttallii,Picoides_nuttallii,125,Blancher et al 2003
+63,Cerulean Warbler,Setophaga cerulea,Dendroica_cerulea,100,Blancher et al 2003
+64,Greater Roadrunner,Geococcyx californianus,Geococcyx_californianus,200,Blancher et al 2003
+65,Allen's Hummingbird,Selasphorus sasin,Selasphorus_sasin,50,Blancher et al 2003
+66,Cooper's Hawk,Accipiter cooperii,Accipiter_cooperii,125,Blancher et al 2003
+67,Northern Harrier,Circus cyaneus,Circus_cyaneus,300,Blancher et al 2003
+68,Burrowing Owl,Athene cunicularia,Athene_cunicularia,200,Blancher et al 2003
+69,Pinyon Jay,Gymnorhinus cyanocephalus,Gymnorhinus_cyanocephalus,300,Blancher et al 2003
+70,White-throated Swift,Aeronautes saxatalis,Aeronautes_saxatalis,200,Blancher et al 2003
+71,Northwestern Crow,Corvus caurinus,Corvus_caurinus,400,Blancher et al 2003
+72,Abert's Towhee,Melozone aberti,Pipilo_aberti,125,Blancher et al 2003
+73,Blue-winged Warbler,Vermivora cyanoptera,Vermivora_pinus,125,Blancher et al 2003
+74,Eastern Screech-Owl,Megascops asio,Megascops_asio,125,Blancher et al 2003
+75,Worm-eating Warbler,Helmitheros vermivorum,Helmitheros_vermivorum,125,Blancher et al 2003
+76,Black-backed Woodpecker,Picoides arcticus,Picoides_arcticus,125,Blancher et al 2003
+77,Black-billed Cuckoo,Coccyzus erythropthalmus,Coccyzus_erythropthalmus,200,Blancher et al 2003
+78,Inca Dove,Columbina inca,Columbina_inca,125,Blancher et al 2003
+79,Sprague's Pipit,Anthus spragueii,Anthus_spragueii,200,Blancher et al 2003
+80,Band-tailed Pigeon,Patagioenas fasciata,Patagioenas_fasciata,200,Blancher et al 2003
+81,Hutton's Vireo,Vireo huttoni,Vireo_huttoni,125,Blancher et al 2003
+82,Bronzed Cowbird,Molothrus aeneus,Molothrus_aeneus,125,Blancher et al 2003
+83,Townsend's Solitaire,Myadestes townsendi,Myadestes_townsendi,200,Blancher et al 2003
+84,Cave Swallow,Petrochelidon fulva,Petrochelidon_fulva,200,Blancher et al 2003
+85,Black Phoebe,Sayornis nigricans,Sayornis_nigricans,125,Blancher et al 2003
+86,American Three-toed Woodpecker,Picoides dorsalis,Picoides_dorsalis,125,Blancher et al 2003
+87,Phainopepla,Phainopepla nitens,Phainopepla_nitens,125,Blancher et al 2003
+88,Red-shouldered Hawk,Buteo lineatus,Buteo_lineatus,200,Blancher et al 2003
+89,Brown-headed Nuthatch,Sitta pusilla,Sitta_pusilla,125,Blancher et al 2003
+90,Nelson's Sparrow,Ammodramus nelsoni,Ammodramus_nelsoni,125,Blancher et al 2003
+91,Curve-billed Thrasher,Toxostoma curvirostre,Toxostoma_curvirostre,200,Blancher et al 2003
+92,Merlin,Falco columbarius,Falco_columbarius,125,Blancher et al 2003
+93,Pyrrhuloxia,Cardinalis sinuatus,Cardinalis_sinuatus,200,Blancher et al 2003
+94,Red-headed Woodpecker,Melanerpes erythrocephalus,Melanerpes_erythrocephalus,200,Blancher et al 2003
+95,Gray Partridge,Perdix perdix,Perdix_perdix,125,Blancher et al 2003
+96,Wrentit,Chamaea fasciata,Chamaea_fasciata,200,Blancher et al 2003
+97,Grace's Warbler,Setophaga graciae,Dendroica_graciae,125,Blancher et al 2003
+98,Costa's Hummingbird,Calypte costae,Calypte_costae,50,Blancher et al 2003
+99,Western Scrub-Jay,Aphelocoma californica,Aphelocoma_californica,200,Blancher et al 2003
+100,Acorn Woodpecker,Melanerpes formicivorus,Melanerpes_formicivorus,200,Blancher et al 2003
+101,Prothonotary Warbler,Protonotaria citrea,Protonotaria_citrea,125,Blancher et al 2003
+102,Broad-winged Hawk,Buteo platypterus,Buteo_platypterus,125,Blancher et al 2003
+103,Belted Kingfisher,Megaceryle alcyon,Megaceryle_alcyon,200,Blancher et al 2003
+104,Olive-sided Flycatcher,Contopus cooperi,Contopus_cooperi,300,Blancher et al 2003
+105,Connecticut Warbler,Oporornis agilis,Oporornis_agilis,125,Blancher et al 2003
+106,Yellow-throated Warbler,Setophaga dominica,Dendroica_dominica,125,Blancher et al 2003
+107,Common Poorwill,Phalaenoptilus nuttallii,Phalaenoptilus_nuttallii,300,Blancher et al 2003
+108,Scott's Oriole,Icterus parisorum,Icterus_parisorum,125,Blancher et al 2003
+109,Pileated Woodpecker,Dryocopus pileatus,Dryocopus_pileatus,300,Blancher et al 2003
+110,Red-naped Sapsucker,Sphyrapicus nuchalis,Sphyrapicus_nuchalis,125,Blancher et al 2003
+111,Red-tailed Hawk,Buteo jamaicensis,Buteo_jamaicensis,300,Blancher et al 2003
+112,Boat-tailed Grackle,Quiscalus major,Quiscalus_major,200,Blancher et al 2003
+113,Pygmy Nuthatch,Sitta pygmaea,Sitta_pygmaea,125,Blancher et al 2003
+114,Ladder-backed Woodpecker,Picoides scalaris,Picoides_scalaris,125,Blancher et al 2003
+115,Cassin's Kingbird,Tyrannus vociferans,Tyrannus_vociferans,200,Blancher et al 2003
+116,Black-throated Blue Warbler,Setophaga caerulescens,Dendroica_caerulescens,125,Blancher et al 2003
+117,Plumbeous Vireo,Vireo plumbeus,Vireo_plumbeus,125,Blancher et al 2003
+118,Steller's Jay,Cyanocitta stelleri,Cyanocitta_stelleri,200,Blancher et al 2003
+119,Bohemian Waxwing,Bombycilla garrulus,Bombycilla_garrulus,125,Blancher et al 2003
+120,American Kestrel,Falco sparverius,Falco_sparverius,200,Blancher et al 2003
+121,Common Ground-Dove,Columbina passerina,Columbina_passerina,125,Blancher et al 2003
+122,Scarlet Tanager,Piranga olivacea,Piranga_olivacea,200,Blancher et al 2003
+123,Bushtit,Psaltriparus minimus,Psaltriparus_minimus,125,Blancher et al 2003
+124,Baird's Sparrow,Ammodramus bairdii,Ammodramus_bairdii,125,Blancher et al 2003
+125,Red-breasted Sapsucker,Sphyrapicus ruber,Sphyrapicus_ruber,125,Blancher et al 2003
+126,Eastern Whip-poor-will,Antrostomus vociferus,Caprimulgus_vociferus,300,Blancher et al 2003
+127,Cordilleran Flycatcher,Empidonax occidentalis,Empidonax_occidentalis,125,Blancher et al 2003
+128,Black-throated Gray Warbler,Setophaga nigrescens,Dendroica_nigrescens,125,Blancher et al 2003
+129,Calliope Hummingbird,Selasphorus calliope,Stellula_calliope,50,Blancher et al 2003
+130,Hermit Warbler,Setophaga occidentalis,Dendroica_occidentalis,125,Blancher et al 2003
+131,Scaled Quail,Callipepla squamata,Callipepla_squamata,200,Blancher et al 2003
+132,Barred Owl,Strix varia,Strix_varia,200,Blancher et al 2003
+133,Gray Flycatcher,Empidonax wrightii,Empidonax_wrightii,125,Blancher et al 2003
+134,Chestnut-collared Longspur,Calcarius ornatus,Calcarius_ornatus,200,Blancher et al 2003
+135,Rock Wren,Salpinctes obsoletus,Salpinctes_obsoletus,200,Blancher et al 2003
+136,Pine Grosbeak,Pinicola enucleator,Pinicola_enucleator,125,Blancher et al 2003
+137,Kentucky Warbler,Geothlypis formosa,Oporornis_formosus,125,Blancher et al 2003
+138,California Quail,Callipepla californica,Callipepla_californica,200,Blancher et al 2003
+139,Cassin's Finch,Haemorhous cassinii,Carpodacus_cassinii,125,Blancher et al 2003
+140,Cactus Wren,Campylorhynchus brunneicapillus,Campylorhynchus_brunneicapillus,200,Blancher et al 2003
+141,Lesser Nighthawk,Chordeiles acutipennis,Chordeiles_acutipennis,300,Blancher et al 2003
+142,Prairie Warbler,Setophaga discolor,Dendroica_discolor,125,Blancher et al 2003
+143,Yellow-throated Vireo,Vireo flavifrons,Vireo_flavifrons,125,Blancher et al 2003
+144,Verdin,Auriparus flaviceps,Auriparus_flaviceps,125,Blancher et al 2003
+145,Bell's Vireo,Vireo bellii,Vireo_bellii,125,Blancher et al 2003
+146,Canada Warbler,Cardellina canadensis,Wilsonia_canadensis,100,Blancher et al 2003
+147,Great Horned Owl,Bubo virginianus,Bubo_virginianus,300,Blancher et al 2003
+148,Philadelphia Vireo,Vireo philadelphicus,Vireo_philadelphicus,125,Blancher et al 2003
+149,Evening Grosbeak,Coccothraustes vespertinus,Coccothraustes_vespertinus,125,Blancher et al 2003
+150,Gambel's Quail,Callipepla gambelii,Callipepla_gambelii,200,Blancher et al 2003
+151,Lesser Goldfinch,Spinus psaltria,Carduelis_psaltria,125,Blancher et al 2003
+152,Say's Phoebe,Sayornis saya,Sayornis_saya,200,Blancher et al 2003
+153,Cassin's Vireo,Vireo cassinii,Vireo_cassinii,125,Blancher et al 2003
+154,Canyon Towhee,Melozone fusca,Pipilo_fuscus,125,Blancher et al 2003
+155,Black-chinned Hummingbird,Archilochus alexandri,Archilochus_alexandri,50,Blancher et al 2003
+156,Bewick's Wren,Thryomanes bewickii,Thryomanes_bewickii,200,Blancher et al 2003
+157,Green-tailed Towhee,Pipilo chlorurus,Pipilo_chlorurus,200,Blancher et al 2003
+158,Rose-breasted Grosbeak,Pheucticus ludovicianus,Pheucticus_ludovicianus,200,Blancher et al 2003
+159,Golden-crowned Sparrow,Zonotrichia atricapilla,Zonotrichia_atricapilla,200,Blancher et al 2003
+160,Common Raven,Corvus corax,Corvus_corax,400,Blancher et al 2003
+161,White-winged Dove,Zenaida asiatica,Zenaida_asiatica,200,Blancher et al 2003
+162,Black-tailed Gnatcatcher,Polioptila melanura,Polioptila_melanura,80,Blancher et al 2003
+163,Anna's Hummingbird,Calypte anna,Calypte_anna,50,Blancher et al 2003
+164,Acadian Flycatcher,Empidonax virescens,Empidonax_virescens,125,Blancher et al 2003
+165,Western Bluebird,Sialia mexicana,Sialia_mexicana,125,Blancher et al 2003
+166,Hooded Warbler,Setophaga citrina,Wilsonia_citrina,125,Blancher et al 2003
+167,Mountain Bluebird,Sialia currucoides,Sialia_currucoides,200,Blancher et al 2003
+168,Brown Thrasher,Toxostoma rufum,Toxostoma_rufum,200,Blancher et al 2003
+169,Loggerhead Shrike,Lanius ludovicianus,Lanius_ludovicianus,125,Blancher et al 2003
+170,Great-tailed Grackle,Quiscalus mexicanus,Quiscalus_mexicanus,200,Blancher et al 2003
+171,Rusty Blackbird,Euphagus carolinus,Euphagus_carolinus,125,Blancher et al 2003
+172,Turkey Vulture,Cathartes aura,Cathartes_aura,400,Blancher et al 2003
+173,Ash-throated Flycatcher,Myiarchus cinerascens,Myiarchus_cinerascens,200,Blancher et al 2003
+174,California Towhee,Melozone crissalis,Pipilo_crissalis,125,Blancher et al 2003
+175,Black-billed Magpie,Pica hudsonia,Pica_hudsonia,300,Blancher et al 2003
+176,Eastern Wood-Pewee,Contopus virens,Contopus_virens,200,Blancher et al 2003
+177,Bank Swallow,Riparia riparia,Riparia_riparia,200,Blancher et al 2003
+178,Lazuli Bunting,Passerina amoena,Passerina_amoena,125,Blancher et al 2003
+179,Chuck-will's-widow,Antrostomus carolinensis,Caprimulgus_carolinensis,300,Blancher et al 2003
+180,Violet-green Swallow,Tachycineta thalassina,Tachycineta_thalassina,200,Blancher et al 2003
+181,Sage Thrasher,Oreoscoptes montanus,Oreoscoptes_montanus,200,Blancher et al 2003
+182,Broad-tailed Hummingbird,Selasphorus platycercus,Selasphorus_platycercus,80,Blancher et al 2003
+183,Arctic Warbler,Phylloscopus borealis,Phylloscopus_borealis,125,Blancher et al 2003
+184,Bullock's Oriole,Icterus bullockii,Icterus_bullockii,125,Blancher et al 2003
+185,Sedge Wren,Cistothorus platensis,Cistothorus_platensis,125,Blancher et al 2003
+186,Lapland Longspur,Calcarius lapponicus,Calcarius_lapponicus,200,Blancher et al 2003
+187,Purple Martin,Progne subis,Progne_subis,200,Blancher et al 2003
+188,Purple Finch,Haemorhous purpureus,Carpodacus_purpureus,125,Blancher et al 2003
+189,Great Crested Flycatcher,Myiarchus crinitus,Myiarchus_crinitus,200,Blancher et al 2003
+190,Lark Sparrow,Chondestes grammacus,Chondestes_grammacus,200,Blancher et al 2003
+191,Cape May Warbler,Setophaga tigrina,Dendroica_tigrina,80,Blancher et al 2003
+192,Pacific-slope Flycatcher,Empidonax difficilis,Empidonax_difficilis,125,Blancher et al 2003
+193,Mountain Chickadee,Poecile gambeli,Parus_gambeli,125,Blancher et al 2003
+194,Field Sparrow,Spizella pusilla,Spizella_pusilla,200,Blancher et al 2003
+195,Cassin's Sparrow,Peucaea cassinii,Aimophila_cassinii,200,Blancher et al 2003
+196,Yellow-billed Cuckoo,Coccyzus americanus,Coccyzus_americanus,200,Blancher et al 2003
+197,Dusky Flycatcher,Empidonax oberholseri,Empidonax_oberholseri,125,Blancher et al 2003
+198,Chimney Swift,Chaetura pelagica,Chaetura_pelagica,200,Blancher et al 2003
+199,Western Wood-Pewee,Contopus sordidulus,Contopus_sordidulus,200,Blancher et al 2003
+200,Bobolink,Dolichonyx oryzivorus,Dolichonyx_oryzivorus,200,Blancher et al 2003
+201,Tufted Titmouse,Baeolophus bicolor,Baeolophus_bicolor,200,Blancher et al 2003
+202,Le Conte's Sparrow,Ammodramus leconteii,Ammodramus_leconteii,125,Blancher et al 2003
+203,Northern Flicker,Colaptes auratus,Colaptes_auratus,200,Blancher et al 2003
+204,Red Crossbill,Loxia curvirostra,Loxia_curvirostra,125,Blancher et al 2003
+205,White-breasted Nuthatch,Sitta carolinensis,Sitta_carolinensis,125,Blancher et al 2003
+206,Brown Creeper,Certhia americana,Certhia_americana,80,Blancher et al 2003
+207,Hairy Woodpecker,Picoides villosus,Picoides_villosus,125,Blancher et al 2003
+208,Marsh Wren,Cistothorus palustris,Cistothorus_palustris,125,Blancher et al 2003
+209,American Tree Sparrow,Spizella arborea,Spizella_arborea,200,Blancher et al 2003
+210,Scissor-tailed Flycatcher,Tyrannus forficatus,Tyrannus_forficatus,200,Blancher et al 2003
+211,Lark Bunting,Calamospiza melanocorys,Calamospiza_melanocorys,200,Blancher et al 2003
+212,Willow Flycatcher,Empidonax traillii,Empidonax_traillii,125,Blancher et al 2003
+213,Blue-headed Vireo,Vireo solitarius,Vireo_solitarius,125,Blancher et al 2003
+214,Bay-breasted Warbler,Setophaga castanea,Dendroica_castanea,80,Blancher et al 2003
+215,Orchard Oriole,Icterus spurius,Icterus_spurius,125,Blancher et al 2003
+216,Chestnut-backed Chickadee,Poecile rufescens,Parus_rufescens,80,Blancher et al 2003
+217,Black-throated Green Warbler,Setophaga virens,Dendroica_virens,125,Blancher et al 2003
+218,Painted Bunting,Passerina ciris,Passerina_ciris,125,Blancher et al 2003
+219,Blackburnian Warbler,Setophaga fusca,Dendroica_fusca,80,Blancher et al 2003
+220,Yellow-bellied Sapsucker,Sphyrapicus varius,Sphyrapicus_varius,125,Blancher et al 2003
+221,Summer Tanager,Piranga rubra,Piranga_rubra,125,Blancher et al 2003
+222,Red-bellied Woodpecker,Melanerpes carolinus,Melanerpes_carolinus,200,Blancher et al 2003
+223,Veery,Catharus fuscescens,Catharus_fuscescens,200,Blancher et al 2003
+224,Western Tanager,Piranga ludoviciana,Piranga_ludoviciana,200,Blancher et al 2003
+225,Yellow-headed Blackbird,Xanthocephalus xanthocephalus,Xanthocephalus_xanthocephalus,200,Blancher et al 2003
+226,Rufous Hummingbird,Selasphorus rufus,Selasphorus_rufus,50,Blancher et al 2003
+227,Yellow-breasted Chat,Icteria virens,Icteria_virens,200,Blancher et al 2003
+228,Willow Ptarmigan,Lagopus lagopus,Lagopus_lagopus,125,Blancher et al 2003
+229,Wood Thrush,Hylocichla mustelina,Hylocichla_mustelina,200,Blancher et al 2003
+230,Black-headed Grosbeak,Pheucticus melanocephalus,Pheucticus_melanocephalus,125,Blancher et al 2003
+231,Boreal Chickadee,Poecile hudsonicus,Parus_hudsonicus,80,Blancher et al 2003
+232,Yellow-bellied Flycatcher,Empidonax flaviventris,Empidonax_flaviventris,125,Blancher et al 2003
+233,Baltimore Oriole,Icterus galbula,Icterus_galbula,125,Blancher et al 2003
+234,Rock Pigeon,Columba livia,Columba_livia,200,Blancher et al 2003
+235,Pine Warbler,Setophaga pinus,Dendroica_pinus,125,Blancher et al 2003
+236,MacGillivray's Warbler,Geothlypis tolmiei,Oporornis_tolmiei,125,Blancher et al 2003
+237,Carolina Chickadee,Poecile carolinensis,Parus_carolinensis,125,Blancher et al 2003
+238,Northern Parula,Setophaga americana,Parula_americana,100,Blancher et al 2003
+239,Carolina Wren,Thryothorus ludovicianus,Thryothorus_ludovicianus,200,Blancher et al 2003
+240,Palm Warbler,Setophaga palmarum,Dendroica_palmarum,125,Blancher et al 2003
+241,Brewer's Sparrow,Spizella breweri,Spizella_breweri,200,Blancher et al 2003
+242,Blue Jay,Cyanocitta cristata,Cyanocitta_cristata,200,Blancher et al 2003
+243,Northern Rough-winged Swallow,Stelgidopteryx serripennis,Stelgidopteryx_serripennis,125,Blancher et al 2003
+244,Downy Woodpecker,Picoides pubescens,Picoides_pubescens,125,Blancher et al 2003
+245,Gray-cheeked Thrush,Catharus minimus,Catharus_minimus,125,Blancher et al 2003
+246,Ring-necked Pheasant,Phasianus colchicus,Phasianus_colchicus,300,Blancher et al 2003
+247,Common Nighthawk,Chordeiles minor,Chordeiles_minor,300,Blancher et al 2003
+248,Tree Swallow,Tachycineta bicolor,Tachycineta_bicolor,200,Blancher et al 2003
+249,Mourning Warbler,Geothlypis philadelphia,Oporornis_philadelphia,125,Blancher et al 2003
+250,Townsend's Warbler,Setophaga townsendi,Dendroica_townsendi,100,Blancher et al 2003
+251,White-eyed Vireo,Vireo griseus,Vireo_griseus,125,Blancher et al 2003
+252,Blue Grosbeak,Passerina caerulea,Passerina_caerulea,125,Blancher et al 2003
+253,Chestnut-sided Warbler,Setophaga pensylvanica,Dendroica_pensylvanica,125,Blancher et al 2003
+254,Eastern Bluebird,Sialia sialis,Sialia_sialis,125,Blancher et al 2003
+255,Hammond's Flycatcher,Empidonax hammondii,Empidonax_hammondii,100,Blancher et al 2003
+256,Northern Waterthrush,Parkesia noveboracensis,Seiurus_motacilla,200,Blancher et al 2003
+257,Dickcissel,Spiza americana,Spiza_americana,200,Blancher et al 2003
+258,Red-breasted Nuthatch,Sitta canadensis,Sitta_canadensis,125,Blancher et al 2003
+259,Brewer's Blackbird,Euphagus cyanocephalus,Euphagus_cyanocephalus,200,Blancher et al 2003
+260,Black-and-white Warbler,Mniotilta varia,Mniotilta_varia,100,Blancher et al 2003
+261,Ruby-throated Hummingbird,Archilochus colubris,Archilochus_colubris,50,Blancher et al 2003
+262,Western Kingbird,Tyrannus verticalis,Tyrannus_verticalis,200,Blancher et al 2003
+263,Gray Jay,Perisoreus canadensis,Perisoreus_canadensis,125,Blancher et al 2003
+264,Eastern Meadowlark,Sturnella magna,Sturnella_magna,200,Blancher et al 2003
+265,Varied Thrush,Ixoreus naevius,Zoothera_naevia,200,Blancher et al 2003
+266,Ovenbird,Seiurus aurocapilla,Seiurus_aurocapilla,200,Blancher et al 2003
+267,Fox Sparrow,Passerella iliaca,Passerella_iliaca,200,Blancher et al 2003
+268,White-winged Crossbill,Loxia leucoptera,Loxia_leucoptera,125,Blancher et al 2003
+269,American Crow,Corvus brachyrhynchos,Corvus_brachyrhynchos,400,Blancher et al 2003
+270,Northern Mockingbird,Mimus polyglottos,Mimus_polyglottos,200,Blancher et al 2003
+271,Eastern Kingbird,Tyrannus tyrannus,Tyrannus_tyrannus,125,Blancher et al 2003
+272,Gray Catbird,Dumetella carolinensis,Dumetella_carolinensis,125,Blancher et al 2003
+273,Vesper Sparrow,Pooecetes gramineus,Pooecetes_gramineus,200,Blancher et al 2003
+274,Eastern Towhee,Pipilo erythrophthalmus,Pipilo_erythrophthalmus,125,Blancher et al 2003
+275,Swamp Sparrow,Melospiza georgiana,Melospiza_georgiana,125,Blancher et al 2003
+276,Black-throated Sparrow,Amphispiza bilineata,Amphispiza_bilineata,125,Blancher et al 2003
+277,Grasshopper Sparrow,Ammodramus savannarum,Ammodramus_savannarum,125,Blancher et al 2003
+278,Spotted Towhee,Pipilo maculatus,Pipilo_maculatus,125,Blancher et al 2003
+279,Eastern Phoebe,Sayornis phoebe,Sayornis_phoebe,125,Blancher et al 2003
+280,Barn Swallow,Hirundo rustica,Hirundo_rustica,200,Blancher et al 2003
+281,House Finch,Haemorhous mexicanus,Carpodacus_mexicanus,125,Blancher et al 2003
+282,Least Flycatcher,Empidonax minimus,Empidonax_minimus,125,Blancher et al 2003
+283,American Redstart,Setophaga ruticilla,Setophaga_ruticilla,100,Blancher et al 2003
+284,Cliff Swallow,Petrochelidon pyrrhonota,Petrochelidon_pyrrhonota,200,Blancher et al 2003
+285,Magnolia Warbler,Setophaga magnolia,Dendroica_magnolia,125,Blancher et al 2003
+286,Pine Siskin,Spinus pinus,Carduelis_pinus,100,Blancher et al 2003
+287,Black-capped Chickadee,Poecile atricapillus,Parus_atricapillus,125,Blancher et al 2003
+288,American Goldfinch,Spinus tristis,Carduelis_tristis,125,Blancher et al 2003
+289,House Wren,Troglodytes aedon,Troglodytes_aedon,125,Blancher et al 2003
+290,Common Redpoll,Acanthis flammea,Carduelis_flammea,125,Blancher et al 2003
+291,Hermit Thrush,Catharus guttatus,Catharus_guttatus,200,Blancher et al 2003
+292,Warbling Vireo,Vireo gilvus,Vireo_gilvus,125,Blancher et al 2003
+293,Cedar Waxwing,Bombycilla cedrorum,Bombycilla_cedrorum,100,Blancher et al 2003
+294,White-crowned Sparrow,Zonotrichia leucophrys,Zonotrichia_leucophrys,200,Blancher et al 2003
+295,Blackpoll Warbler,Setophaga striata,Dendroica_striata,80,Blancher et al 2003
+296,Clay-colored Sparrow,Spizella pallida,Spizella_pallida,125,Blancher et al 2003
+297,Wilson's Warbler,Cardellina pusilla,Wilsonia_pusilla,100,Blancher et al 2003
+298,European Starling,Sturnus vulgaris,Sturnus_vulgaris,200,Blancher et al 2003
+299,Common Grackle,Quiscalus quiscula,Quiscalus_quiscula,200,Blancher et al 2003
+300,Horned Lark,Eremophila alpestris,Eremophila_alpestris,200,Blancher et al 2003
+301,Lincoln's Sparrow,Melospiza lincolnii,Melospiza_lincolnii,125,Blancher et al 2003
+302,Indigo Bunting,Passerina cyanea,Passerina_cyanea,125,Blancher et al 2003
+303,Western Meadowlark,Sturnella neglecta,Sturnella_neglecta,200,Blancher et al 2003
+304,House Sparrow,Passer domesticus,Passer_domesticus,125,Blancher et al 2003
+305,Common Yellowthroat,Geothlypis trichas,Geothlypis_trichas,125,Blancher et al 2003
+306,Yellow Warbler,Setophaga petechia,Dendroica_petechia,125,Blancher et al 2003
+307,Northern Cardinal,Cardinalis cardinalis,Cardinalis_cardinalis,200,Blancher et al 2003
+308,Ruby-crowned Kinglet,Regulus calendula,Regulus_calendula,125,Blancher et al 2003
+309,Golden-crowned Kinglet,Regulus satrapa,Regulus_satrapa,50,Blancher et al 2003
+310,Swainson's Thrush,Catharus ustulatus,Catharus_ustulatus,200,Blancher et al 2003
+311,Mourning Dove,Zenaida macroura,Zenaida_macroura,200,Blancher et al 2003
+312,Brown-headed Cowbird,Molothrus ater,Molothrus_ater,125,Blancher et al 2003
+313,Blue-gray Gnatcatcher,Polioptila caerulea,Polioptila_caerulea,50,Blancher et al 2003
+314,Red-winged Blackbird,Agelaius phoeniceus,Agelaius_phoeniceus,200,Blancher et al 2003
+315,Alder Flycatcher,Empidonax alnorum,Empidonax_alnorum,125,Blancher et al 2003
+316,Yellow-rumped Warbler,Setophaga coronata,Dendroica_coronata,125,Blancher et al 2003
+317,Song Sparrow,Melospiza melodia,Melospiza_melodia,125,Blancher et al 2003
+318,Red-eyed Vireo,Vireo olivaceus,Vireo_olivaceus,125,Blancher et al 2003
+319,White-throated Sparrow,Zonotrichia albicollis,Zonotrichia_albicollis,200,Blancher et al 2003
+320,Savannah Sparrow,Passerculus sandwichensis,Passerculus_sandwichensis,125,Blancher et al 2003
+321,Dark-eyed Junco,Junco hyemalis,Junco_hyemalis,125,Blancher et al 2003
+322,Chipping Sparrow,Spizella passerina,Spizella_passerina,125,Blancher et al 2003
+323,American Robin,Turdus migratorius,Turdus_migratorius,200,Blancher et al 2003
+324,African Collared-Dove,Streptopelia roseogrisea,Streptopelia_roseogrisea,200,Blancher et al 2003
+325,Altamira Oriole,Icterus gularis,Icterus_gularis,125,Blancher et al 2003
+326,Aplomado Falcon,Falco femoralis,Falco_femoralis,300,Blancher et al 2003
+327,Arizona Woodpecker,Picoides arizonae,Picoides_arizonae,125,Blancher et al 2003
+328,Audubon's Oriole,Icterus graduacauda,Icterus_graduacauda,125,Blancher et al 2003
+329,Bald Eagle,Haliaeetus leucocephalus,Haliaeetus_leucocephalus,300,Blancher et al 2003
+330,Bicknell's Thrush,Catharus bicknelli,Catharus_bicknelli,200,Blancher et al 2003
+331,Black Rosy-Finch,Leucosticte atrata,Leucosticte_atrata,125,Blancher et al 2003
+332,Black Vulture,Coragyps atratus,Coragyps_atratus,400,Blancher et al 2003
+333,Black-capped Vireo,Vireo atricapilla,Vireo_atricapilla,125,Blancher et al 2003
+334,Bluethroat,Luscinia svecica,Luscinia_svecica,200,Blancher et al 2003
+335,Blue-throated Hummingbird,Lampornis clemenciae,Lampornis_clemenciae,50,Blancher et al 2003
+336,Boreal Owl,Aegolius funereus,Aegolius_funereus,200,Blancher et al 2003
+337,Botteri's Sparrow,Peucaea botterii,Aimophila_botterii,200,Blancher et al 2003
+338,Broad-billed Hummingbird,Cynanthus latirostris,Cynanthus_latirostris,50,Blancher et al 2003
+339,Brown-crested Flycatcher,Myiarchus tyrannulus,Myiarchus_tyrannulus,200,Blancher et al 2003
+340,Budgerigar,Melopsittacus undulatus,Melopsittacus_undulatus,125,Blancher et al 2003
+341,Buff-bellied Hummingbird,Amazilia yucatanensis,Amazilia_yucatanensis,50,Blancher et al 2003
+342,California Condor,Gymnogyps californianus,Gymnogyps_californianus,400,Blancher et al 2003
+343,California Gnatcatcher,Polioptila californica,Polioptila_californica,80,Blancher et al 2003
+344,Common Black-Hawk,Buteogallus anthracinus,Buteogallus_anthracinus,300,Blancher et al 2003
+345,Common Myna,Acridotheres tristis,Acridotheres_tristis,200,Blancher et al 2003
+346,Common Pauraque,Nyctidromus albicollis,Nyctidromus_albicollis,300,Blancher et al 2003
+347,Couch's Kingbird,Tyrannus couchii,Tyrannus_couchii,200,Blancher et al 2003
+348,Crested Caracara,Caracara cheriway,Caracara_cheriway,300,Blancher et al 2003
+349,Dusky Grouse,Dendragapus obscurus,Dendragapus_obscurus,200,Blancher et al 2003
+350,Dusky-capped Flycatcher,Myiarchus tuberculifer,Myiarchus_tuberculifer,125,Blancher et al 2003
+351,Elegant Trogon,Trogon elegans,Trogon_elegans,200,Blancher et al 2003
+352,Eurasian Collared-Dove,Streptopelia decaocto,Streptopelia_decaocto,200,Blancher et al 2003
+353,Eurasian Tree Sparrow,Passer montanus,Passer_montanus,125,Blancher et al 2003
+354,Ferruginous Pygmy-Owl,Glaucidium brasilianum,Glaucidium_brasilianum,200,Blancher et al 2003
+355,Florida Scrub-Jay,Aphelocoma coerulescens,Aphelocoma_coerulescens,200,Blancher et al 2003
+356,Golden-cheeked Warbler,Setophaga chrysoparia,Dendroica_chrysoparia,125,Blancher et al 2003
+357,Gray Kingbird,Tyrannus dominicensis,Tyrannus_dominicensis,200,Blancher et al 2003
+358,Gray-crowned Rosy-Finch,Leucosticte tephrocotis,Leucosticte_tephrocotis,125,Blancher et al 2003
+359,Great Kiskadee,Pitangus sulphuratus,Pitangus_sulphuratus,200,Blancher et al 2003
+360,Greater Pewee,Contopus pertinax,Contopus_pertinax,200,Blancher et al 2003
+361,Greater Sage-Grouse,Centrocercus urophasianus,Centrocercus_urophasianus,200,Blancher et al 2003
+362,Green Jay,Cyanocorax yncas,Cyanocorax_yncas,200,Blancher et al 2003
+363,Green Kingfisher,Chloroceryle americana,Chloroceryle_americana,200,Blancher et al 2003
+364,Groove-billed Ani,Crotophaga sulcirostris,Crotophaga_sulcirostris,125,Blancher et al 2003
+365,Gunnison Sage-Grouse,Centrocercus minimus,Centrocercus_minimus,200,Blancher et al 2003
+366,Hepatic Tanager,Piranga flava,Piranga_flava,125,Blancher et al 2003
+367,Kirtland's Warbler,Setophaga kirtlandii,Dendroica_kirtlandii,200,Blancher et al 2003
+368,Lesser Prairie-Chicken,Tympanuchus pallidicinctus,Tympanuchus_pallidicinctus,200,Blancher et al 2003
+369,Lucifer Hummingbird,Calothorax lucifer,Calothorax_lucifer,50,Blancher et al 2003
+370,Magnificent Hummingbird,Eugenes fulgens,Eugenes_fulgens,50,Blancher et al 2003
+371,Mangrove Cuckoo,Coccyzus minor,Coccyzus_minor,200,Blancher et al 2003
+372,Monk Parakeet,Myiopsitta monachus,Myiopsitta_monachus,125,Blancher et al 2003
+373,Montezuma Quail,Cyrtonyx montezumae,Cyrtonyx_montezumae,200,Blancher et al 2003
+374,Northern Beardless-Tyrannulet,Camptostoma imberbe,Camptostoma_imberbe,125,Blancher et al 2003
+375,Northern Bobwhite,Colinus virginianus,Colinus_virginianus,200,Blancher et al 2003
+376,Northern Saw-whet Owl,Aegolius acadicus,Aegolius_acadicus,200,Blancher et al 2003
+377,Northern Shrike,Lanius excubitor,Lanius_excubitor,200,Blancher et al 2003
+378,Olive Sparrow,Arremonops rufivirgatus,Arremonops_rufivirgatus,200,Blancher et al 2003
+379,Olive Warbler,Peucedramus taeniatus,Peucedramus_taeniatus,125,Blancher et al 2003
+380,Painted Redstart,Myioborus pictus,Myioborus_pictus,125,Blancher et al 2003
+381,Peregrine Falcon,Falco peregrinus,Falco_peregrinus,300,Blancher et al 2003
+382,Plain Chachalaca,Ortalis vetula,Ortalis_vetula,300,Blancher et al 2003
+383,Red-cockaded Woodpecker,Picoides borealis,Picoides_borealis,125,Blancher et al 2003
+384,Ringed Kingfisher,Megaceryle torquata,Megaceryle_torquata,200,Blancher et al 2003
+385,Rock Ptarmigan,Lagopus muta,Lagopus_muta,125,Blancher et al 2003
+386,Rough-legged Hawk,Buteo lagopus,Buteo_lagopus,300,Blancher et al 2003
+387,Ruddy Ground-Dove,Columbina talpacoti,Columbina_talpacoti,125,Blancher et al 2003
+388,Ruffed Grouse,Bonasa umbellus,Bonasa_umbellus,200,Blancher et al 2003
+389,Rufous-crowned Sparrow,Aimophila ruficeps,Aimophila_ruficeps,200,Blancher et al 2003
+390,Rufous-winged Sparrow,Peucaea carpalis,Aimophila_carpalis,200,Blancher et al 2003
+391,Saltmarsh Sparrow,Ammodramus caudacutus,Ammodramus_caudacutus,125,Blancher et al 2003
+392,Shiny Cowbird,Molothrus bonariensis,Molothrus_bonariensis,125,Blancher et al 2003
+393,Short-tailed Hawk,Buteo brachyurus,Buteo_brachyurus,300,Blancher et al 2003
+394,Sky Lark,Alauda arvensis,Alauda_arvensis,200,Blancher et al 2003
+395,Smith's Longspur,Calcarius pictus,Calcarius_pictus,200,Blancher et al 2003
+396,Smooth-billed Ani,Crotophaga ani,Crotophaga_ani,125,Blancher et al 2003
+397,Snail Kite,Rostrhamus sociabilis,Rostrhamus_sociabilis,300,Blancher et al 2003
+398,Snow Bunting,Plectrophenax nivalis,Plectrophenax_nivalis,200,Blancher et al 2003
+399,Sooty Grouse,Dendragapus fuliginosus,Dendragapus_fuliginosus,200,Blancher et al 2003
+400,Spotted Owl,Strix occidentalis,Strix_occidentalis,200,Blancher et al 2003
+401,Sulphur-bellied Flycatcher,Myiodynastes luteiventris,Myiodynastes_luteiventris,200,Blancher et al 2003
+402,Swallow-tailed Kite,Elanoides forficatus,Elanoides_forficatus,300,Blancher et al 2003
+403,Thick-billed Kingbird,Tyrannus crassirostris,Tyrannus_crassirostris,200,Blancher et al 2003
+404,Tricolored Blackbird,Agelaius tricolor,Agelaius_tricolor,200,Blancher et al 2003
+405,Tropical Kingbird,Tyrannus melancholicus,Tyrannus_melancholicus,200,Blancher et al 2003
+406,Tropical Parula,Setophaga pitiayumi,Parula_pitiayumi,100,Blancher et al 2003
+407,Varied Bunting,Passerina versicolor,Passerina_versicolor,125,Blancher et al 2003
+408,Vermilion Flycatcher,Pyrocephalus rubinus,Pyrocephalus_rubinus,125,Blancher et al 2003
+409,Violet-crowned Hummingbird,Amazilia violiceps,Amazilia_violiceps,50,Blancher et al 2003
+410,Western Screech-Owl,Megascops kennicottii,Megascops_kennicottii,125,Blancher et al 2003
+411,Whiskered Screech-Owl,Megascops trichopsis,Megascops_trichopsis,125,Blancher et al 2003
+412,White-crowned Pigeon,Patagioenas leucocephala,Patagioenas_leucocephala,200,Blancher et al 2003
+413,White-tailed Hawk,Buteo albicaudatus,Buteo_albicaudatus,300,Blancher et al 2003
+414,White-tailed Kite,Elanus leucurus,Elanus_leucurus,300,Blancher et al 2003
+415,White-tipped Dove,Leptotila verreauxi,Leptotila_verreauxi,125,Blancher et al 2003
+416,Wild Turkey,Meleagris gallopavo,Meleagris_gallopavo,300,Blancher et al 2003
+417,Yellow-billed Magpie,Pica nuttalli,Pica_nuttalli,300,Blancher et al 2003
+418,Yellow-eyed Junco,Junco phaeonotus,Junco_phaeonotus,125,Blancher et al 2003
+419,Zone-tailed Hawk,Buteo albonotatus,Buteo_albonotatus,300,Blancher et al 2003
+420,Northern Fulmar,Fulmarus glacialis,Fulmarus_glacialis,1018,Dixon 1977
+421,Northern Gannet,Morus bassanus,Morus_bassanus,565,Dixon 1977
+422,Black Guillemot,Cepphus grylle,Cepphus_grylle,555,Dixon 1977
+423,Razorbill,Alca torda,Alca_torda,350,Dixon 1977
+424,Atlantic Puffin,Fratercula arctica,Fratercula_arctica,390,Dixon 1977
+425,Parasitic Jaeger,Stercorarius parasiticus,Stercorarius_parasiticus,400,Dixon 1977
+426,Great Black-backed Gull,Larus marinus,Larus_marinus,678,Dixon 1977
+427,Black-Legged Kittiwake,Rissa tridactyla,Rissa_tridactyla,367,Dixon 1977
+428,Pied-billed grebe,Podilymbus podiceps,Podilymbus_podiceps,500,Gibbs and Melvin 1993
+429,Least Bittern,Ixobrychus exilis,Ixobrychus_exilis,99,Gibbs and Melvin 1993
+430,American Bittern,Botaurus lentiginosus,Botaurus_lentiginosus,500,Gibbs and Melvin 1993
+431,Sora,Porzana carolina,Porzana_carolina,200,Gibbs and Melvin 1993
+432,Virginia Rail,Rallus limicola,Rallus_limicola,200,Gibbs and Melvin 1993
+433,Clapper Rail,Rallus crepitans,Rallus_longirostris,300,Smith 1974
+434,Clapper Rail,Rallus crepitans,Rallus_longirostris,100,Piest and Compoy 1998
+435,Yellow Rail,Coturnicops novellacensis,Coturnicops_noveboracensis,1000,Bart et al 1994
+436,Black Rail,Laterallus jamaicensis,Laterallus_jamaicensis,400,Kerlinger and Sutton 1989
+437,Black Rail,Laterallus jamaicensis,Laterallus_jamaicensis,80,Legare et al 1999
+438,Black Rail,Laterallus jamaicensis,Laterallus_jamaicensis,100,Tecklin 1999
+439,Black Rail,Laterallus jamaicensis,Laterallus_jamaicensis,120,Spear et al 1999
+440,Marbled Murrelet,Ptychoramphus aleuticus,Ptychoramphus_aleuticus,220,Ronconi and Burger 2009
+441,Rhinoceros Auklet,Cerorhinca monocerata,Cerorhinca_monocerata,200,Ronconi and Burger 2009
+442,Common Murre,Uria aalge,Uria_aalge,300,Ronconi and Burger 2009
+443,Pigeon Guillemot,Cepphus columba,Cepphus_columba,200,Ronconi and Burger 2009
+444,Pelagic Cormorant ,Phalacrocorax pelagicus,Phalacrocorax_pelagicus,300,Ronconi and Burger 2009
+445,Glaucus-Winged Gull,Larus glaucescens,Larus_glaucescens,300,Ronconi and Burger 2009
+446,California Gull,Larus californicus,Larus_californicus,300,Ronconi and Burger 2009
+447,American Golden-Plover,Pluvialis dominica,Pluvialis_dominica,250,Haphazard Selection of Shorebirds (Informed Guess)
+448,Black-bellied Plover,Pluvialis squatarola,Pluvialis_squatarola,250,Haphazard Selection of Shorebirds (Informed Guess)
+449,Snowy Plover,Charadrius nivosus,Charadrius_alexandrinus,200,Haphazard Selection of Shorebirds (Informed Guess)
+450,Semipalmated Plover ,Charadrius semipalmatus,Charadrius_semipalmatus,200,Haphazard Selection of Shorebirds (Informed Guess)
+451,Piping Plover ,Charadrius melodus,Charadrius_melodus,200,Haphazard Selection of Shorebirds (Informed Guess)
+452,American Oystercatcher,Haematopus palliatus,Haematopus_palliatus,300,Haphazard Selection of Shorebirds (Informed Guess)
+453,Black-necked Stilt,Himantopus mexicanus,Himantopus_mexicanus,300,Haphazard Selection of Shorebirds (Informed Guess)
+454,Greater Yellowlegs,Tringa melanoleuca,Tringa_melanoleuca,300,Haphazard Selection of Shorebirds (Informed Guess)
+455,American Avocet,Recurvirostra americana,Recurvirostra_americana,300,Haphazard Selection of Shorebirds (Informed Guess)
+456,Willet ,Tringa semipalmata,Catoptrophorus_semipalmatus,300,Haphazard Selection of Shorebirds (Informed Guess)
+457,Solitary Sandpiper,Tringa solitaria,Tringa_solitaria,250,Haphazard Selection of Shorebirds (Informed Guess)
+458,Long-billed Curlew,Numenius americanus,Numenius_americanus,350,Haphazard Selection of Shorebirds (Informed Guess)
+459,Whimbrel,Numenius phaeopus,Numenius_phaeopus,300,Haphazard Selection of Shorebirds (Informed Guess)
+460,Hudsonian Godwit,Limosa haemastica,Limosa_haemastica,300,Haphazard Selection of Shorebirds (Informed Guess)
+461,Marbled Godwit,Limosa fedoa,Limosa_fedoa,300,Haphazard Selection of Shorebirds (Informed Guess)
+462,Ruddy Turnstone,Arenaria interpres,Arenaria_interpres,250,Haphazard Selection of Shorebirds (Informed Guess)
+463,Red Knot,Calidris canutus,Calidris_canutus,250,Haphazard Selection of Shorebirds (Informed Guess)
+464,Sanderling,Calidris alba,Calidris_alba,250,Haphazard Selection of Shorebirds (Informed Guess)
+465,Least Sandpiper,Calidris minutilla,Calidris_minutilla,250,Haphazard Selection of Shorebirds (Informed Guess)
+466,Dunlin,Calidris alpina,Calidris_alpina,300,Haphazard Selection of Shorebirds (Informed Guess)
+467,Wilson’s Phalarope,Phalaropus tricolor,Steganopus_tricolor,300,Haphazard Selection of Shorebirds (Informed Guess)
+468,Mallard,Anas platyrhynchos,Anas_platyrhynchos,400,Pagano and Arnold 2009 (Very loosely based)
+469,Blue-Winged Teal,Anas discors,Anas_discors,400,Pagano and Arnold 2009 (Very loosely based)
+470,Northern Shoveler,Anas clapeata,Anas_clypeata,400,Pagano and Arnold 2009 (Very loosely based)
+471,Northern Pintail,Anas acuta,Anas_acuta,400,Pagano and Arnold 2009 (Very loosely based)
+472,Gadwall,Anas strepera,Anas_strepera,400,Pagano and Arnold 2009 (Very loosely based)
+473,Redhead,Aythya americana,Aythya_americana,400,Pagano and Arnold 2009 (Very loosely based)
+474,Lesser Scaup,Aythya affinis,Aythya_affinis,400,Pagano and Arnold 2009 (Very loosely based)
+475,Ruddy Duck,Oxyura jamaicensis,Oxyura_jamaicensis,400,Pagano and Arnold 2009 (Very loosely based)
