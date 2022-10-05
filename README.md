@@ -2,7 +2,7 @@ WNV_Mechanistic_Model
 
 This repository is designed to be used with Kain and Bolker 2019: Predicting West Nile virus transmission in North American bird communities using phylogenetic mixed effects models and eBird citizen science data. (https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-019-3656-8) <br />
 
-This repository provides a copy of the code that is also available in the online supplementary material of Kain and Bolker 2019. All of the raw data (apart from eBird data) needed to run these models is present in this repository. eBird data can be obtained here (https://science.ebird.org/en/use-ebird-data) <br />
+All of the raw data (apart from eBird data) needed to run these models is present in this repository. eBird data can be obtained here (https://science.ebird.org/en/use-ebird-data) <br />
 
 This code can be run using two methods: <br />
 
