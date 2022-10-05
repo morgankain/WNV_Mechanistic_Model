@@ -773,14 +773,14 @@ response_load_logcial       <- function (which_model, uncertainty_list) {
       | uncertainty_list[["titer_model.phylo_tip"]]   == TRUE) {
   
     needed_uncer     <- grep(paste(c("titer_model"), collapse = "|"), uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("titer_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
     
     } else {
       
     needed_uncer     <- grep("titer_model", uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("titer_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")      
       
@@ -794,14 +794,14 @@ response_load_logcial       <- function (which_model, uncertainty_list) {
       | uncertainty_list[["survival_model.phylo_tip"]]   == TRUE) {
   
     needed_uncer     <- grep(paste(c("survival_model"), collapse = "|"), uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("survival_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
     
     } else {
       
     needed_uncer     <- grep("survival_model", uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("survival_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")      
       
@@ -814,14 +814,14 @@ response_load_logcial       <- function (which_model, uncertainty_list) {
       | uncertainty_list[["bite_model.phylo_tip"]]   == TRUE) {
   
     needed_uncer     <- grep(paste(c("bite_model"), collapse = "|"), uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("bite_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
     
     } else {
       
     needed_uncer     <- grep("bite_model", uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("bite_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")      
       
@@ -834,14 +834,14 @@ response_load_logcial       <- function (which_model, uncertainty_list) {
       | uncertainty_list[["detect_model.phylo_tip"]]   == TRUE)  {
   
     needed_uncer     <- grep(paste(c("detect_model"), collapse = "|"), uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("detect_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
     
     } else {
       
     needed_uncer     <- grep("detect_model", uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("detect_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
       
@@ -880,7 +880,7 @@ response_write_logcial      <- function (which_model, new_species_estimate, prev
     
     ## Select the uncertainty types that I want to save
     needed_uncer     <- grep(paste(c("titer_model"), collapse = "|"), uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("titer_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
     
@@ -896,7 +896,7 @@ response_write_logcial      <- function (which_model, new_species_estimate, prev
    } else {
    
     needed_uncer     <- grep("titer_model", uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("titer_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
 
@@ -919,7 +919,7 @@ response_write_logcial      <- function (which_model, new_species_estimate, prev
       | uncertainty_list[["survival_model.phylo_tip"]]   == TRUE) {
   
     needed_uncer     <- grep(paste(c("survival_model"), collapse = "|"), uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("survival_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
 
@@ -935,7 +935,7 @@ response_write_logcial      <- function (which_model, new_species_estimate, prev
     } else {
     
     needed_uncer     <- grep("survival_model", uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("survival_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
 
@@ -957,7 +957,7 @@ response_write_logcial      <- function (which_model, new_species_estimate, prev
       | uncertainty_list[["bite_model.phylo_tip"]]   == TRUE) {
   
     needed_uncer     <- grep(paste(c("bite_model"), collapse = "|"), uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("bite_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
 
@@ -973,7 +973,7 @@ response_write_logcial      <- function (which_model, new_species_estimate, prev
     } else {
       
     needed_uncer     <- grep("bite_model", uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("bite_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
 
@@ -995,7 +995,7 @@ response_write_logcial      <- function (which_model, new_species_estimate, prev
       | uncertainty_list[["detect_model.phylo_tip"]]   == TRUE) {
   
     needed_uncer     <- grep(paste(c("detect_model"), collapse = "|"), uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("detect_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
 
@@ -1011,7 +1011,7 @@ response_write_logcial      <- function (which_model, new_species_estimate, prev
     } else {
   
     needed_uncer     <- grep("detect_model", uncer_name)
-    uncer_name       <- as.character(glue::collapse(uncer_name[c(needed_uncer)], sep = "_"))
+    uncer_name       <- as.character(glue::glue_collapse(uncer_name[c(needed_uncer)], sep = "_"))
     file.name        <- paste("detect_resp", uncer_name, sep = "_")
     full.file.name   <- paste("saved_fits/", file.name, sep = "")
 
@@ -1238,7 +1238,7 @@ if (length(dim(cond_mode_sd)) != 3) {
 brl_for_spec <- phylo_data[["species_vector"]][which(phylo_data[["species_vector"]] != 0)]
   
 ## if a vector (single branch) create a matrix for the calculation
-if (class(model_coefs_needed) == "numeric") {
+if ("numeric" %in% class(model_coefs_needed)) {
   temp_colnames                <- names(model_coefs_needed)
   model_coefs_needed           <- matrix(model_coefs_needed, ncol = length(model_coefs_needed)
     , nrow = 1, byrow = TRUE)
@@ -1325,7 +1325,7 @@ if (length(dim(cond_mode_sd)) != 3) {
     , which(phylo_data[["reduced_Z_mat"]][which(phylo_data[["reduced_Z_mat"]]@Dimnames[[1]] == species), ] != 0)]
   
 ## if a vector (single branch) create a matrix for the calculation
-if (class(model_coefs_needed) == "numeric") {
+if ("numeric" %in% class(model_coefs_needed)) {
   temp_colnames                <- names(model_coefs_needed)
   model_coefs_needed           <- matrix(model_coefs_needed, ncol = length(model_coefs_needed)
     , nrow = 1, byrow = TRUE)

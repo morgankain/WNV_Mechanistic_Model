@@ -111,7 +111,7 @@ mkReTrms <- function(bars, fr, phylonm,phyloZ,drop.unused.levels = TRUE) {
          call. = FALSE)
   stopifnot(is.list(bars), vapply(bars, is.language, NA), inherits(fr, "data.frame"))
   names(bars) <- lme4:::barnames(bars)
-  term.names <- vapply(bars, lme4:::safeDeparse, "")
+  term.names <- vapply(bars, safeDeparse, "")
   blist <- lapply(bars, mkBlist, fr, phylonm, phyloZ, drop.unused.levels)
   nl <- vapply(blist, `[[`, 0L, "nl")
   if (any(diff(nl) > 0)) {
@@ -121,7 +121,7 @@ mkReTrms <- function(bars, fr, phylonm,phyloZ,drop.unused.levels = TRUE) {
     term.names <- term.names[ord]
   }
   Ztlist <- lapply(blist, `[[`, "sm")
-  Zt <- do.call(rBind, Ztlist)
+  Zt <- do.call(rbind, Ztlist)
   names(Ztlist) <- term.names
   q <- nrow(Zt)
   cnms <- lapply(blist, `[[`, "cnms")
@@ -134,7 +134,7 @@ mkReTrms <- function(bars, fr, phylonm,phyloZ,drop.unused.levels = TRUE) {
 #   }
   boff <- cumsum(c(0L, nb))
   thoff <- cumsum(c(0L, nth))
-  Lambdat <- t(do.call(sparseMatrix, do.call(rBind, lapply(seq_along(blist), 
+  Lambdat <- t(do.call(sparseMatrix, do.call(rbind, lapply(seq_along(blist), 
                                                            function(i) {
                                                              mm <- matrix(seq_len(nb[i]), ncol = nc[i], byrow = TRUE)
                                                              dd <- diag(nc[i])
@@ -302,3 +302,8 @@ glFormula <- function (formula, data = NULL, family = gaussian, subset, weights,
   list(fr = fr, X = X, reTrms = reTrms, family = family, formula = formula, 
        wmsgs = c(Nlev = wmsgNlev, Zdims = wmsgZdims, Zrank = wmsgZrank))
 }
+
+safeDeparse <- function(x, collapse = " "){
+  paste(deparse(x, 500L), collapse = collapse)
+}
+
